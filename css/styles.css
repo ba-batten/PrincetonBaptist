@@ -34,6 +34,12 @@ Navbar styles
   display: inline-block;
 }
 
+.hamburger-icon-container {
+  text-align: right;
+  display: inline-block;
+  width: calc(100vw - 260px);
+}
+
 .hamburger-icon {
   display: inline-block;
   width: 20px;
