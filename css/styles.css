@@ -15,3 +15,33 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/*
+Navbar styles
+*/
+
+.navbar {
+  margin: 15px 5px;
+}
+
+.container {
+  width: 100%;
+}
+
+.brand-container {
+  /*width: 40px;*/
+  overflow: hidden;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: inline-block;
+  width: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger-icon img {
+  width: 100%;
+}
