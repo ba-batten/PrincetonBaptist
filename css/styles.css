@@ -1,0 +1,17 @@
+/*
+Base styles
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
