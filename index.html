@@ -24,17 +24,27 @@ Designed and built by Brandon Batten
           <img src="images/PBCAltLogo.svg" alt="Princeton Baptist Church logo">
         </div>
         <div class="hamburger-icon-container">
-          <a href="#" class="hamburger-icon">
-            <img src="images/hamburger.svg" alt="hamburger menu">
+          <a href="#" id="hamburger-icon" class="hamburger-icon" onclick="menu()">
+            <img src="images/hamburger.svg" alt="hamburger menu" class="open-menu">
+            <img src="images/close.svg" alt="close menu" class="close-menu hide-icon">
           </a>
         </div>
       </div>
-      <ul class="link-list">
+      <ul class="link-list" id="link-list">
         <li class="link-list-item"><a href="#">Item</a></li>
         <li class="link-list-item"><a href="#">Item</a></li>
         <li class="link-list-item"><a href="#">Item</a></li>
       </ul>
     </nav>
 
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" async>
+      function menu() {
+        $('#link-list').toggleClass('show-menu');
+        $('.open-menu').toggleClass('hide-icon');
+        $('.close-menu').toggleClass('hide-icon');
+
+      };
+    </script>
   </body>
 </html>
