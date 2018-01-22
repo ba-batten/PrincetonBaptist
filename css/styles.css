@@ -8,6 +8,7 @@ Base styles
 
 body {
   background: white;
+  font-family: 'Lato', sans-serif;
 }
 
 ul {
@@ -21,7 +22,12 @@ Navbar styles
 */
 
 .navbar {
-  margin: 15px 5px;
+  margin: 15px 5px 0;
+}
+
+.navbar-container {
+  background: white;
+  z-index: 1000;
 }
 
 .container {
@@ -29,7 +35,6 @@ Navbar styles
 }
 
 .brand-container {
-  /*width: 40px;*/
   overflow: hidden;
   display: inline-block;
 }
@@ -50,4 +55,28 @@ Navbar styles
 
 .hamburger-icon img {
   width: 100%;
+}
+
+.link-list {
+  background: gray;
+  margin: 0 -5px;
+  background: white;
+  z-index: 999;
+}
+
+.link-list-item {
+  text-align: center;
+  height: calc( ( 100vh - 63px ) / 3 );
+  margin-top: -100%;
+}
+
+.link-list-item a {
+  color: #424b54;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px 30px;
 }
