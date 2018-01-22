@@ -71,7 +71,7 @@ Navbar styles
 .show-menu {
   transition: margin 0.25s
   -webkit-transition: margin 0.25s;
-  margin: 0 -5px 0;
+  margin: 0 -5px;
 }
 
 .link-list-item {
@@ -88,4 +88,29 @@ Navbar styles
   top: 50%;
   transform: translateY(-50%);
   padding: 20px 30px;
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar-container {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .hamburger-icon-container {
+    width: 0;
+    display: none;
+  }
+
+  .link-list {
+    z-index: 1000;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+  }
+
+  .link-list-item {
+    display: inline;
+  }
 }
