@@ -57,17 +57,26 @@ Navbar styles
   width: 100%;
 }
 
+.hide-icon {
+  display: none;
+}
+
 .link-list {
-  background: gray;
-  margin: 0 -5px;
   background: white;
   z-index: 999;
+  height: calc( 100vh - 60px );
+  margin: -100vh -5px 0;
+}
+
+.show-menu {
+  transition: margin 0.25s
+  -webkit-transition: margin 0.25s;
+  margin: 0 -5px 0;
 }
 
 .link-list-item {
   text-align: center;
-  height: calc( ( 100vh - 63px ) / 3 );
-  margin-top: -100%;
+  height: calc( 100% / 3 );
 }
 
 .link-list-item a {
