@@ -15,3 +15,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/*
+Navbar styles
+*/
+
+.hamburger {
+  width: 15px;
+}
