@@ -48,12 +48,19 @@ Navbar styles
     background: none;
     border: none;
     padding-top: 30px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-left: 20px;
   }
 
   .navbar-nav>li {
     margin: 25px 0 25px 40px;
+  }
+
+  .navbar-default
+  .navbar-nav>li>a {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
   }
 
   .navbar-logo {
@@ -64,7 +71,7 @@ Navbar styles
   .navbar>.container-fluid .navbar-brand {
     width: 145px;
     height: auto;
-    background: white;
+    background: rgba(250, 250, 250, 0.65);
     transition: width 0.4s ease-out;
     -webkit-transition: width 0.4s ease-out;
     overflow: hidden;
@@ -90,7 +97,11 @@ Section styles
   width: 100vw;
   height: 100vh;
   /*background: lightgray;*/
-  background: url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
+  background: linear-gradient(
+    #55555588, #55555588
+    ), url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
+
+  /*background: url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");*/
   background-position: center;
   background-size: cover;
 }
