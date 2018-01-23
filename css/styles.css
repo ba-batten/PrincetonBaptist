@@ -69,3 +69,15 @@ Navbar styles
     width: 245px;
   }
 }
+
+/*
+Section styles
+*/
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
+  background-position: center middle;
+  background-size: cover;
+}
