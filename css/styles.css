@@ -78,6 +78,6 @@ Section styles
   width: 100vw;
   height: 100vh;
   background: url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
-  background-position: center middle;
+  background-position: center;
   background-size: cover;
 }
