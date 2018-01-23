@@ -55,4 +55,17 @@ Navbar styles
   .navbar-nav>li {
     margin-left: 45px;
   }
+
+  .navbar-brand {
+    width: 50px;
+    transition: width 0.4s ease-out;
+    -webkit-transition: width 0.4s ease-out;
+    overflow: hidden;
+  }
+
+  .navbar-brand:hover {
+    transition: width 0.4s ease-out;
+    -webkit-transition: width 0.4s ease-out;
+    width: 245px;
+  }
 }
