@@ -23,3 +23,36 @@ Navbar styles
 .hamburger {
   width: 15px;
 }
+
+.navbar-brand {
+  padding: 5px;
+}
+
+.navbar-toggle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: none;
+}
+
+.nav>li {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-default {
+    background: none;
+    border: none;
+    padding-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .navbar-nav>li {
+    margin-left: 45px;
+  }
+}
