@@ -71,7 +71,7 @@ Section styles
 
 .home h1 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: light;
   /*font-family: 'Merriweather', serif;*/
   letter-spacing: 2px;
   text-shadow: 2px 2px black;
@@ -80,7 +80,7 @@ Section styles
 
 .underline {
   width: 70%;
-  height: 5px;
+  height: 2px;
   background: white;
   margin: 0 auto;
   box-shadow: 2px 2px black;
@@ -92,6 +92,14 @@ Section styles
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   display: inline-block;
+}
+
+.headline-btn {
+  width: 30%;
+  margin: 25px 10px;
+  color: black;
+  font-size: 18px;
+  padding: 15px;
 }
 
 
@@ -156,6 +164,10 @@ Section styles
 
   .home h1 {
     font-size: 80px;
-    font-weight: normal;
+    font-weight: 300;
+  }
+
+  .underline {
+    height: 5px;
   }
 }
