@@ -43,11 +43,15 @@ Navbar styles
   text-align: center;
 }
 
+.facebook-logo {
+  width: 15px;
+}
+
 @media screen and (min-width: 768px) {
   .navbar-default {
     background: none;
     border: none;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-right: 40px;
     margin-left: 20px;
   }
@@ -59,33 +63,39 @@ Navbar styles
   .navbar-default
   .navbar-nav>li>a {
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
 
+  .navbar-default
+  .navbar-nav>li>a:hover {
+    color: #cb312d;
+  }
+
+
   .navbar-logo {
-    width: 500px;
+    width: 300px;
   }
 
   .navbar>.container .navbar-brand,
   .navbar>.container-fluid .navbar-brand {
-    width: 145px;
+    width: 110px;
     height: auto;
     background: rgba(250, 250, 250, 1);
     transition: width 0.4s ease-out;
-    -webkit-transition: width 0.4s ease-out;
+    -webkit-transition: width 0.5s ease-out;
     overflow: hidden;
     margin-left: -35px;
     padding: 10px 30px 10px 50px;
-    box-shadow: 1px 1px 3px #424b53;
   }
 
   .navbar-default .navbar-brand:focus,
   .navbar-default .navbar-brand:hover {
     /*background: white;*/
     transition: width 0.4s ease-out;
-    -webkit-transition: width 0.4s ease-out;
-    width: 560px;
+    -webkit-transition: width 0.5s ease-out;
+    width: 360px;
   }
 }
 
