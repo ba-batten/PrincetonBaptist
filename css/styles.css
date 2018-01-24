@@ -47,7 +47,59 @@ Navbar styles
   width: 15px;
 }
 
+/*
+Section styles
+*/
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  /*background: lightgray;*/
+  background: linear-gradient(
+    #4448, #4448
+    ), url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
+
+  /*background: url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");*/
+  background-position: center;
+  background-size: cover;
+}
+
+.home {
+  text-align: center;
+  color: white;
+}
+
+.home h1 {
+  font-size: 30px;
+  font-weight: bold;
+  /*font-family: 'Merriweather', serif;*/
+  letter-spacing: 2px;
+  text-shadow: 2px 2px black;
+  margin: 20px 10px;
+}
+
+.underline {
+  width: 70%;
+  height: 5px;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 2px 2px black;
+}
+
+.headline-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  display: inline-block;
+}
+
+
 @media screen and (min-width: 768px) {
+  /*
+  navbar styles
+  */
+
   .navbar-default {
     background: none;
     border: none;
@@ -97,21 +149,13 @@ Navbar styles
     -webkit-transition: width 0.5s ease-out;
     width: 360px;
   }
-}
 
-/*
-Section styles
-*/
+  /*
+  Section styles
+  */
 
-.section {
-  width: 100vw;
-  height: 100vh;
-  /*background: lightgray;*/
-  background: linear-gradient(
-    #4448, #4448
-    ), url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
-
-  /*background: url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");*/
-  background-position: center;
-  background-size: cover;
+  .home h1 {
+    font-size: 80px;
+    font-weight: normal;
+  }
 }
