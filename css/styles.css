@@ -140,7 +140,7 @@ Section styles
 
   .navbar>.container .navbar-brand,
   .navbar>.container-fluid .navbar-brand {
-    width: 110px;
+    width: 120px;
     height: auto;
     background: rgba(250, 250, 250, 1);
     transition: width 0.4s ease-out;
@@ -155,7 +155,7 @@ Section styles
     /*background: white;*/
     transition: width 0.4s ease-out;
     -webkit-transition: width 0.5s ease-out;
-    width: 360px;
+    width: 370px;
   }
 
   /*
