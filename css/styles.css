@@ -70,12 +70,12 @@ Section styles
 }
 
 .home h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: light;
   /*font-family: 'Merriweather', serif;*/
   letter-spacing: 2px;
-  text-shadow: 2px 2px black;
-  margin: 20px 10px;
+  /*text-shadow: 2px 2px black;*/
+  margin: 15px 10px;
 }
 
 .underline {
@@ -83,7 +83,7 @@ Section styles
   height: 2px;
   background: white;
   margin: 0 auto;
-  box-shadow: 2px 2px black;
+  /*box-shadow: 2px 2px black;*/
 }
 
 .headline-container {
@@ -99,7 +99,7 @@ Section styles
   margin: 25px 10px;
   color: black;
   font-size: 18px;
-  padding: 15px;
+  padding: 5px 15px;
 }
 
 
@@ -169,5 +169,9 @@ Section styles
 
   .underline {
     height: 5px;
+  }
+
+  .headline-btn {
+    padding: 10px 15px;
   }
 }
