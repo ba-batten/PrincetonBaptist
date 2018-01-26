@@ -43,6 +43,10 @@ Navbar styles
   text-align: center;
 }
 
+.navbar-logo {
+  width: 200px
+}
+
 .facebook-logo {
   width: 15px;
 }
