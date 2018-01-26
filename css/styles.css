@@ -78,6 +78,7 @@ Section styles
   font-weight: light;
   /*font-family: 'Merriweather', serif;*/
   letter-spacing: 2px;
+  line-height: 1.5;
   /*text-shadow: 2px 2px black;*/
   margin: 15px 10px;
 }
