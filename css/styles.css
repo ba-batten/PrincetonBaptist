@@ -140,16 +140,6 @@ Section styles
   line-height: 1.5;
   margin: 15px 10px;
   overflow: hidden;
-  -webkit-animation-name: reveal;
-  -webkit-animation-duration: 2.5s;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.5s;
-  -webkit-animation-fill-mode: backwards;
-  animation-name: reveal;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
 }
 
 @-webkit-keyframes underline {
@@ -181,6 +171,19 @@ Section styles
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   display: inline-block;
+}
+
+.h1-container {
+  -webkit-animation-name: reveal;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.5s;
+  -webkit-animation-fill-mode: backwards;
+  animation-name: reveal;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
 }
 
 .headline-btn {
