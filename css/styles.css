@@ -24,16 +24,6 @@ This animation is used several times in multiple places
   100% { opacity: 1; }
 }
 
-@-moz-keyframes reveal {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-o-keyframes reveal {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 @keyframes reveal {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -49,16 +39,6 @@ Navbar styles
   -webkit-animation-delay: 4s;
   -webkit-animation-fill-mode: backwards;
   -webkit-animation-timing-function: ease-in-out;
-  -moz-animation-name: reveal;
-  -moz-animation-duration: 2s;
-  -moz-animation-delay: 4s;
-  -moz-animation-fill-mode: backwards;
-  -moz-animation-timing-function: ease-in-out;
-  -o-animation-name: reveal;
-  -o-animation-duration: 2s;
-  -o-animation-delay: 4s;
-  -o-animation-fill-mode: backwards;
-  -o-animation-timing-function: ease-in-out;
   animation-name: reveal;
   animation-duration: 2s;
   animation-delay: 4s;
@@ -106,16 +86,6 @@ Black background
   100% { opacity: 0; }
 }
 
-@-moz-keyframes fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-o-keyframes fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
 @keyframes fade {
   0% { opacity: 1; }
   100% { opacity: 0; }
@@ -133,16 +103,6 @@ Black background
   -webkit-animation-delay: 4s;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
-  -moz-animation-name: fade;
-  -moz-animation-duration: 2s;
-  -moz-animation-delay: 4s;
-  -moz-animation-timing-function: ease-in-out;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-name: fade;
-  -o-animation-duration: 2s;
-  -o-animation-delay: 4s;
-  -o-animation-timing-function: ease-in-out;
-  -o-animation-fill-mode: forwards;
   animation-name: fade;
   animation-duration: 2s;
   animation-delay: 4s;
@@ -185,16 +145,6 @@ Section styles
   -webkit-animation-timing-function: ease-out;
   -webkit-animation-delay: 1.5s;
   -webkit-animation-fill-mode: backwards;
-  -moz-animation-name: reveal;
-  -moz-animation-duration: 2.5s;
-  -moz-animation-timing-function: ease-out;
-  -moz-animation-delay: 1.5s;
-  -moz-animation-fill-mode: backwards;
-  -o-animation-name: reveal;
-  -o-animation-duration: 2.5s;
-  -o-animation-timing-function: ease-out;
-  -o-animation-delay: 1.5s;
-  -o-animation-fill-mode: backwards;
   animation-name: reveal;
   animation-duration: 2.5s;
   animation-timing-function: ease-out;
@@ -203,16 +153,6 @@ Section styles
 }
 
 @-webkit-keyframes underline {
-  from { width: 0; }
-  to { width: 70%; }
-}
-
-@-moz-keyframes underline {
-  from { width: 0; }
-  to { width: 70%; }
-}
-
-@-o-keyframes underline {
   from { width: 0; }
   to { width: 70%; }
 }
@@ -229,10 +169,6 @@ Section styles
   margin: 0 auto;
   -webkit-animation-name: underline;
   -webkit-animation-duration: 1.5s;
-  -moz-animation-name: underline;
-  -moz-animation-duration: 1.5s;
-  -o-animation-name: underline;
-  -o-animation-duration: 1.5s;
   animation-name: underline;
   animation-duration: 1.5s;
   /*box-shadow: 2px 2px black;*/
@@ -241,8 +177,9 @@ Section styles
 .headline-container {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   display: inline-block;
 }
 
@@ -255,12 +192,6 @@ Section styles
   -webkit-animation-name: reveal;
   -webkit-animation-duration: 1s;
   -webkit-animation-fill-mode: backwards;
-  -moz-animation-name: reveal;
-  -moz-animation-duration: 1s;
-  -moz-animation-fill-mode: backwards;
-  -o-animation-name: reveal;
-  -o-animation-duration: 1s;
-  -o-animation-fill-mode: backwards;
   animation-name: reveal;
   animation-duration: 1s;
   animation-fill-mode: backwards;
@@ -269,15 +200,11 @@ Section styles
 
 .headline-btn:first-of-type {
   -webkit-animation-delay: 2.5s;
-  -moz-animation-delay: 2.5s;
-  -o-animation-delay: 2.5s;
   animation-delay: 2.5s;
 }
 
 .headline-btn:last-of-type {
   -webkit-animation-delay: 2.7s;
-  -moz-animation-delay: 2.7s;
-  -o-animation-delay: 2.7s;
   animation-delay: 2.7s;
 }
 
