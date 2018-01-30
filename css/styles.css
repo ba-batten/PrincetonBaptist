@@ -35,13 +35,13 @@ Navbar styles
 
 .navbar {
   -webkit-animation-name: reveal;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 3.5s;
   -webkit-animation-fill-mode: backwards;
   -webkit-animation-timing-function: ease-in-out;
   animation-name: reveal;
-  animation-duration: 2s;
-  animation-delay: 4s;
+  animation-duration: 0.5s;
+  animation-delay: 3.5s;
   animation-fill-mode: backwards;
   animation-timing-function: ease-in-out;
 }
@@ -109,13 +109,13 @@ Black background
   width: 100vw;
   background-color: #171219;
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 3.5s;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
   animation-name: fade;
-  animation-duration: 2s;
-  animation-delay: 4s;
+  animation-duration: 0.5s;
+  animation-delay: 3.5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -151,14 +151,14 @@ Section styles
   margin: 15px 0;
   overflow: hidden;
   -webkit-animation-name: reveal;
-  -webkit-animation-duration: 2.5s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.5s;
+  -webkit-animation-delay: 1s;
   -webkit-animation-fill-mode: backwards;
   animation-name: reveal;
-  animation-duration: 2.5s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 
