@@ -36,12 +36,12 @@ Navbar styles
 .navbar {
   -webkit-animation-name: reveal;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 2s;
   -webkit-animation-fill-mode: backwards;
   -webkit-animation-timing-function: ease-in-out;
   animation-name: reveal;
   animation-duration: 0.5s;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-fill-mode: backwards;
   animation-timing-function: ease-in-out;
 }
@@ -86,16 +86,6 @@ Black background
   100% { opacity: 0; }
 }
 
-@-moz-keyframes fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-o-keyframes fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
 @keyframes fade {
   0% { opacity: 1; }
   100% { opacity: 0; }
@@ -110,12 +100,12 @@ Black background
   background-color: #171219;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 2s;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
   animation-name: fade;
   animation-duration: 0.5s;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -130,7 +120,7 @@ Section styles
   height: 100vh;
   /*background: lightgray;*/
   background: linear-gradient(
-    #3338, #3338
+    #17121966, #17121966
     ), url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
 
   /*background: url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");*/
@@ -163,16 +153,6 @@ Section styles
 }
 
 @-webkit-keyframes underline {
-  from { width: 0; }
-  to { width: 70%; }
-}
-
-@-moz-keyframes underline {
-  from { width: 0; }
-  to { width: 70%; }
-}
-
-@-o-keyframes underline {
   from { width: 0; }
   to { width: 70%; }
 }
@@ -218,15 +198,15 @@ Section styles
   animation-timing-function: ease-out;
 }
 
-/*.headline-btn:first-of-type {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+.headline-btn:first-of-type {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 .headline-btn:last-of-type {
   -webkit-animation-delay: 1.8s;
   animation-delay: 1.8s;
-}*/
+}
 
 @media screen and (min-width: 768px) {
   /*
