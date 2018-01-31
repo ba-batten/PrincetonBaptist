@@ -19,19 +19,6 @@ ul {
 }
 
 /*
-This animation is used several times in multiple places
-*/
-@-webkit-keyframes reveal {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes reveal {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-/*
 Navbar styles
 */
 
@@ -78,16 +65,6 @@ Navbar styles
 /*
 Black background
 */
-
-@-webkit-keyframes fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@keyframes fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
 
 .black-background {
   position: absolute;
@@ -142,26 +119,11 @@ Section styles
   animation-fill-mode: backwards;
 }
 
-@-webkit-keyframes underline {
-  from { width: 0; }
-  to { width: 70%; }
-}
-
-@keyframes underline {
-  from { width: 0; }
-  to { width: 70%; }
-}
-
 .underline {
   width: 70%;
   height: 2px;
   background: white;
   margin: 0 auto;
-  /*-webkit-animation-name: underline;*/
-  /*-webkit-animation-duration: 0.5s;*/
-  /*animation-name: underline;*/
-  /*animation-duration: 0.5s;*/
-  /*box-shadow: 2px 2px black;*/
 }
 
 .headline-btn {
