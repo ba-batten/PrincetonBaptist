@@ -36,7 +36,7 @@ Navbar styles
 */
 
 .navbar {
-  /*-webkit-animation-name: reveal;
+  -webkit-animation-name: reveal;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 2s;
   -webkit-animation-fill-mode: backwards;
@@ -45,7 +45,7 @@ Navbar styles
   animation-duration: 0.5s;
   animation-delay: 2s;
   animation-fill-mode: backwards;
-  animation-timing-function: ease-in-out;*/
+  animation-timing-function: ease-in-out;
 }
 
 .hamburger {
@@ -100,7 +100,7 @@ Black background
   height: 100vh;
   width: 100vw;
   background-color: #171219;
-  /*-webkit-animation-name: fade;
+  -webkit-animation-name: fade;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -109,7 +109,7 @@ Black background
   animation-duration: 0.5s;
   animation-delay: 2s;
   animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;*/
+  animation-fill-mode: forwards;
 }
 
 
@@ -143,7 +143,7 @@ Section styles
   line-height: 1.5;
   margin: 15px 0;
   overflow: hidden;
-  /*-webkit-animation-name: reveal;
+  -webkit-animation-name: reveal;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-timing-function: ease-out;
   -webkit-animation-delay: 0.6s;
@@ -152,7 +152,7 @@ Section styles
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-delay: 0.5s;
-  animation-fill-mode: backwards;*/
+  animation-fill-mode: backwards;
 }
 
 @-webkit-keyframes underline {
@@ -170,10 +170,10 @@ Section styles
   height: 2px;
   background: white;
   margin: 0 auto;
-  /*-webkit-animation-name: underline;
+  -webkit-animation-name: underline;
   -webkit-animation-duration: 0.5s;
   animation-name: underline;
-  animation-duration: 0.5s;*/
+  animation-duration: 0.5s;
   /*box-shadow: 2px 2px black;*/
 }
 
@@ -183,13 +183,13 @@ Section styles
   color: black;
   font-size: 18px;
   padding: 5px 15px;
-  /*-webkit-animation-name: reveal;
+  -webkit-animation-name: reveal;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-fill-mode: backwards;
   animation-name: reveal;
   animation-duration: 0.5s;
   animation-fill-mode: backwards;
-  animation-timing-function: ease-out;*/
+  animation-timing-function: ease-out;
 }
 
 .headline-btn:first-of-type {
@@ -203,6 +203,7 @@ Section styles
 }
 
 .headline-container {
+  z-index: 10;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
