@@ -134,6 +134,7 @@ Section styles
 }
 
 .home h1 {
+  height: 100%;
   font-size: 6vw;
   font-weight: light;
   letter-spacing: 2px;
@@ -237,7 +238,6 @@ Section styles
   .navbar-nav>li>a:hover {
     color: #214477;
   }
-
 
   .navbar-logo {
     width: 300px;
