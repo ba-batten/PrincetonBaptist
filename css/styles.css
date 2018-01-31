@@ -177,15 +177,6 @@ Section styles
   /*box-shadow: 2px 2px black;*/
 }
 
-.headline-container {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  display: inline-block;
-}
-
 .headline-btn {
   width: 30%;
   margin: 25px 10px;
@@ -209,6 +200,15 @@ Section styles
 .headline-btn:last-of-type {
   -webkit-animation-delay: 1.8s;
   animation-delay: 1.8s;
+}
+
+.headline-container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
 }
 
 @media screen and (min-width: 768px) {
