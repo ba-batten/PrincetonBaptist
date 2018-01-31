@@ -36,16 +36,8 @@ Navbar styles
 */
 
 .navbar {
-  -webkit-animation-name: reveal;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-fill-mode: backwards;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-name: reveal;
-  animation-duration: 0.5s;
-  animation-delay: 2s;
-  animation-fill-mode: backwards;
-  animation-timing-function: ease-in-out;
+  -webkit-animation: 0.5s ease-in-out 2s backwards reveal;
+  animation: 0.5s ease-in-out 2s backwards reveal;
 }
 
 .hamburger {
@@ -100,16 +92,8 @@ Black background
   height: 100vh;
   width: 100vw;
   background-color: #171219;
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: fade;
-  animation-duration: 0.5s;
-  animation-delay: 2s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
+  -webkit-animation: 0.5s ease-in-out 2s forwards fade;
+  animation: 0.5s ease-in-out 2s forwards fade;
 }
 
 
@@ -143,16 +127,8 @@ Section styles
   line-height: 1.5;
   margin: 15px 0;
   overflow: hidden;
-  -webkit-animation-name: reveal;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.6s;
-  -webkit-animation-fill-mode: backwards;
-  animation-name: reveal;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-  animation-delay: 0.5s;
-  animation-fill-mode: backwards;
+  -webkit-animation: 1.5s ease-out 0.6s backwards reveal;
+  animation: 1.5s ease-out 0.6s backwards reveal;
 }
 
 @-webkit-keyframes underline {
@@ -170,10 +146,9 @@ Section styles
   height: 2px;
   background: white;
   margin: 0 auto;
-  -webkit-animation-name: underline;
-  -webkit-animation-duration: 0.5s;
-  animation-name: underline;
-  animation-duration: 0.5s;
+  -webkit-animation: 0.5s underline;
+  animation: 0.5s underline;
+
   /*box-shadow: 2px 2px black;*/
 }
 
@@ -183,13 +158,8 @@ Section styles
   color: black;
   font-size: 18px;
   padding: 5px 15px;
-  -webkit-animation-name: reveal;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-fill-mode: backwards;
-  animation-name: reveal;
-  animation-duration: 0.5s;
-  animation-fill-mode: backwards;
-  animation-timing-function: ease-out;
+  -webkit-animation: 0.5s ease-out backwards reveal;
+  animation: 0.5s ease-out backwards reveal;
 }
 
 .headline-btn:first-of-type {
