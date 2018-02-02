@@ -124,7 +124,7 @@ Section styles
 }
 
 .headline-btn {
-  width: 30%;
+  /*width: 30%;*/
   margin: 25px 10px;
   color: black;
   font-size: 18px;
@@ -146,11 +146,13 @@ Section styles
 
 .headline-container {
   /*margin-top: 60%;*/
-  position: relative;
+  width: 100%;
+  position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: inline-block;
 }
 
@@ -244,6 +246,7 @@ Section styles
   }
 
   .headline-btn {
-    padding: 10px 15px;
+    padding: 10px 20px;
+
   }
 }
