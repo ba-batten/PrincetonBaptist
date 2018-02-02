@@ -145,12 +145,12 @@ Section styles
 }
 
 .headline-container {
-  margin-top: 60%;
-  /*position: relative;
+  /*margin-top: 60%;*/
+  position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);*/
+  transform: translateY(-50%);
   display: inline-block;
 }
 
@@ -232,7 +232,7 @@ Section styles
   */
 
   .headline-container {
-    margin-top: 10%;
+    /*margin-top: 10%;*/
   }
 
   .home h1 {
