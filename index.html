@@ -80,14 +80,55 @@ Designed and built by Brandon Batten
             Connecting with Others.<br>
             Connecting Others with God.</h1>
         <div class="underline animated slideInLeft"></div>
-        <button type="button" name="headline-btn" class="btn headline-btn animated fadeIn">Services</button>
+        <button type="button" name="headline-btn" class="btn headline-btn animated fadeIn" data-toggle="modal" data-target="#servicesModal">Services</button>
         <button type="button" name="headline-btn" class="btn headline-btn animated fadeIn">Watch</button>
 
       </div>
     </section>
 
 
+    <!-- Modal -->
+    <div id="servicesModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
 
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Service Times</h4>
+          </div>
+          <div class="modal-body">
+            <ul class="services-list">
+              <li>
+                <ul class="sunday-services">
+                  <li>
+                    <h5 class="service-day">Sunday</h5>
+                  </li>
+                  <li><span class="service-title">Sunday School:</span> <span class="service-time">9:45am<span></li>
+                  <li><span class="service-title">Worship:</span> <span class="service-time">10:55am<span></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="wednesday-services">
+                  <li>
+                    <h5 class="service-day">Wednesday</h5>
+                  </li>
+                  <li><span class="service-title">Bible Study:</span> <span class="service-time">10:00am<span></li>
+                  <li><span class="service-title">AWANA:</span> <span class="service-time">6:30pm<span></li>
+                  <li><span class="service-title">Youth Group:</span> <span class="service-time">6:30pm<span></li>
+                  <li><span class="service-title">College Bible Study:</span class="service-time"> <span>6:30pm<span></li>
+                  <li><span class="service-title">Choir Practice:</span> <span class="service-time">8:00pm<span></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
 
 
