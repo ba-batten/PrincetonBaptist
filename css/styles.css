@@ -126,7 +126,7 @@ Section styles
 .headline-btn {
   /*width: 30%;*/
   margin: 25px 10px;
-  color: black;
+  color: #171219;
   font-size: 18px;
   padding: 5px 15px;
   -webkit-animation-fill-mode: backwards;
@@ -209,8 +209,6 @@ td {
 .modal-address h5 {
   font-weight: bold;
 }
-
-
 
 @media screen and (min-width: 768px) {
   /*
@@ -310,16 +308,14 @@ td {
   Modal styles
   */
 
-
-
   .table-container>table {
     display: inline-block;
     vertical-align: top;
-    width: calc( ( 100% / 2 ) - 6.4px );
-    margin-right: 10px;
+    width: calc( ( 100% / 2 ) - 5px );
+    margin-left: 10px;
   }
 
-  .table-container>table:last-of-type {
-    margin-right: 0;
+  .table-container>table:first-of-type {
+    margin-left: 0;
   }
 }
