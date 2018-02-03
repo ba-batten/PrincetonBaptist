@@ -18,8 +18,8 @@ Designed and built by Brandon Batten
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <!-- or -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -95,33 +95,61 @@ Designed and built by Brandon Batten
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Service Times</h4>
+            <h4 class="modal-title">Service Times and Location</h4>
           </div>
           <div class="modal-body">
-            <ul class="services-list">
-              <li>
-                <ul class="sunday-services">
-                  <li>
-                    <h5 class="service-day">Sunday</h5>
-                  </li>
-                  <li><span class="service-title">Sunday School:</span> <span class="service-time">9:45am<span></li>
-                  <li><span class="service-title">Worship:</span> <span class="service-time">10:55am<span></li>
-                </ul>
-              </li>
-              <li>
-                <ul class="wednesday-services">
-                  <li>
-                    <h5 class="service-day">Wednesday</h5>
-                  </li>
-                  <li><span class="service-title">Bible Study:</span> <span class="service-time">10:00am<span></li>
-                  <li><span class="service-title">AWANA:</span> <span class="service-time">6:30pm<span></li>
-                  <li><span class="service-title">Youth Group:</span> <span class="service-time">6:30pm<span></li>
-                  <li><span class="service-title">College Bible Study:</span class="service-time"> <span>6:30pm<span></li>
-                  <li><span class="service-title">Choir Practice:</span> <span class="service-time">8:00pm<span></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+            <div class="map-wrapper">
+              <div id="modal-map"></div>
+              <address class="modal-address">
+                <h5>Princeton Baptist Church</h5>
+                <p>211 South Pearl Street</p>
+                <p>Princeton, NC 27569</p>
+              </address>
+            </div>
+            <div class="table-container">
+              <table>
+                <tr>
+                  <th>Sunday</th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>Sunday School</td>
+                  <td class="text-right">9:30am</td>
+                </tr>
+                <tr>
+                  <td>Worship</td>
+                  <td class="text-right">11:00am</td>
+                </tr>
+              </table>
+
+              <table>
+                <tr>
+                  <th>Wednesday</th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>Bible Study</td>
+                  <td class="text-right">10:00am</td>
+                </tr>
+                <tr>
+                  <td>AWANA</td>
+                  <td class="text-right">6:30pm</td>
+                </tr>
+                <tr>
+                  <td>Youth Group</td>
+                  <td class="text-right">6:30pm</td>
+                </tr>
+                <tr>
+                  <td>College Bible Study</td>
+                  <td class="text-right">6:30pm</td>
+                </tr>
+                <tr>
+                  <td>Choir</td>
+                  <td class="text-right">8:00pm</td>
+                </tr>
+              </table>
+            </div> <!-- end table-container -->
+          </div> <!-- end modal-body -->
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
@@ -137,6 +165,10 @@ Designed and built by Brandon Batten
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
-      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGL_wEbysdduJdV4SryzBmJV_KjTFVWDY&callback=initMap"></script>
+
+      </script>
   </body>
 </html>
