@@ -92,8 +92,10 @@ Section styles
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-attachment: fixed;
 }
+
+/* Home styles */
 
 .home {
   width: 100%;
@@ -157,6 +159,13 @@ Section styles
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   display: inline-block;
+}
+
+/* Staff styles */
+
+.staff {
+  height: 100vh;
+  width: 100%;
 }
 
 /*
