@@ -77,7 +77,7 @@ Designed and built by Brandon Batten
     <!-- /////////////////////////////////////////////
       Home section
     ///////////////////////////////////////////// -->
-    <section class="home parallax">
+    <section class= "home parallax">
       <div class="headline-container">
         <h1 class="animated fadeInDown">Connecting with God.<br>
             Connecting with Others.<br>
@@ -93,15 +93,35 @@ Designed and built by Brandon Batten
       Staff section
     ///////////////////////////////////////////// -->
     <section class="staff parallax">
-      <h2>Our Staff</h2>
-      <ul class="staff-list">
-        <li class="staff-list-item">
-          <img src="http://via.placeholder.com/200x250" alt="placeholder">
-          <h3>First Last</h3>
-          <h4>Position</h4>
-          <p>Short bio</p>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="text-center">Our Staff</h2>
+        <ul class="staff-list row">
+          <li class="staff-list-item col-sm-3 text-center">
+            <img src="http://via.placeholder.com/400x550" alt="placeholder" class="img-responsive">
+            <h3>First Last</h3>
+            <h4>Position</h4>
+            <p class="text-left">Short bio</p>
+          </li>
+          <li class="staff-list-item col-sm-3 text-center">
+            <img src="http://via.placeholder.com/400x550" alt="placeholder" class="img-responsive">
+            <h3>First Last</h3>
+            <h4>Position</h4>
+            <p class="text-left">Short bio</p>
+          </li>
+          <li class="staff-list-item col-sm-3 text-center">
+            <img src="http://via.placeholder.com/400x550" alt="placeholder" class="img-responsive">
+            <h3>First Last</h3>
+            <h4>Position</h4>
+            <p class="text-left">Short bio</p>
+          </li>
+          <li class="staff-list-item col-sm-3 text-center">
+            <img src="http://via.placeholder.com/400x550" alt="placeholder" class="img-responsive">
+            <h3>First Last</h3>
+            <h4>Position</h4>
+            <p class="text-left">Short bio</p>
+          </li>
+        </ul>
+    </div>
     </section>
 
     <!-- Modal -->
@@ -183,8 +203,22 @@ Designed and built by Brandon Batten
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGL_wEbysdduJdV4SryzBmJV_KjTFVWDY&callback=initMap"></script>
+    <!-- Change color of navbar background after scrolling past header -->
+   <script async>
+     $(document).ready(function(){
+       $(window).scroll(function(){
+         var scroll = $(window).scrollTop();
+         if (scroll < window.innerHeight - $('.navbar').height()) {
+           $(".navbar").css("background" , "transparent");
+         }
+         else{
+           $(".navbar").css("background" , "#332623");
+         }
+       })
+     })
+   </script>
 
       </script>
   </body>
