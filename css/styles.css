@@ -84,10 +84,16 @@ Black background
   animation-fill-mode: forwards;
 }
 
-
 /*
 Section styles
 */
+
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+}
 
 .home {
   width: 100%;
@@ -95,9 +101,6 @@ Section styles
   background-image: linear-gradient(
     #17121966, #17121966
     ), url("https://s-i.huffpost.com/gen/1230832/images/o-CHURCH-CONGREGATION-facebook.jpg");
-  background-position: center;
-  background-size: cover;
-  background-position: fixed;
   text-align: center;
   color: white;
 }
