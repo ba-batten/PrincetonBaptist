@@ -10,6 +10,7 @@ body {
   font-family: 'Lato', sans-serif;
   height: 100%;
   width: 100%;
+  background-color: white;
 }
 
 ul {
@@ -187,6 +188,10 @@ td {
   padding: 5px;
 }
 
+.modal-content {
+  line-height: 1.2;
+}
+
 .modal-header {
   background: #CA002B;
   color: white;
@@ -308,11 +313,21 @@ td {
   Modal styles
   */
 
+  .modal-content {
+    line-height: inherit;
+  }
+
   .table-container>table {
     display: inline-block;
     vertical-align: top;
-    width: calc( ( 100% / 2 ) - 5px );
+    width: calc( ( 100% / 2 ) - 6.4px );
     margin-left: 10px;
+  }
+
+  @-moz-document url-prefix() {
+    .table-container>table {
+      width: calc( ( 100% / 2 ) - 6.5px );
+    }
   }
 
   .table-container>table:first-of-type {
