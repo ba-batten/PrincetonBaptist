@@ -35,9 +35,9 @@ Designed and built by Brandon Batten
     ///////////////////////////////////////////// -->
 
     <nav class="navbar navbar-default navbar-fixed-top animated slideInDown">
-      <div class="info-header">
+      <!-- <div class="info-header">
         <address><span class="address">211 Pearl Street</span><span class="address">Princeton, NC 27569</span><span class="address">(919) 936-4001</span></address>
-      </div>
+      </div> -->
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -210,16 +210,9 @@ Designed and built by Brandon Batten
      $(document).ready(function(){
        $(window).scroll(function(){
          var scroll = $(window).scrollTop();
-         if (scroll < window.innerHeight - $('.navbar').height()) {
-           $(".navbar").css("background" , "transparent");
-         }
-         else{
-           $(".navbar").css("background" , "#332623");
-         }
+
        })
      })
    </script>
-
-      </script>
   </body>
 </html>
