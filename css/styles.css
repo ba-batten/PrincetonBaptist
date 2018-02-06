@@ -1,4 +1,14 @@
 /*
+Colors
+
+red #CA002B
+blue #214478
+gray #424B54
+white really
+black #171219
+*/
+
+/*
 Base styles
 */
 
@@ -11,9 +21,11 @@ body {
   height: 100%;
   width: 100%;
   background-color: #fafafa;
+  color: #424B54;
+
 }
 
-ul {
+ul {#424B54;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -253,7 +265,7 @@ td {
   }
 
   .navbar-nav>li {
-    margin: 17.325px 0 17.325px 40px;
+    margin: 17.325px 40px 17.325px 0;
   }
 
   .navbar-default
@@ -275,22 +287,22 @@ td {
 
   .navbar>.container .navbar-brand,
   .navbar>.container-fluid .navbar-brand {
-    width: 120px;
+    /*width: 120px;*/
     height: auto;
     background: rgba(250, 250, 250, 1);
-    transition: width 0.4s ease-out;
-    -webkit-transition: width 0.5s ease-out;
+    width: 370px;
     overflow: hidden;
     margin-left: -35px;
     padding: 10px 30px 10px 50px;
+    -webkit-transition: width 0.5s ease-out;
+    transition: width 0.4s ease-out;
   }
 
-  .navbar-default .navbar-brand:focus,
+  /*.navbar-default .navbar-brand:focus,
   .navbar-default .navbar-brand:hover {
     transition: width 0.4s ease-out;
     -webkit-transition: width 0.5s ease-out;
-    width: 370px;
-  }
+  }*/
 
   /*
   Section styles
