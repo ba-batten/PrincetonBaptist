@@ -363,14 +363,6 @@ td {
     margin-bottom: 60px;
   }
 
-  .staff-header-container h2 {
-    font-size: 4.5vw;
-    text-transform: uppercase;
-  }
-
-  .staff-list-item img {
-    border-radius: 0;
-  }
 
   /*
   Modal styles
