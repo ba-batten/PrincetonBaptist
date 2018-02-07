@@ -55,7 +55,7 @@ Designed and built by Brandon Batten
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Page 1</a></li>
             <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
+            <li><a href="#staff">Staff</a></li>
             <li>
               <a href="https://www.facebook.com/princetonbconnect/" target="blank">
               <img src="images/FB-fLogo_2016_blue.svg" alt="facebook-logo" class="facebook-logo">
@@ -89,9 +89,11 @@ Designed and built by Brandon Batten
     <!-- /////////////////////////////////////////////
       Staff section
     ///////////////////////////////////////////// -->
-    <section class="staff parallax">
-      <div class="container">
-        <h2 class="text-center">Our Staff</h2>
+    <section class="staff parallax" id="staff">
+        <div class="staff-header-container">
+          <h2 class="text-center">Our Staff</h2>
+        </div>
+        <div class="container">
         <ul class="staff-list row">
           <li class="staff-list-item col-sm-3 text-center">
             <img src="http://via.placeholder.com/400x550" alt="placeholder" class="img-responsive">
@@ -219,6 +221,13 @@ Designed and built by Brandon Batten
 
        })
      })
+   </script>
+   <script type="text/javascript">
+    $('.navbar-collapse a').on('click', function(){
+      if ( $( '.navbar-collapse' ).hasClass('in') ) {
+        $('.navbar-toggle').click();
+      }
+    });
    </script>
   </body>
 </html>
