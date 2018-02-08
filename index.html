@@ -82,7 +82,6 @@ Designed and built by Brandon Batten
         <div class="underline animated slideInLeft"></div>
         <button type="button" name="headline-btn" class="btn headline-btn animated fadeIn" data-toggle="modal" data-target="#servicesModal">Services</button>
         <button type="button" name="headline-btn" class="btn headline-btn animated fadeIn">Watch</button>
-
       </div>
     </section>
 
@@ -185,11 +184,14 @@ Designed and built by Brandon Batten
    <script async>
      $(document).ready(function(){
        $(window).resize(function() {
-         if (window.innerWidth >= 768 && window.innerWidth < 1000){
-           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
+         if (window.innerWidth < 768){
+           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
          }
          if (window.innerWidth >= 768 && window.innerWidth < 1000){
            $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
+         }
+         if (window.innerWidth > 1000){
+           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
          }
        });
 
