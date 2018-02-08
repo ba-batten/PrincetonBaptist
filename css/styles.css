@@ -296,7 +296,7 @@ td {
   }
 
   .navbar-nav>li {
-    margin: 17.325px 40px 17.325px 0;
+    margin: 17.325px 10px 17.325px 0;
   }
 
   .navbar-default
@@ -313,7 +313,7 @@ td {
   }
 
   .navbar-logo {
-    width: 300px;
+    width: 250px;
   }
 
   .navbar>.container .navbar-brand,
@@ -321,7 +321,7 @@ td {
     /*width: 120px;*/
     height: auto;
     background: rgba(250, 250, 250, 1);
-    width: 370px;
+    width: 320px;
     overflow: hidden;
     margin-left: -35px;
     padding: 10px 30px 10px 50px;
@@ -405,5 +405,28 @@ td {
 
   .table-container>table:first-of-type {
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar-logo {
+    width: 300px;
+  }
+
+  .navbar>.container .navbar-brand,
+  .navbar>.container-fluid .navbar-brand {
+    /*width: 120px;*/
+    height: auto;
+    background: rgba(250, 250, 250, 1);
+    width: 370px;
+    overflow: hidden;
+    margin-left: -35px;
+    padding: 10px 30px 10px 50px;
+    -webkit-transition: width 0.2s ease-out;
+    transition: width 0.2s ease-out;
+  }
+
+  .navbar-nav>li {
+    margin: 17.325px 40px 17.325px 0;
   }
 }
