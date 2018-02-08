@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<!--
+///////////////////////////////////////////////////////////////
+
+Designed and built by Brandon Batten
+
+///////////////////////////////////////////////////////////////
+-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the Princeton Baptist Church staff.">
+    <meta name="author" content="Brandon Batten">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Princeton Baptist Church | Connecting with God. Connecting with Others. Connecting Others with God. | Staff</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- /////////////////////////////////////////////
+      NAVBAR
+    ///////////////////////////////////////////// -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <!-- <div class="info-header">
+        <address><span class="address">211 Pearl Street</span><span class="address">Princeton, NC 27569</span><span class="address">(919) 936-4001</span></address>
+      </div> -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <img src="images/hamburger.svg" alt="hamburger menu" class="hamburger">
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <!-- <picture>
+              <source media="(min-width: 768px)" srcset="images/PBCAltLogo_white.svg">
+              <img src="images/PBCAltLogo.svg" alt="Princeton Baptist logo">
+            </picture> -->
+            <img src="images/PBC_logo_alt_revision1.svg" alt="Princeton Baptist logo" class="navbar-logo">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#staff">Staff</a></li>
+            <li>
+              <a href="https://www.facebook.com/princetonbconnect/" target="blank">
+              <img src="images/FB-fLogo_2016_blue.svg" alt="facebook-logo" class="facebook-logo">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGL_wEbysdduJdV4SryzBmJV_KjTFVWDY&callback=initMap"></script>
+    <!-- Change width of .navbar-brand on scroll -->
+   <script async>
+     $(document).ready(function(){
+       $(window).resize(function() {
+         if (window.innerWidth < 768){
+           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
+         }
+         if (window.innerWidth >= 768 && window.innerWidth < 1000){
+           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
+         }
+         if (window.innerWidth > 1000){
+           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
+         }
+       });
+
+       $(window).scroll(function(){
+         var scroll = $(window).scrollTop();
+         if (window.innerWidth >= 768 && window.innerWidth < 1000){
+           if (scroll > (window.innerHeight * 0.7)) {
+             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '110px');
+           }
+           else {
+             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
+           }
+         }
+
+         if (window.innerWidth >= 1000) {
+           if (scroll > (window.innerHeight * 0.7)) {
+             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '120px');
+           }
+           else {
+             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
+           }
+         }
+       })
+     })
+   </script>
+   <!-- Close .navbar-collapse on click -->
+   <script type="text/javascript">
+    $('.navbar-collapse a').on('click', function(){
+      if ( $( '.navbar-collapse' ).hasClass('in') ) {
+        $('.navbar-toggle').click();
+      }
+    });
+   </script>
+  </body>
+</html>
