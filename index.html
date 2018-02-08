@@ -184,10 +184,18 @@ Designed and built by Brandon Batten
     <!-- Change width of .navbar-brand on scroll -->
    <script async>
      $(document).ready(function(){
+       $(window).resize(function() {
+         if (window.innerWidth >= 768 && window.innerWidth < 1000){
+           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
+         }
+         if (window.innerWidth >= 768 && window.innerWidth < 1000){
+           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
+         }
+       });
+
        $(window).scroll(function(){
          var scroll = $(window).scrollTop();
          if (window.innerWidth >= 768 && window.innerWidth < 1000){
-           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
            if (scroll > (window.innerHeight * 0.7)) {
              $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '110px');
            }
@@ -197,7 +205,6 @@ Designed and built by Brandon Batten
          }
 
          if (window.innerWidth >= 1000) {
-           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
            if (scroll > (window.innerHeight * 0.7)) {
              $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '120px');
            }
@@ -205,8 +212,6 @@ Designed and built by Brandon Batten
              $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
            }
          }
-
-
        })
      })
    </script>
