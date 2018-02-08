@@ -186,7 +186,7 @@ Section styles
     url("../images/princeton_stores.jpg");
   background-position: center;
   background-size: cover;
-  margin: 150px 0 0;
+  margin: -20px 0 0;
   color: white;
   text-align: center;
 }
