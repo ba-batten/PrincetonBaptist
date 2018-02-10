@@ -16,10 +16,14 @@ Base styles
   box-sizing: border-box;
 }
 
+.html, body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Lato', sans-serif;
-  height: 100%;
-  width: 100%;
   background-color: #fafafa;
   color: #424B54;
 
@@ -176,41 +180,31 @@ Section styles
   display: inline-block;
 }
 
-/* Staff styles */
+/* About styles */
 
-.staff {
-  height: calc(100vh - 51px);
+.about {
   width: 100%;
+  min-height: 100vh;
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  color: #CA002B;
+}
+
+.about-header {
+  width: 100%;
+  height: 20vh;
+  padding: 80px 0 0;
   background-image: linear-gradient(
-    #17121966, #17121966),
+    #214478c9, #214478c9),
     url("../images/princeton_stores.jpg");
-  background-position: center;
-  background-size: cover;
-  margin: -20px 0 0;
   color: white;
   text-align: center;
 }
 
-.staff-container {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.staff-container h2 {
-  font-size: 10vw;
-  text-transform: uppercase;
-}
-
-.staff blockquote {
-  border: none;
-  font-family: 'Merriweather', serif;
-}
-
-.staff-btn a {
-  color: #424B54;
+.about-header h2 {
+  margin: 0;
 }
 
 /*
@@ -360,26 +354,34 @@ td {
   }
 
   /*
+  About styles
+  */
+
+  .about {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .about-header {
+    width: 100vw;
+    height: 35vh;
+    padding: 225px 0 0;
+    background-image: linear-gradient(
+      #214478c9, #214478c9),
+      url("../images/princeton_stores.jpg");
+    color: white;
+    text-align: center;
+  }
+
+  .about-header h2 {
+    font-size: 40px;
+  }
+
+
+  /*
   Staff styles
   */
 
-  .staff {
-    height: 100vh;
-  }
-
-  .staff-container {
-    width: 700px;
-    margin: 0 auto;
-  }
-
-  .staff-container blockquote {
-    font-size: 20px;
-  }
-
-  .staff-container h2 {
-    font-size: 4.5vw;
-    margin-bottom: 40px;
-  }
 
   /*
   Modal styles
