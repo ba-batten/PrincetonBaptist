@@ -1,4 +1,4 @@
-/*
+none/*
 Colors
 
 red #CA002B
@@ -314,7 +314,7 @@ td {
   .navbar>.container-fluid .navbar-brand {
     /*width: 120px;*/
     height: auto;
-    background: rgba(250, 250, 250, 1);
+    background: none;
     width: 320px;
     overflow: hidden;
     margin-left: -35px;
@@ -418,7 +418,7 @@ td {
   .navbar>.container-fluid .navbar-brand {
     /*width: 120px;*/
     height: auto;
-    background: rgba(250, 250, 250, 1);
+    background: none;
     width: 370px;
     overflow: hidden;
     margin-left: -35px;
