@@ -212,9 +212,10 @@ Section styles
 }
 
 .about .section-header {
-    background-image: linear-gradient(
+  background: #214478;
+    /*background-image: linear-gradient(
     #214478c9, #214478c9),
-    url("../images/bible-small.JPG");
+    url("../images/bible-small.JPG");*/
 }
 
 
@@ -336,7 +337,6 @@ td {
   .navbar-default {
     background: none;
     border: none;
-    padding-top: 30px;
   }
 
   .navbar-nav>li {
