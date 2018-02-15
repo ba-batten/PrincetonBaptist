@@ -1,4 +1,4 @@
-none/*
+/*
 Colors
 
 red #CA002B
@@ -147,7 +147,6 @@ Section styles
   /*width: 30%;*/
   margin: 25px 10px;
   color: #171219;
-  font-size: 18px;
   padding: 5px 15px;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
@@ -180,6 +179,10 @@ Section styles
   display: inline-block;
 }
 
+.headline-container h2 {
+  font-family: 'Alegraya', serif;
+}
+
 /* About styles */
 
 .section {
@@ -200,11 +203,52 @@ Section styles
   text-align: center;
 }
 
+.about * {
+  /*border: 0.5px solid red;*/
+}
+
+.about-header h2 {
+  margin: 0;
+}
+
 .about .section-header {
     background-image: linear-gradient(
     #214478c9, #214478c9),
     url("../images/bible-small.JPG");
 }
+
+
+/* Staff styles */
+
+.staff-pic-list {
+  text-align: center;
+}
+
+.staff-bio-container {
+  background: #424B54;
+  margin: 10px 0;
+  padding: 5px;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  max-width: calc(50% - 10px);
+}
+
+.staff-bio-container h4 {
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ministries .section-header {
   background-image: linear-gradient(
@@ -212,9 +256,6 @@ Section styles
   url("../images/preaching.JPG");
 }
 
-.about-header h2 {
-  margin: 0;
-}
 
 /*
 Modal styles
@@ -367,8 +408,9 @@ td {
   */
 
   .section {
-    height: 100vh;
+    /*height: 100vh;*/
     width: 100%;
+    margin-bottom: 150px;
   }
 
   .section-header {
@@ -383,10 +425,28 @@ td {
     font-size: 60px;
   }
 
+  .history-container,
+  .staff-container {
+    width: calc(50% - 20.5px);
+    margin: 0;
+    /*padding: 0 20px;*/
+    display: inline-block;
+    vertical-align: top;
+  }
 
-  /*
-  Staff styles
-  */
+  .history-container {
+    margin-right: 30px;
+  }
+
+  /* Staff styles */
+
+  .staff-pic-list {
+    text-align: left;
+  }
+
+  .staff-bio-container {
+    width: calc(33.333333% - 7.5px);
+  }
 
 
   /*
@@ -436,4 +496,9 @@ td {
   .navbar-nav>li {
     margin: 17.325px 40px 17.325px 0;
   }
+
+  .staff-bio-container {
+    width: calc(25% - 7.5px);
+  }
+
 }
