@@ -26,7 +26,7 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #fafafa;
   color: #424B54;
-
+  line-height: 1.8;
 }
 
 ul {
@@ -216,6 +216,12 @@ Section styles
     /*background-image: linear-gradient(
     #214478c9, #214478c9),
     url("../images/bible-small.JPG");*/
+}
+
+.history-container,
+.staff-container,
+.beliefs-container {
+  margin: 50px 0 0;
 }
 
 /* History styles */
