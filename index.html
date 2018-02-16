@@ -94,7 +94,9 @@ Designed and built by Brandon Batten
       <div class="section-header parallax">
         <h2>About</h2>
       </div>
-      <div class="container about-container">
+      <div class="container">
+
+        <!-- <div class="about-container"> -->
 
         <div class="history-container">
           <h3 class="text-center">History</h3>
@@ -166,7 +168,8 @@ Designed and built by Brandon Batten
             <li><a href="#">More...</a></li>
           </ul>
         </div>
-      </div> <!-- end container -->
+      <!-- </div>  end container -->
+    </div>
     </section>
 
     <!-- /////////////////////////////////////////////
@@ -277,6 +280,7 @@ Designed and built by Brandon Batten
        $(window).resize(function() {
          if (window.innerWidth < 768){
            $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
+           $('.navbar-default').css('background', '#f8f8f8');
          }
          if (window.innerWidth >= 768 && window.innerWidth < 1000){
            $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');

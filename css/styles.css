@@ -427,15 +427,25 @@ td {
 
   .history-container,
   .staff-container {
-    width: calc(50% - 20.5px);
-    margin: 0;
-    /*padding: 0 20px;*/
-    display: inline-block;
+    width: 50%;
+    margin: 50px 0;
+    float: left;
     vertical-align: top;
   }
 
   .history-container {
-    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 1px solid #424B54;
+  }
+
+  .staff-container {
+    padding-left: 30px;
+  }
+
+  .beliefs-container {
+    margin: 50px 0;
+    border-top: 1px solid #424B54;
+    clear: both;
   }
 
   /* Staff styles */
