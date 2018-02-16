@@ -218,6 +218,14 @@ Section styles
     url("../images/bible-small.JPG");*/
 }
 
+/* History styles */
+
+.history-container img {
+  max-width: 20%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
 
 /* Staff styles */
 
@@ -239,17 +247,7 @@ Section styles
   font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* Ministries styles */
 
 .ministries .section-header {
   background-image: linear-gradient(
