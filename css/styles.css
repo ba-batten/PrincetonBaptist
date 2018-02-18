@@ -227,7 +227,7 @@ Section styles
 /* History styles */
 
 .history-container img {
-  max-width: 20%;
+  max-width: 33.3333%;
   float: left;
   margin: 0 10px 10px 0;
 }
@@ -455,6 +455,12 @@ td {
     margin: 50px 0;
     border-top: 1px solid #424B54;
     clear: both;
+  }
+
+  /* History styles */
+
+  .history-container img {
+    width: 20%;
   }
 
   /* Staff styles */
