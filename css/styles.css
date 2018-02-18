@@ -212,10 +212,10 @@ Section styles
 }
 
 .about .section-header {
-  background: #214478;
-    /*background-image: linear-gradient(
+  /*background: #214478;*/
+    background-image: linear-gradient(
     #214478c9, #214478c9),
-    url("../images/bible-small.JPG");*/
+    url("../images/bible-small.JPG");
 }
 
 .history-container,
@@ -440,10 +440,15 @@ td {
   .history-container {
     padding-right: 30px;
     border-right: 1px solid #424B54;
+    text-align: justify;
   }
 
   .staff-container {
     padding-left: 30px;
+  }
+
+  .staff-bio-container h5 {
+    font-size: 13px;
   }
 
   .beliefs-container {
@@ -512,7 +517,7 @@ td {
   }
 
   .staff-bio-container {
-    width: calc(25% - 7.5px);
+    width: calc(25% - 2.1px);
   }
 
 }
