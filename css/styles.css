@@ -261,6 +261,10 @@ Section styles
   url("../images/preaching.JPG");
 }
 
+.ministries-list li {
+  height: 20vh;
+}
+
 
 /*
 Modal styles
@@ -473,6 +477,15 @@ td {
     width: calc(33.333333% - 7.5px);
   }
 
+  /* Ministries styles */
+
+  .ministries-list li {
+    float: left;
+    width: 50%;
+    height: calc( 100vh / 3 );
+    margin: 0;
+    background: green;
+  }
 
   /*
   Modal styles
