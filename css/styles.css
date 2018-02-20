@@ -264,7 +264,7 @@ Section styles
 .ministries-list li {
   /*background: green;*/
   height: 20vh;
-  padding: 15px;
+  /*padding: 15px;*/
   background-position: center;
   background-size: cover;
 }
