@@ -301,6 +301,12 @@ Section styles
   #17121999, #17121999),
   url("../images/seniors.jpg");}
 
+.missions {
+  background-image: linear-gradient(
+  #17121955, #17121955),
+  url("../images/graduation.jpg");
+}
+
 /*
 Modal styles
 */
@@ -516,7 +522,7 @@ td {
 
   .ministries-list li {
     float: left;
-    width: 50%;
+    width: 100%;
     height: calc( 100vh / 3 );
     margin: 0;
   }
@@ -547,7 +553,7 @@ td {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
   .navbar-logo {
     width: 300px;
   }
@@ -571,6 +577,18 @@ td {
 
   .staff-bio-container {
     width: calc(25% - 2.1px);
+  }
+
+  .ministries-list li {
+    width: 50%;
+  }
+
+  .ministries-list li:last-of-type {
+    width:100%;
+  }
+
+  .ministries-list li img {
+    height: 50%;
   }
 
 }
