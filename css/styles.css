@@ -289,6 +289,13 @@ Section styles
   url("../images/feet.jpg");
 }
 
+.music {
+  background-image: linear-gradient(
+  #21447877, #21447877),
+  url("../images/soundman.jpg");
+  background-position: bottom;
+}
+
 .seniors {
   background-image: linear-gradient(
   #17121999, #17121999),
