@@ -283,9 +283,15 @@ Section styles
   url("../images/kids.jpg");
 }
 
+.youth {
+  background-image: linear-gradient(
+  #17121977, #17121977),
+  url("../images/feet.jpg");
+}
+
 .seniors {
   background-image: linear-gradient(
-  #171219c9, #171219c9),
+  #17121999, #17121999),
   url("../images/seniors.jpg");}
 
 /*
