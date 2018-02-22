@@ -119,26 +119,12 @@ Designed and built by Brandon Batten
 
         <div class="staff-container">
           <h3 class="text-center">Staff</h3>
-          <ul class="staff-pic-list">
+          <ul class="staff-pic-list" data-bind="foreach: staff">
             <li class="staff-bio-container">
-                <img src="http://via.placeholder.com/350x400" alt="placeholder text" class="img-responsive">
-                  <h4>Dwayne<br>Batten</h4>
-                  <h5><em>Senior Pastor</em></h5>
-            </li>
-            <li class="staff-bio-container">
-                <img src="http://via.placeholder.com/350x400" alt="placeholder text" class="img-responsive">
-                  <h4>RJ<br>Smith</h4>
-                  <h5><em>Youth Pastor</em></h5>
-            </li>
-            <li class="staff-bio-container">
-                <img src="http://via.placeholder.com/350x400" alt="placeholder text" class="img-responsive">
-                  <h4>Trevor<br>Clatterbuck</h4>
-                  <h5><em>Worship Pastor</em></h5>
-            </li>
-            <li class="staff-bio-container">
-                <img src="http://via.placeholder.com/350x400" alt="placeholder text" class="img-responsive">
-                  <h4>Peggy<br>Jordan</h4>
-                  <h5><em>Secretary</em></h5>
+              <img data-bind="attr: { src: pic, alt: name }" class="img-responsive">
+              <h4 data-bind="text: firstName"></h4>
+              <h4 data-bind="text: lastName"></h4>
+              <h5 data-bind="text: position"></h5>
             </li>
           </ul>
         </div>
@@ -279,14 +265,16 @@ Designed and built by Brandon Batten
       </div>
     </div>
 
+    <!-- Knockout CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
     <!-- jQuery CDN -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/model.js">
+
       </script>
-    <!-- Knockout CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js">
     <!-- Bootstrap js CDN -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Google Map logic -->
