@@ -54,6 +54,15 @@ function AppViewModel() {
       pic: 'http://via.placeholder.com/350x400'
     }
   ]);
+
+  self.events = ko.observableArray([
+    {
+      title: '',
+      time: '',
+      description: '',
+      pic: ''
+    }
+  ]);
 }
 
 var data = new AppViewModel();
