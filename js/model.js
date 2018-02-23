@@ -3,8 +3,7 @@ function AppViewModel() {
 
   self.staff = ko.observableArray([
     {
-      firstName: 'Dwayne',
-      lastName: 'Batten',
+      name: 'Dwayne Batten',
       position: 'Senior Pastor',
       bio: 'Pastor Dwayne attended Piedmont International University and ' +
       'received a bachelor of Theology as well as a Masters in Pastoral Studies.' +
@@ -14,8 +13,7 @@ function AppViewModel() {
       pic: 'http://via.placeholder.com/350x400'
     },
     {
-      firstName: 'RJ',
-      lastName: 'Smith',
+      name: 'RJ Smith',
       position: 'Youth Pastor',
       bio: 'RJ has been in youth ministry since 2009, and joined the Princeton ' +
       'Baptist Church staff in 2017. He is married to Brandee and they have two ' +
@@ -30,8 +28,7 @@ function AppViewModel() {
       pic: 'http://via.placeholder.com/350x400'
     },
     {
-      firstName: 'Trevor',
-      lastName: 'Clatterbuck',
+      name: 'Trevor Clatterbuck',
       position: 'Worship Pastor',
       bio: 'Trevor has served as Worship pastor at several churches in Virginia ' +
       'and Louisiana. He has also served as youth pastor at churches in Virginia' +
@@ -44,8 +41,7 @@ function AppViewModel() {
       pic: 'http://via.placeholder.com/350x400'
     },
     {
-      firstName: 'Peggy',
-      lastName: 'Jordan',
+      name: 'Peggy Jordan',
       position: 'Secretary',
       bio: 'Peggy is our church secretary.  She attended Hardbarger Business ' +
       'College in Raleigh.  She is married to Harvey and they reside in ' +
