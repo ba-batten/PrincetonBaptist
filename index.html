@@ -130,7 +130,7 @@ Designed and built by Brandon Batten
 
         <div class="beliefs-container">
           <h3 class="text-center about-label">What We Believe</h3>
-          <ul>
+          <ul class="beliefs-list">
             <li>
               <h4>God</h4>
               <p>There is one and only one living and true God.</p>
@@ -196,8 +196,8 @@ Designed and built by Brandon Batten
       <div class="container">
         <ul class="events" data-bind="foreach: events.slice(0).reverse()">
           <li class="row">
-            <div class="col-md-3">
-              <img data-bind="attr: { src: pic, alt: title }">
+            <div class="col-md-3 events-img-container">
+              <img data-bind="attr: { src: pic, alt: title }" class="img-responsive">
             </div>
             <div class="col-md-9">
               <h3 data-bind="text: title"></h3>

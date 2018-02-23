@@ -524,6 +524,17 @@ td {
     width: calc(33.333333% - 7.5px);
   }
 
+  /* Beliefs styles */
+
+  .beliefs-list {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+  }
+
   /* Ministries styles */
 
   .ministries-list li {
