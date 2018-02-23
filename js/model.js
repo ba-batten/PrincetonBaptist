@@ -58,7 +58,7 @@ function AppViewModel() {
       description: 'Men, bring your best game recipe prepared and let\'s enjoy ' +
       'the fruit of our harvest together while we hear from guest speaker ' +
       'Brandon Thornton from Loxley, Alabama.',
-      pic: ''
+      pic: 'http://via.placeholder.com/350'
     },
     {
       title: 'Women\'s Ministry Gathering',
@@ -66,8 +66,8 @@ function AppViewModel() {
       description: 'Guest teacher Angie Bridgers will be speaking on \"Biblical ' +
       'Journaling\". You only need to bring your Bible.  Light refreshments will' +
       'be served.',
-      pic: ''
-    }
+      pic: 'http://via.placeholder.com/350'
+    },
   ]);
 }
 
