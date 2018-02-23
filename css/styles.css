@@ -250,7 +250,7 @@ Section styles
 }
 
 .staff-bio-container h4 {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 /* Ministries styles */
@@ -485,11 +485,12 @@ td {
     width: calc(100% / 5 * 2);
     padding-right: 30px;
     text-align: justify;
+    border-right: 1px solid #424B54;
   }
 
   .staff-container {
     width: calc(100% / 5 * 3);
-    border-left: 1px solid #424B54;
+    /* border-left: 1px solid #424B54; */
     padding-left: 30px;
   }
 
@@ -554,6 +555,17 @@ td {
   }
 }
 
+@media screen and (min-width: 992px) {
+
+  .history-container {
+    border: none;
+  }
+
+  .staff-container {
+    border-left: 1px solid #424B54;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .navbar-logo {
     width: 300px;
@@ -576,9 +588,6 @@ td {
     margin: 17.325px 40px 17.325px 0;
   }
 
-  .staff-bio-container {
-    width: calc(25% - 2.1px);
-  }
 
   .history-container {
     border-right: 1px solid #424B54;
@@ -586,6 +595,14 @@ td {
 
   .staff-container {
     border: none;
+  }
+
+  .staff-bio-container {
+    width: calc(25% - 2.1px);
+  }
+
+  .staff-bio-container h4 {
+    font-size: 14px;
   }
 
   .ministries-list li {
@@ -600,4 +617,10 @@ td {
     height: 50%;
   }
 
+}
+
+@media screen and (min-width: 1200px) {
+  .staff-bio-container h4 {
+    font-size: 16px;
+  }
 }
