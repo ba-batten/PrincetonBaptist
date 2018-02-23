@@ -311,6 +311,12 @@ Section styles
   url("../images/graduation.jpg");
 }
 
+/* Events styles */
+
+.events-img-container {
+  visibility: hidden;
+}
+
 /*
 Modal styles
 */
@@ -542,6 +548,12 @@ td {
     width: 100%;
     height: calc( 100vh / 3 );
     margin: 0;
+  }
+
+  /* Events styles */
+
+  .events-img-container {
+    visibility: visible;
   }
 
   /*
