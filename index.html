@@ -55,7 +55,7 @@ Designed and built by Brandon Batten
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#about">About</a></li>
             <li><a href="#ministries">Ministries</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="#events">Events</a></li>
             <li>
               <a href="https://www.facebook.com/princetonbconnect/" target="blank">
               <img src="images/FB-fLogo_2016_blue.svg" alt="facebook-logo" class="facebook-logo">
@@ -166,7 +166,6 @@ Designed and built by Brandon Batten
       <div class="section-header parallax">
         <h2>Ministries</h2>
       </div>
-      <!-- <div class="container-fluid"> -->
         <ul class="ministries-list">
           <li class="awana">
             <img src="images/awana-logo.svg" alt="Awana logo">
@@ -184,11 +183,30 @@ Designed and built by Brandon Batten
             <img src="images/missions-white.svg" alt="Missions icon">
           </li>
         </ul>
+    </section>
 
+    <!-- /////////////////////////////////////////////
+      Events section
+    ///////////////////////////////////////////// -->
 
-
-      <!-- </div>  -->
-      <!-- end container -->
+    <section class="section events" id="events">
+      <div class="section-header parallax">
+        <h2>Events</h2>
+      </div>
+      <div class="container">
+        <ul class="events" data-bind="foreach: events.slice(0).reverse()">
+          <li class="row">
+            <div class="col-md-3">
+              <img data-bind="attr: { src: pic, alt: title }">
+            </div>
+            <div class="col-md-9">
+              <h3 data-bind="text: title"></h3>
+              <h4 data-bind="text: time"></h4>
+              <h5 data-bind="text: description"></h5>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- /////////////////////////////////////////////
