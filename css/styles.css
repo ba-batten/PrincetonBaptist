@@ -211,6 +211,10 @@ Section styles
   margin: 0;
 }
 
+.about-label {
+  margin: 30px 0;
+}
+
 .about .section-header {
   /*background: #214478;*/
     background-image: linear-gradient(
