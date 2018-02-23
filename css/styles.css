@@ -476,18 +476,19 @@ td {
 
   .history-container,
   .staff-container {
-    width: 50%;
     margin: 50px 0;
     float: left;
     vertical-align: top;
   }
 
   .history-container {
+    width: calc(100% / 5 * 2);
     padding-right: 30px;
     text-align: justify;
   }
 
   .staff-container {
+    width: calc(100% / 5 * 3);
     border-left: 1px solid #424B54;
     padding-left: 30px;
   }
