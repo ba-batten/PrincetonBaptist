@@ -99,7 +99,7 @@ Designed and built by Brandon Batten
         <!-- <div class="about-container"> -->
 
         <div class="history-container">
-          <h3 class="text-center about-label">History</h3>
+          <h3 class="text-center about-label" id="history">History</h3>
           <img src="images/church-doors.JPG" alt="Front of church building">
           <p>
             Princeton Baptist Church was instituted in September 1889 with eight
@@ -117,7 +117,7 @@ Designed and built by Brandon Batten
         </div>
 
 
-        <div class="staff-container">
+        <div class="staff-container" id="staff">
           <h3 class="text-center about-label">Staff</h3>
           <ul class="staff-pic-list" data-bind="foreach: staff">
             <li class="staff-bio-container">
@@ -128,7 +128,7 @@ Designed and built by Brandon Batten
           </ul>
         </div>
 
-        <div class="beliefs-container">
+        <div class="beliefs-container" id="beliefs">
           <h3 class="text-center about-label">What We Believe</h3>
           <ul class="beliefs-list">
             <li>
@@ -167,19 +167,19 @@ Designed and built by Brandon Batten
         <h2>Ministries</h2>
       </div>
         <ul class="ministries-list container-fluid  ">
-          <li class="awana">
+          <li class="awana" id="awana">
             <img src="images/awana-logo.svg" alt="Awana logo">
           </li>
-          <li class="youth">
+          <li class="youth" id="youth">
             <img src="images/youth_logo_white.svg" alt="Youth logo">
           </li>
-          <li class="music">
+          <li class="music" id="music">
             <img src="images/music_icon.svg" alt="Music icon">
           </li>
-          <li class="seniors">
+          <li class="seniors" id="seniors">
             <img src="images/PBC_lll_logo_white.svg" alt="Tripple L logo">
           </li>
-          <li class="missions">
+          <li class="missions" id="missions">
             <img src="images/missions-white.svg" alt="Missions icon">
           </li>
         </ul>
@@ -209,6 +209,39 @@ Designed and built by Brandon Batten
         </ul>
       </div>
     </section>
+
+    <!-- /////////////////////////////////////////////
+      Footer
+    ///////////////////////////////////////////// -->
+
+    <footer>
+      <div class="container-fluid">
+        <ul class="row">
+          <li class="footer-about col-md-2">
+            <ul><a href="#about"><h3>About</h3></a>
+              <li><a href="#history">History</a></li>
+              <li><a href="#staff">Staff</a></li>
+              <li><a href="#beliefs">Our Beliefs</a></li>
+            </ul>
+          </li>
+          <li class="footer-ministries col-md-2">
+            <ul>
+              <a href="#ministries"><h3>Ministries</h3></a>
+              <li><a href="#awana">AWANA</a></li>
+              <li><a href="#youth">Youth</a></li>
+              <li><a href="#music">Music</a></li>
+              <li><a href="#seniors">Triple Ls</a></li>
+              <li><a href="#missions">Missions</a></li>
+            </ul>
+          </li>
+          <li class="footer-events col-md-2">
+            <a href="#events"><h3>Events</h3></a>
+          </li>
+
+        </ul>
+      </div>
+    </footer>
+
 
     <!-- /////////////////////////////////////////////
       Services modal
@@ -283,6 +316,9 @@ Designed and built by Brandon Batten
       </div>
     </div>
 
+    <!-- /////////////////////////////////////////////
+      Scripts
+    ///////////////////////////////////////////// -->
     <!-- Knockout CDN -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
     <!-- jQuery CDN -->
