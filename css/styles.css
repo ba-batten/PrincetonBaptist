@@ -535,10 +535,12 @@ td {
   .events-img-container {
     display: block;
     overflow: hidden;
+    background: #424B54;
   }
 
-  .events-img-container {
+  .events-img-container img {
     max-height: 145px;
+    margin: 0 auto;
   }
 
   /*
