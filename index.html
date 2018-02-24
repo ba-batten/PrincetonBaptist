@@ -166,7 +166,7 @@ Designed and built by Brandon Batten
       <div class="section-header parallax">
         <h2>Ministries</h2>
       </div>
-        <ul class="ministries-list">
+        <ul class="ministries-list container-fluid  ">
           <li class="awana">
             <img src="images/awana-logo.svg" alt="Awana logo">
           </li>
@@ -183,6 +183,7 @@ Designed and built by Brandon Batten
             <img src="images/missions-white.svg" alt="Missions icon">
           </li>
         </ul>
+
     </section>
 
     <!-- /////////////////////////////////////////////
@@ -193,12 +194,11 @@ Designed and built by Brandon Batten
       <div class="section-header parallax">
         <h2>Events</h2>
       </div>
-      <div class="container">
         <ul class="events" data-bind="foreach: events.slice(0).reverse()">
-          <li class="row">
-            <div class="col-md-3 events-img-container">
+          <li>
+            <!-- <div class="col-md-3 events-img-container">
               <img data-bind="attr: { src: pic, alt: title }" class="img-responsive">
-            </div>
+            </div> -->
             <div class="col-md-9">
               <h3 data-bind="text: title"></h3>
               <h4 data-bind="text: time"></h4>
@@ -206,7 +206,6 @@ Designed and built by Brandon Batten
             </div>
           </li>
         </ul>
-      </div>
     </section>
 
     <!-- /////////////////////////////////////////////
