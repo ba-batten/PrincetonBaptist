@@ -66,9 +66,26 @@ function AppViewModel() {
       description: 'Guest teacher Angie Bridgers will be speaking on \"Biblical ' +
       'Journaling\". You only need to bring your Bible.  Light refreshments will ' +
       'be served.',
-      pic: 'http://via.placeholder.com/350x200'
+      pic: 'images/PBC_icon.svg '
     },
   ]);
+
+  self.contact = ko.observable(
+    {
+      churchAddress: '211 S Pearl St',
+      officeAddress: '201 S Pearl St',
+      mailingAddress: 'PO Box 215',
+      city: 'Princeton',
+      state: 'North Carolina',
+      zip: '27569',
+      churchPhone: '(919) 936-2793',
+      officePhone: '(919) 936-4001',
+      fax: '(919) 936-9937',
+      email: 'prinetonbaptist@embarqmail.com'
+    }
+  );
+
+
 }
 
 var data = new AppViewModel();
