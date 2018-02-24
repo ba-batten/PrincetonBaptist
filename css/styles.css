@@ -305,7 +305,7 @@ Section styles
 }
 
 .events-img-container {
-  visibility: hidden;
+  display: none;
 }
 
 /*
@@ -524,8 +524,21 @@ td {
 
   /* Events styles */
 
+  .events-list li {
+    margin: 40px 0;
+  }
+
+  .events-list li h3 {
+    margin-top: 0;
+  }
+
   .events-img-container {
-    visibility: visible;
+    display: block;
+    overflow: hidden;
+  }
+
+  .events-img-container {
+    max-height: 145px;
   }
 
   /*
