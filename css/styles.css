@@ -308,13 +308,21 @@ Section styles
   display: none;
 }
 
+.events {
+  margin-bottom: 20vh;
+}
+
+.events-list {
+  margin-top: 50px;
+}
+
 /*
 Footer styles
 */
 
 footer {
   background: #424B54;
-  padding: 15px 0 30px;
+  padding: 40px 0 30px;
 }
 
 footer * {
@@ -555,6 +563,10 @@ td {
   }
 
   /* Events styles */
+
+  .events-list {
+    margin-top: 15vh;
+  }
 
   .events-list li {
     margin: 40px 0;
