@@ -85,6 +85,67 @@ function AppViewModel() {
     }
   );
 
+  self.publications = ko.observable(
+    {
+      newsletters: [
+        {
+          edition: 'Jan 2017',
+          file: 'publications/newsletters/january_2017.pdf'
+        },
+        {
+          edition: 'Feb 2017',
+          file: 'publications/newsletters/february_2017.pdf'
+        },
+        {
+          edition: 'April 2017',
+          file: 'publications/newsletters/april_2017.pdf'
+        },
+        {
+          edition: 'May 2017',
+          file: 'publications/newsletters/may_2017.pdf'
+        },
+        {
+          edition: 'June 2017',
+          file: 'publications/newsletters/june_2017.pdf'
+        },
+        {
+          edition: 'July 2017',
+          file: 'publications/newsletters/july_2017.pdf'
+        },
+        {
+          edition: 'Aug 2017',
+          file: 'publications/newsletters/august_2017.pdf'
+        },
+        {
+          edition: 'Sept 2017',
+          file: 'publications/newsletters/september_2017.pdf'
+        },
+        {
+          edition: 'Oct 2017',
+          file: 'publications/newsletters/october_2017.pdf'
+        },
+        {
+          edition: 'Dec 2017',
+          file: 'publications/newsletters/december_2017.pdf'
+        },
+
+        {
+          edition: 'Jan 2018',
+          file: 'publications/newsletters/january_2018.pdf'
+        },
+        {
+          edition: 'Feb 2018',
+          file: 'publications/newsletters/february_2018.pdf'
+        }
+      ],
+      bulletins: [
+        {
+          edition: 'Dec 31, 2017',
+          file: 'publications/bulletins/12-31-2017.pdf'
+        }
+      ]
+    }
+  )
 
 }
 
