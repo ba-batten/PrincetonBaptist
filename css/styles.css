@@ -309,6 +309,33 @@ Section styles
 }
 
 /*
+Footer styles
+*/
+
+footer {
+  background: #424B54;
+  padding: 15px 0 30px;
+}
+
+footer * {
+  font-size: 14px;
+  color: white;
+}
+
+footer h3 {
+  text-decoration: underline;
+}
+
+.footer-publications a {
+  display: block;
+}
+
+.footer-logo {
+  width: 200px;
+  margin: 40px auto 20px;
+}
+
+/*
 Modal styles
 */
 
