@@ -240,6 +240,14 @@ Section styles
   font-size: 13px;
 }
 
+/* Beliefs styles */
+
+.link-container {
+  text-align: left;
+}
+
+
+
 /* Ministries styles */
 
 .ministries .container-fluid {
@@ -526,6 +534,10 @@ td {
     clear: both;
   }
 
+  .link-container {
+    text-align: right;
+  }
+
   /* History styles */
 
   .history-container img {
@@ -551,6 +563,12 @@ td {
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
+  }
+
+  .beliefs-list li {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
   }
 
   /* Ministries styles */

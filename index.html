@@ -125,13 +125,16 @@ Designed and built by Brandon Batten
 
         <div class="beliefs-container" id="beliefs">
           <h3 class="text-center about-label">What We Believe</h3>
-
-          <ul class="beliefs-list" data-bind="foreach: beliefs">
+          <div class="beliefs-img-container">
+          <ul class="beliefs-list" data-bind="foreach: beliefs.slice(0, 7)">
             <li>
               <h4 data-bind="text: topic"></h4>
               <p data-bind="text: text"></p>
             </li>
           </ul>
+          <div class="link-container">
+            <a href="#">More...</a>
+          </div>
         </div>
       <!-- </div>  end container -->
     </div>
