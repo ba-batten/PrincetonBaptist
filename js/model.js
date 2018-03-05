@@ -52,6 +52,7 @@ function AppViewModel() {
   ]);
 
   self.events = ko.observableArray([
+    // default picture url 'images/PBC_icon.svg'
     {
       title: 'Call of the Wild',
       time: 'March 4 at 5:00 PM',
@@ -66,7 +67,7 @@ function AppViewModel() {
       description: 'Guest teacher Angie Bridgers will be speaking on \"Biblical ' +
       'Journaling\". You only need to bring your Bible.  Light refreshments will ' +
       'be served.',
-      pic: 'images/PBC_icon.svg '
+      pic: 'images/PBC_icon.svg'
     },
   ]);
 
