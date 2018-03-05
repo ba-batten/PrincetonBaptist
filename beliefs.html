@@ -75,9 +75,21 @@ Designed and built by Brandon Batten
       </div>
       <div class="container">
         <div class="beliefs-wrapper">
-          <ul class="beliefs-list" data-bind="foreach: beliefs">
+          <div class="intro">
+            <p class="intro-p">
+              Princeton Baptist Church is member of the Southern Baptist Convention, The State
+              Convention of North Carolina, and the Johnston Baptist Association. The Southern
+              Baptist Convention has established a general list of beliefs known as the Baptist
+              Faith and Message.  The following is a summary of those beliefs as they appear on
+              the
+              <a href="http://www.sbc.net/" target="_blank">Southern Baptist Convention website</a>.
+            </p>
+          </div>
+          <hr>
+          <img src="images/bible-small.JPG" alt="Bible" class="bible-img">
+          <ul class="beliefs-ul" data-bind="foreach: beliefs">
             <li>
-              <h4 data-bind="text: topic"></h4>
+              <h4 data-bind="text: topic" class="topic-header"></h4>
               <p data-bind="text: text"></p>
             </li>
           </ul>
