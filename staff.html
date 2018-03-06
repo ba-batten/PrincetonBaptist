@@ -10,18 +10,19 @@ Designed and built by Brandon Batten
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Princeton Baptist Church meets in Princeton, North Carolina and has something for everyone. Ministries include children's church, youth group, women and men's groups, and seniors.">
+    <meta name="description" content="Meet Princeton Baptist Church's staff led by Senior Pastor Dwayne Batten.">
     <meta name="author" content="Brandon Batten">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <title>Princeton Baptist Church | Beliefs</title>
+    <title>Princeton Baptist Church | Staff</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/beliefs_page_styles.css">
+    <link rel="stylesheet" href="css/staff_page_styles.css">
     <!-- or -->
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
@@ -51,9 +52,9 @@ Designed and built by Brandon Batten
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#ministries">Ministries</a></li>
-            <li><a href="#events">Events</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#ministries">Ministries</a></li>
+            <li><a href="index.html#events">Events</a></li>
             <li>
               <a href="https://www.facebook.com/princetonbconnect/" target="blank">
               <img src="images/FB-fLogo_2016_blue.svg" alt="facebook-logo" class="facebook-logo">
@@ -66,31 +67,23 @@ Designed and built by Brandon Batten
 
     <section class="section about">
       <div class="section-header parallax">
-        <h2>Our Beliefs</h2>
+        <h2>Staff</h2>
       </div>
       <div class="container">
-        <div class="beliefs-wrapper">
-          <div class="intro">
-            <p class="intro-p">
-              Princeton Baptist Church is member of the Southern Baptist Convention, The State
-              Convention of North Carolina, and the Johnston Baptist Association. The Southern
-              Baptist Convention has established a general list of beliefs known as the Baptist
-              Faith and Message.  The following is a summary of those beliefs as they appear on
-              the
-              <a href="http://www.sbc.net/" target="_blank">Southern Baptist Convention website</a>.
-            </p>
-          </div>
-          <hr>
-          <img src="images/bible-small.JPG" alt="Bible" class="bible-img">
-          <ul class="beliefs-ul" data-bind="foreach: beliefs">
-            <li>
-              <h4 data-bind="text: topic" class="topic-header"></h4>
-              <p data-bind="text: text"></p>
-            </li>
-          </ul>
-        </div>
-      <!-- </div>  end container -->
-    </div>
+        <ul data-bind="foreach: staff">
+          <li class="staff-listing row" data-bind="attr: { id: id }">
+            <div class="staff-img-container col-md-3">
+              <img data-bind="attr: { src: pic, alt: name }" class="img-responsive">
+            </div>
+            <div class="staff-name-pos col-md-9">
+              <h2 data-bind="text: name" class="name"></h2>
+              <h3 data-bind="text: position" class="position"></h3>
+              <a data-bind="attr: { href: 'mailto:' + email }" target="_top" class="email">Email</a>
+              <p data-bind="text: bio" class="bio"></p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- /////////////////////////////////////////////
@@ -161,9 +154,8 @@ Designed and built by Brandon Batten
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
-      <script type="text/javascript" src="js/model.js">
-
-      </script>
+    <!-- model.js -->
+    <script type="text/javascript" src="js/model.js"></script>
     <!-- Bootstrap js CDN -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Google Map logic -->
@@ -176,7 +168,7 @@ Designed and built by Brandon Batten
         $(window).resize(function() {
           if (window.innerWidth < 768){
             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
-            // $('.navbar-default').css('background', '#f8f8f8');
+            $('.navbar-default').css('background', '#f8f8f8');
           }
           if (window.innerWidth >= 768 && window.innerWidth < 1000){
             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '200px');

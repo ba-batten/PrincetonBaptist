@@ -115,11 +115,13 @@ Designed and built by Brandon Batten
 
         <div class="staff-container" id="staff">
           <h3 class="text-center about-label">Staff</h3>
+          <a href="staff.html">Staff Info</a>
           <ul class="staff-pic-list" data-bind="foreach: staff">
             <li class="staff-bio-container">
               <img data-bind="attr: { src: pic, alt: name }" class="img-responsive">
               <h4 data-bind="text: name"></h4>
               <h5 data-bind="text: position"></h5>
+              <a data-bind="attr: { href: 'staff.html#' + id }" class="staff-bio-link">More info</a>
             </li>
           </ul>
         </div>
@@ -240,7 +242,7 @@ Designed and built by Brandon Batten
             <h3>Publications</h3>
             <a href="#">Newsletters</a>
             <a href="#">Bulletins</a>
-            <a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html">
+            <a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html" target="_blank">
               Download Adobe Acrobat
             </a>
           </li>
@@ -335,9 +337,8 @@ Designed and built by Brandon Batten
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
-      <script type="text/javascript" src="js/model.js">
-
-      </script>
+    <!-- model.js -->
+    <script type="text/javascript" src="js/model.js"></script>
     <!-- Bootstrap js CDN -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Google Map logic -->

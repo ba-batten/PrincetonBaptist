@@ -1,0 +1,31 @@
+.container {
+  margin-top: 50px;
+}
+
+.staff-listing {
+  margin: 20px 0 30px;
+}
+
+.staff-img-container img {
+  /* max-height: 200px; */
+  margin: 0 auto 20px;
+}
+
+.name {
+  font-size: 24px;
+  color: #CA002B;
+
+}
+
+.section h3 {
+  font-size: 20px;
+  color: #214478;
+}
+
+.name, .position {
+  margin: 0 0 10px;
+}
+
+.email {
+  margin-bottom: 10px;
+}

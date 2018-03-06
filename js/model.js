@@ -2,8 +2,11 @@ function AppViewModel() {
   var self = this;
 
   self.staff = ko.observableArray([
+    // Staff pics need to be 350x400
     {
       name: 'Dwayne Batten',
+      id: 'dwayneBatten',
+      email: 'rdb114@juno.com',
       position: 'Senior Pastor',
       bio: 'Pastor Dwayne attended Piedmont International University and ' +
       'received a bachelor of Theology as well as a Masters in Pastoral Studies.' +
@@ -14,6 +17,8 @@ function AppViewModel() {
     },
     {
       name: 'RJ Smith',
+      id: 'rjSmith',
+      email: 'rjsmith150@yahoo.com',
       position: 'Youth Pastor',
       bio: 'RJ has been in youth ministry since 2009, and joined the Princeton ' +
       'Baptist Church staff in 2017. He is married to Brandee and they have two ' +
@@ -29,6 +34,8 @@ function AppViewModel() {
     },
     {
       name: 'Trevor Clatterbuck',
+      id: 'trevorClatterbuck',
+      email: 'twbuck10@gmail.com',
       position: 'Worship Pastor',
       bio: 'Trevor has served as Worship pastor at several churches in Virginia ' +
       'and Louisiana. He has also served as youth pastor at churches in Virginia' +
@@ -42,6 +49,8 @@ function AppViewModel() {
     },
     {
       name: 'Peggy Jordan',
+      id: 'peggyJordan',
+      email: '',
       position: 'Secretary',
       bio: 'Peggy is our church secretary.  She attended Hardbarger Business ' +
       'College in Raleigh.  She is married to Harvey and they reside in ' +

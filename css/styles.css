@@ -250,6 +250,11 @@ Section styles
   font-size: 13px;
 }
 
+.staff-bio-link {
+  color: white;
+  text-decoration: underline;
+}
+
 /* Beliefs styles */
 
 .link-container {
