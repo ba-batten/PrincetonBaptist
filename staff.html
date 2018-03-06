@@ -100,13 +100,18 @@ Designed and built by Brandon Batten
             <h3>Contact</h3>
             <h4>211 South Pearl St<br>Princeton, NC 27569</h4>
             <h4>(919) 936-4001</h4>
-            <h4>princtonbaptist@embarqmail.com</h4>
+            <h4>princetonbaptist@embarqmail.com</h4>
           </li>
           <li class="footer-about col-md-2">
             <ul><a href="#about"><h3>About</h3></a>
               <li><a href="#history">History</a></li>
-              <li><a href="#staff">Staff</a></li>
-              <li><a href="#beliefs">Our Beliefs</a></li>
+              <li>
+                <a href="staff.html">Staff</a>
+                <ul data-bind="foreach: staff" class="footer-staff-list">
+                  <a data-bind="attr: { href: 'staff.html#' + id }, text: name"></a>
+                </ul>
+              </li>
+              <li><a href="beliefs.html">Our Beliefs</a></li>
             </ul>
           </li>
           <li class="footer-ministries col-md-2">
@@ -133,7 +138,7 @@ Designed and built by Brandon Batten
             <h3>Publications</h3>
             <a href="#">Newsletters</a>
             <a href="#">Bulletins</a>
-            <a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html">
+            <a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html" target="_blank">
               Download Adobe Acrobat
             </a>
           </li>

@@ -115,7 +115,6 @@ Designed and built by Brandon Batten
 
         <div class="staff-container" id="staff">
           <h3 class="text-center about-label">Staff</h3>
-          <a href="staff.html">Staff Info</a>
           <ul class="staff-pic-list" data-bind="foreach: staff">
             <li class="staff-bio-container">
               <img data-bind="attr: { src: pic, alt: name }" class="img-responsive">
@@ -209,13 +208,18 @@ Designed and built by Brandon Batten
             <h3>Contact</h3>
             <h4>211 South Pearl St<br>Princeton, NC 27569</h4>
             <h4>(919) 936-4001</h4>
-            <h4>princtonbaptist@embarqmail.com</h4>
+            <h4>princetonbaptist@embarqmail.com</h4>
           </li>
           <li class="footer-about col-md-2">
             <ul><a href="#about"><h3>About</h3></a>
               <li><a href="#history">History</a></li>
-              <li><a href="#staff">Staff</a></li>
-              <li><a href="#beliefs">Our Beliefs</a></li>
+              <li>
+                <a href="staff.html">Staff</a>
+                <ul data-bind="foreach: staff" class="footer-staff-list">
+                  <a data-bind="attr: { href: 'staff.html#' + id }, text: name"></a>
+                </ul>
+              </li>
+              <li><a href="beliefs.html">Our Beliefs</a></li>
             </ul>
           </li>
           <li class="footer-ministries col-md-2">

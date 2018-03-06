@@ -371,6 +371,11 @@ footer h3 {
   margin: 40px auto 20px;
 }
 
+.footer-staff-list a {
+  display: block;
+  margin-left: 8px;
+}
+
 /*
 Modal styles
 */
