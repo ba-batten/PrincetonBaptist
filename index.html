@@ -15,7 +15,7 @@ Designed and built by Brandon Batten
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <title>Princeton Baptist Church | Connecting with God. Connecting with Others. Connecting Others with God. | Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
@@ -53,7 +53,7 @@ Designed and built by Brandon Batten
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#ministries">Ministries</a></li>
             <li><a href="#events">Events</a></li>
@@ -70,7 +70,7 @@ Designed and built by Brandon Batten
     <!-- /////////////////////////////////////////////
       Home section
     ///////////////////////////////////////////// -->
-    <section class= "home parallax">
+    <section class= "home parallax" id="home">
       <div class="headline-container">
         <h1 class="animated fadeInDown">Connecting with God.<br>
             Connecting with Others.<br>
@@ -349,45 +349,48 @@ Designed and built by Brandon Batten
      $(document).ready(function(){
        $(window).resize(function() {
          if (window.innerWidth < 768){
-           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
+           // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
            // $('.navbar-default').css('background', '#f8f8f8');
          }
          if (window.innerWidth >= 768 && window.innerWidth < 1000){
-           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
+           // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '200px');
          }
          if (window.innerWidth > 1000){
-           $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
+           // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
          }
        });
 
        $(window).scroll(function(){
-         var scroll = $(window).scrollTop();
+         var scroll = $(document).scrollTop();
          if (window.innerWidth < 768){
-           if (scroll <= (window.innerHeight * 0.6  )) {
-             // $('.navbar-default').css('background', '#f8f8f8');
+           if (scroll <= (window.innerHeight * 0.8  )) {
+             $('.navbar-default').css('background', '#f8f8f8');
            }
          }
 
-         if (window.innerWidth >= 768 && window.innerWidth < 1000){
-           if (scroll > (window.innerHeight * 0.6 )) {
-             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '110px');
+         if (window.innerWidth > 768){
+           if (scroll > (window.innerHeight * 0.8 )) {
+             $('.navbar-default').css('background', '#424b5499');
+             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '110px');
              // $('.navbar-default').css('background', '#424B5466');
            }
            else {
-             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
+             $('.navbar-default').css('background', 'none');
+
+             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
              // $('.navbar-default').css('background', 'none');
 
            }
          }
 
          if (window.innerWidth >= 1000) {
-           if (scroll > (window.innerHeight * 0.6 )) {
-             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '120px');
+           if (scroll > (window.innerHeight * 0.8 )) {
+             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '120px');
              // $('.navbar-default').css('background', '#424B5466');
 
            }
            else {
-             $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
+             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
              // $('.navbar-default').css('background', 'none');
            }
          }
