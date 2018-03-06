@@ -157,6 +157,70 @@ function AppViewModel() {
     }
   )
 
+  self.awana = ko.observableArray([
+    {
+      group: 'AWANA',
+      pic: '',
+      description: 'AWANA is a scripture memory club for children that is filled ' +
+      'with fun games and Bible learning, and is a great tool for discipleship for ' +
+      'families.\n\nAWANA is an acronym that stands for Approved Workmen Are Not ' +
+      'Ashamed (taken from 2 Timothy 2:15). Your child will learn Bible verses that ' +
+      'will be hidden in their hearts that will help them for years to come!\n\nAWANA ' +
+      'is intended to be a parent participation program. We need parents\' help in ' +
+      'order to make the AWANA club great. We ask parents to work alongside their ' +
+      'children at club night and throughout the week, to ensure we have a strong ' +
+      'program and to maximize discipleship.'
+    },
+    {
+      group: 'Puggles',
+      pic: '',
+      description: 'Puggles is an enriching program for your pre-Cubbies kids ' +
+      '(usually older 2- and younger 3-year-olds) that presents basic biblical' +
+      ' concepts:\n' + '•   We are a unique creation of God.\n•   God loves us very much.\n' +
+      'Puggles teaches toddlers simple lessons through teaching cards, activities, ' +
+      'music and more. Then parents—an Awana Puggle’s first and best teacher—can ' +
+      'step in to reinforce the lessons with take-home cards that include ideas ' +
+      'to point out God’s work each day. And little details like Awana Puggles ' +
+      'T-shirts, puzzles and coloring books make every precious child feel like ' +
+      'part of the group.'
+    },
+    {
+      group: 'Cubbies',
+      pic: '',
+      description: 'Cubbies (four year olds by September 1) - Fun... and lots of ' +
+      'it! Awana Cubbies is fun with a purpose; to reach and train kids for Jesus ' +
+      'Christ. Games, puppets, awards and other activities transform our preschool ' +
+      'program into a lively weekly experience where fun and learning go hand in hand.'
+    },
+    {
+      group: 'Sparks',
+      pic: '',
+      description: 'Sparks (kindergarten - second grade) - Fun Learning = Results. ' +
+      'Sparks club meetings combine learning with fun to create an atmosphere of ' +
+      'irresistible excitement for all kids. Club meetings are divided into three segments:\n' +
+      '•    Bible teaching, worship, award presentations and the gospel message\n' +
+      '•    Small group interaction and completion of Bible-based lessons\n' +
+      '•    Age-appropriate games on the Awana game circle\n' +
+      'Along the way, Sparky, the friendly firefly, and his three friends have many ' +
+      'exciting adventures. Sparky encourages kids to learn verses and complete ' +
+      'assignments throughout the three handbooks.'
+    },
+    {
+      group: 'Truth & Training',
+      pic: '',
+      description: 'Truth and Training (third - sixth grade) - Exciting features ' +
+      'to get kids excited about God\'s Word. Truth & Training is equipped with a ' +
+      'variety of dynamic tools to accomplish this mission:\n' +
+      '•    Four handbooks of increasing difficulty which teach children that life\'s '+
+      'ultimate adventure is a personal relationship with Jesus Christ\n' +
+      '•    Weekly meetings that expose children to the gospel message, Scripture ' +
+      'memory, Bible study, awards, team-oriented games and gut-busting fun\n' +
+      '•    A Bible-centered curriculum that helps kids build a firm foundation ' +
+      'for their faith, hide God\'s Word in their heart and apply the truths of ' +
+      'Scripture to their daily lives.'
+    }
+  ]);
+
   self.beliefs = ko.observableArray([
     {
       id: 'theScriptures',
