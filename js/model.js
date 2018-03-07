@@ -160,7 +160,7 @@ function AppViewModel() {
   self.awana = ko.observableArray([
     {
       group: 'AWANA',
-      pic: '',
+      pic: 'images/awana-clubs-logo-color.svg',
       description: 'AWANA is a scripture memory club for children that is filled ' +
       'with fun games and Bible learning, and is a great tool for discipleship for ' +
       'families.\n\nAWANA is an acronym that stands for Approved Workmen Are Not ' +
@@ -173,7 +173,7 @@ function AppViewModel() {
     },
     {
       group: 'Puggles',
-      pic: '',
+      pic: 'images/puggles.svg',
       description: 'Puggles is an enriching program for your pre-Cubbies kids ' +
       '(usually older 2- and younger 3-year-olds) that presents basic biblical' +
       ' concepts:\n' + '•   We are a unique creation of God.\n•   God loves us very much.\n' +
@@ -186,7 +186,7 @@ function AppViewModel() {
     },
     {
       group: 'Cubbies',
-      pic: '',
+      pic: 'images/CubbiesLogo.svg',
       description: 'Cubbies (four year olds by September 1) - Fun... and lots of ' +
       'it! Awana Cubbies is fun with a purpose; to reach and train kids for Jesus ' +
       'Christ. Games, puppets, awards and other activities transform our preschool ' +
@@ -194,7 +194,7 @@ function AppViewModel() {
     },
     {
       group: 'Sparks',
-      pic: '',
+      pic: 'images/sparks-logo-color.svg',
       description: 'Sparks (kindergarten - second grade) - Fun Learning = Results. ' +
       'Sparks club meetings combine learning with fun to create an atmosphere of ' +
       'irresistible excitement for all kids. Club meetings are divided into three segments:\n' +
@@ -207,7 +207,7 @@ function AppViewModel() {
     },
     {
       group: 'Truth & Training',
-      pic: '',
+      pic: 'images/TT_logo_large.svg',
       description: 'Truth and Training (third - sixth grade) - Exciting features ' +
       'to get kids excited about God\'s Word. Truth & Training is equipped with a ' +
       'variety of dynamic tools to accomplish this mission:\n' +

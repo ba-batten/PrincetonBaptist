@@ -1,7 +1,50 @@
+.container {
+  margin: 30px auto;
+}
+
 .meeting-time {
   text-align: center;
+  font-size: 18px;
+}
+
+.class-list li {
+  margin-top: 50px;
 }
 
 .class-list p {
   white-space: pre-wrap;
+}
+
+.group-name {
+  display: none;
+}
+
+.awana-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .meeting-time {
+    font-size: 24px;
+  }
+
+  .group-name {
+    display: block;
+    margin-top: 0;
+  }
+
+  .awana-img {
+    width: 30%;
+    display: inline-block;
+    margin-right: 70px;
+    float: left;
+    clear: left;
+  }
+
+  .awana-container {
+    width: calc(70% - 70px);
+    display: inline-block;
+  }
 }
