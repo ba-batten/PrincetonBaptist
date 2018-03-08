@@ -191,9 +191,12 @@ Section styles
   text-align: center;
 }
 
-.section-header h2 {
+.section-header h2,
+.section-header h1 {
   position: relative;
   top: 60%;
+  color: white;
+  font-size: 30px;
 }
 
 .about * {
@@ -531,9 +534,11 @@ td {
     text-align: center;
   }
 
-  .section-header h2 {
+  .section-header h2,
+  .section-header h1 {
     font-size: 60px;
     top: 50%;
+    color: white;
   }
 
   .history-container,
