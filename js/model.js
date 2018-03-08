@@ -13,7 +13,7 @@ function AppViewModel() {
       ' He has pastored churches in Ohio, Tennessee, and North Carolina. He is ' +
       'married to Debbie and they have two grown sons.  Pastor Dwayne has been ' +
       'on staff at PBC since September 2004.',
-      pic: 'http://via.placeholder.com/350x400'
+      pic: 'images/dwayne.jpg'
     },
     {
       name: 'RJ Smith',
@@ -30,7 +30,7 @@ function AppViewModel() {
       'not uncommon to see him on a Friday night at a football game then on a ' +
       'Saturday night at a dance recital! He loves to support the youth in any ' +
       'way he can.',
-      pic: 'http://via.placeholder.com/350x400'
+      pic: 'images/rj.jpg'
     },
     {
       name: 'Trevor Clatterbuck',
@@ -45,7 +45,7 @@ function AppViewModel() {
       'Bluefield College. He is also working to complete an MDiv, from ' +
       'Southeastern Baptist Theological Seminary. Trevor is married to his ' +
       'college sweetheart, Mary Ann, and they have a son, Caleb.',
-      pic: 'http://via.placeholder.com/350x400'
+      pic: 'images/trevor.jpg'
     },
     {
       name: 'Peggy Jordan',
@@ -56,7 +56,7 @@ function AppViewModel() {
       'College in Raleigh.  She is married to Harvey and they reside in ' +
       'Rosewood.  She has two daughters and four grandchildren.  Peggy has been ' +
       'on staff at PBC since October 2010.',
-      pic: 'http://via.placeholder.com/350x400'
+      pic: 'images/peggy.jpg'
     }
   ]);
 
