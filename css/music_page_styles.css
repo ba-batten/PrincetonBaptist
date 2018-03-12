@@ -1,22 +1,48 @@
+p {
+  font-size: 16px;
+}
+
 .container {
   margin: 20px auto;
 }
 
 .about .section-header {
   height: auto;
+  margin-top: 60px;
   background-image: linear-gradient(
-    #17121977, #17121977),
+    #171219c9, #171219c9),
     url("../images/choir.jpg");
-  background-position: 0% 15%;
+  background-position: center;
   background-size: cover;
 }
 
 .header-logo {
   height: 100px;
-  margin: 90px 0 20px;
+  margin: 60px 0 20px;
+}
+
+.headline {
+  margin: 20px auto;
+  color: #CA002B;
+}
+
+.praise-team {
+  display: block;
+  margin: 20px auto;
+}
+
+.contact-trevor {
+  margin: 40px auto 40px;
+  text-align: center;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {
+
+  .about .section-header {
+    background-position: 0% 15%;
+    margin-top: 0;
+  }
 
   .container {
     margin-top: 50px;
@@ -24,6 +50,21 @@
 
   .header-logo {
     height: 200px;
+    margin-top: 80px;
+  }
+
+  .headline {
+    margin-bottom: 40px;
+  }
+
+  .praise-team {
+    float: left;
+    clear: left;
+    margin: 0 20px 20px 0;
+  }
+
+  .contact-trevor {
+    margin-top: 80px;
   }
 
 }
