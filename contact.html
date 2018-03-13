@@ -76,12 +76,12 @@ Designed and built by Brandon Batten
       <div class="container">
         <article class="main-content row">
           <picture class="church-pic">
-            <source media="(min-width: 992px)" srcset="images/church_wide_angle_992.jpg" class="img-responsive">
-            <source media="(min-width: 1200px)" srcset="images/church_wide_angle_1200.jpg" class="img-responsive">
+            <source media="(min-width: 992px)" srcset="images/church_wide_angle_1200.jpg" class="img-responsive">
+            <source media="(min-width: 768px)" srcset="images/church_wide_angle_992.jpg" class="img-responsive">
             <img src="images/church_wide_angle_768.jpg" alt="Princeton Baptist Church" class="img-responsive">
           </picture>
           <ul data-bind="with: contact" class="contact-list row">
-            <li class="col-md-4">
+            <li class="col-sm-4 contact-list-item">
               <h2>Address</h2>
               <address class="church-address">
                 <span>Princeton Baptist Church</span><br>
@@ -89,7 +89,7 @@ Designed and built by Brandon Batten
                 <span data-bind="text: city + ', ' + state + ' ' + zip"></span>
               </address>
             </li>
-            <li class="col-md-4">
+            <li class="col-sm-4 contact-list-item">
               <h2>Phone and Email</h2>
               <p>
                 <span class="bold">Office Phone: </span><span data-bind="text: officePhone"></span><br>
@@ -100,8 +100,8 @@ Designed and built by Brandon Batten
                   View all <a href="staff.html">pastors and staff</a> or call the main office phone number and the receptionist can help you.
                 </p>
               </p>
-            </li class="col-md-4">
-            <li>
+            </li>
+            <li class="col-sm-4 contact-list-item">
               <h2>Office Information</h2>
               <address class="church-address">
                 <span>Princeton Baptist Church</span><br>
@@ -109,7 +109,6 @@ Designed and built by Brandon Batten
                 <span data-bind="text: city + ', ' + state + ' ' + zip"></span>
               </address>
             </li>
-
           </ul>
         </article>
       </div>
