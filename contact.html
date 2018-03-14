@@ -74,13 +74,15 @@ Designed and built by Brandon Batten
         <h1>Contact</h1>
       </div>
       <div class="container">
-        <article class="main-content row">
+        <article class="main-content">
           <picture class="church-pic">
             <source media="(min-width: 992px)" srcset="images/church_wide_angle_1200.jpg" class="img-responsive">
             <source media="(min-width: 768px)" srcset="images/church_wide_angle_992.jpg" class="img-responsive">
             <img src="images/church_wide_angle_768.jpg" alt="Princeton Baptist Church" class="img-responsive">
           </picture>
+          <div id="contact-map" class=  "map"></div>
           <ul data-bind="with: contact" class="contact-list row">
+            <!-- <li class="col-sm-3 contact-list-item map" id="contact-map"></li> -->
             <li class="col-sm-4 contact-list-item">
               <h2>Address</h2>
               <address class="church-address">
@@ -92,10 +94,10 @@ Designed and built by Brandon Batten
             <li class="col-sm-4 contact-list-item">
               <h2>Phone and Email</h2>
               <p>
-                <span class="bold">Office Phone: </span><span data-bind="text: officePhone"></span><br>
-                <span class="bold">Church Phone: </span><span data-bind="text: churchPhone"></span><br>
+                <span class="bold">Office Phone: </span><a data-bind="attr: {href: 'tel:' + officeTel}, text: officePhone"></a><br>
+                <span class="bold">Church Phone: </span><a data-bind="attr: {href: 'tel:' + churchTel}, text: churchPhone"></a></span><br>
                 <span class="bold">Fax: </span><span data-bind="text: fax"></span><br>
-                <span class="bold">Email: </span><a data-bind="attr: { href: 'mailto: ' + email }"><span data-bind="text: email"></span></a><br>
+                <span class="bold">Email: </span><a data-bind="attr: { href: 'mailto: ' + email }, text: email"></a><br>
                 <p>
                   View all <a href="staff.html">pastors and staff</a> or call the main office phone number and the receptionist can help you.
                 </p>
@@ -105,7 +107,7 @@ Designed and built by Brandon Batten
               <h2>Office Information</h2>
               <address class="church-address">
                 <span>Princeton Baptist Church</span><br>
-                <span data-bind="text: churchAddress"></span><br>
+                <span data-bind="text: officeAddress"></span><br>
                 <span data-bind="text: city + ', ' + state + ' ' + zip"></span>
               </address>
             </li>
@@ -196,7 +198,7 @@ Designed and built by Brandon Batten
     <!-- Google Map logic -->
     <script type="text/javascript" src="js/map.js"></script>
     <!-- Initialize Map -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGL_wEbysdduJdV4SryzBmJV_KjTFVWDY&callback=footerMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGL_wEbysdduJdV4SryzBmJV_KjTFVWDY&callback=footerAndContactMaps"></script>
     <!-- Change width of .navbar-brand on scroll -->
     <script async>
       $(document).ready(function(){
