@@ -89,9 +89,11 @@ function AppViewModel() {
       state: 'North Carolina',
       zip: '27569',
       churchPhone: '(919) 936-2793',
+      churchTel: '1-919-936-2793',
       officePhone: '(919) 936-4001',
+      officeTel: '1-919-936-4001',
       fax: '(919) 936-9937',
-      email: 'prinetonbaptist@embarqmail.com'
+      email: 'princetonbaptist@embarqmail.com'
     }
   );
 
