@@ -35,7 +35,7 @@
      inkscape:snap-to-guides="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:guide-bbox="true"
      showguides="true"
      inkscape:snap-center="true"
@@ -50,10 +50,10 @@
      inkscape:snap-bbox="true"
      showborder="true"
      showgrid="false"
-     inkscape:current-layer="text5258"
+     inkscape:current-layer="g5369-0"
      inkscape:document-units="px"
-     inkscape:cy="91.561283"
-     inkscape:cx="285.07153"
+     inkscape:cy="128.16621"
+     inkscape:cx="512.96594"
      inkscape:zoom="1.1919921"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -324,7 +324,10 @@
           </g>
           <g
              id="text5258-3"
-             style="font-style:normal;font-weight:normal;font-size:134.68722534px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+             style="font-style:normal;font-weight:normal;font-size:134.68722534px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             inkscape:transform-center-x="0.66193539"
+             inkscape:transform-center-y="-129.23121"
+             transform="matrix(0.97334163,0.22936011,-0.22936011,0.97334163,40.895771,177.96047)">
             <path
                id="path5335-6"
                style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:Merriweather;-inkscape-font-specification:'Merriweather Light';letter-spacing:32px"
@@ -374,16 +377,6 @@
                id="path5353-8"
                style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:Merriweather;-inkscape-font-specification:'Merriweather Light';letter-spacing:32px"
                d="m -349.34884,-121.14825 q -10.11207,-10.07841 -12.98922,-22.07365 -2.87715,-11.99524 1.19825,-23.90683 4.07539,-11.91159 14.1538,-22.02367 11.59968,-11.63842 24.64111,-15.37445 13.2319,-3.73636 25.71429,-0.0429 12.57746,3.59809 22.68954,13.6765 6.29619,6.27523 10.40111,12.07793 4.10493,5.8027 8.21112,12.3673 l -16.54634,15.07525 -4.96064,-4.94412 8.83539,-13.06239 q -0.29032,-2.76143 -2.96461,-7.32841 -2.48381,-4.56731 -8.39842,-10.46223 -7.53635,-7.51126 -16.87381,-9.9719 -9.24207,-2.36555 -19.42667,1.17525 -10.08953,3.4454 -19.8827,13.27128 -8.7473,8.77652 -13.58746,18.97509 -4.74475,10.29366 -3.87062,20.48271 0.87413,10.18905 8.79207,18.08063 5.05604,5.03921 10.68064,8.36318 5.81508,3.32365 10.38747,3.88745 l 21.67809,-21.75049 -12.30938,-14.17 5.03921,-5.05603 27.09272,27.00253 -5.03921,5.05604 -6.77,-4.84587 -25.76651,25.85255 q -2.09841,-1.90127 -8.38952,-5.12888 -6.38651,-3.3227 -11.43969,-6.64762 -4.95778,-3.22984 -10.30001,-8.55428 z"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path5355-4"
-               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:Merriweather;-inkscape-font-specification:'Merriweather Light';letter-spacing:32px"
-               d="m -207.34014,-97.626615 -4.78273,-10.359585 4.89851,-3.08977 35.56833,56.389768 -15.74008,12.15758 -3.44905,-5.468099 8.99611,-9.973907 -18.68761,-30.889494 -33.15035,20.90987 13.56312,20.74548 10.38937,-4.48304 3.59276,5.695936 -25.17603,15.880004 -3.59277,-5.695936 8.74898,-7.588638 -12.87961,-21.17661 -35.08696,22.131408 22.89904,34.2842881 17.90446,-3.1720481 1.74027,6.5459271 -21.47978,8.6120523 -38.94553,-61.7439484 4.89851,-3.089774 7.20482,9.150313 72.56622,-45.771777 z"
-               inkscape:connector-curvature="0" />
-            <path
-               id="path5357-5"
-               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:Merriweather;-inkscape-font-specification:'Merriweather Light';letter-spacing:32px"
-               d="m -226.84271,43.534503 5.04597,10.496466 80.90064,-28.967728 -2.11068,-10.689128 5.19895,-1.861563 5.53928,15.470028 q 1.22591,3.423695 4.00332,9.582254 2.6866,5.904952 3.73089,8.821433 6.49277,18.132901 3.17584,28.047305 -3.31692,9.914404 -15.99727,14.4548 -9.25666,3.31449 -18.59963,0.79438 -9.29756,-2.393307 -14.96651,-10.234669 -0.97515,4.068758 -4.86679,9.181808 -3.71943,5.194449 -10.82492,13.318061 -6.19128,7.08096 -9.21411,11.02456 -2.85062,4.02499 -2.50457,6.19006 l 0.51213,5.82519 -5.32575,1.90696 -5.31226,-14.83601 q -0.72647,-2.02885 2.63137,-6.23546 3.35784,-4.20661 11.26955,-12.475844 8.66313,-8.967472 13.01658,-14.388941 4.39885,-5.294666 5.1204,-9.272616 -5.53928,-15.470028 -6.27516,-17.924698 l -35.37817,12.667705 3.53537,13.469397 -5.45255,1.95237 -12.30447,-34.36375 5.45255,-1.95237 z m 56.36338,23.165731 q 3.13287,8.749441 10.40158,11.869211 7.26871,3.11977 17.7934,-0.648759 9.25666,-3.314489 12.46723,-10.329591 3.33738,-7.060506 -1.29382,-19.994464 -1.58914,-4.438123 -3.64009,-8.567826 -1.3433,-2.952476 -1.66113,-3.840101 l -40.0699,14.347652 q 0.69046,2.327867 3.14228,9.175257 l 2.86045,7.988621 z"
                inkscape:connector-curvature="0" />
           </g>
           <circle
