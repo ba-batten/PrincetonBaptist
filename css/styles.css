@@ -77,6 +77,10 @@ Navbar styles
   text-align: center;
 }
 
+.dropdown-menu {
+  text-align: center;
+}
+
 .navbar-logo {
   width: 200px;
   margin: 0;
@@ -485,6 +489,38 @@ Modal styles
     color: white;
     border: 3px solid white;
     padding: 7px;
+    min-width: 120px;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover,
+  .navbar-default .navbar-nav>li>a:visited {
+    color: white;
+  }
+
+  .navbar-default .navbar-nav>.open>a,
+  .navbar-default .navbar-nav>.open>a:focus,
+  .navbar-default .navbar-nav>.open>a:hover {
+    background-color: rgba(0,0,0,0);
+    color: white;
+  }
+
+  .navbar-nav>li>.dropdown-menu {
+    background: rgba(66, 75, 84, 0.0);
+    text-align: left;
+    border: none;
+    box-shadow: none;
+    min-width: inherit;
+    text-align: left;
+    position: relative;
+  }
+
+  .dropdown-menu>li>a {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;
   }
 
   /*.navbar-default .navbar-brand:focus,
