@@ -321,6 +321,71 @@ function AppViewModel() {
       text: 'God has ordained the family as the foundational institution of human society. It is composed of persons related to one another by marriage, blood or adoption.  Marriage is the uniting of one man and one woman in covenant commitment for a lifetime. ... The husband and wife are of equal worth before God, since both are created in God\'s image. A husband is to love his wife as Christ loved the church. He has the God-given responsibility to provide for, to protect, and to lead his family. A wife is to submit herself graciously to the servant leadership of her husband even as the church willingly submits to the headship of Christ. She, being in the image of God as is her husband and thus equal to him, has the God-given responsibility to respect her husband and to serve as his helper in managing the household and nurturing the next generation... Children, from the moment of conception, are a blessing and heritage from the Lord. Parents are to demonstrate to their children God\'s pattern for marriage.'
     }
   ]);
+
+  self.missions = ko.observableArray([
+    {
+      topic: 'Prepare',
+      text: 'By empowering leaders and mission teams to create strategies and plans ' +
+      'to take the gospel to their community, stated, continent, and world.'
+    },
+    {
+      topic: 'Learn',
+      text: 'About missions and increasing awareness of missions needs and missionaries ' +
+      'by training its members.'
+    },
+    {
+      topic: 'Pray',
+      text: 'For a Kingdom and perspective and worldwide vision, to intercede for ' +
+      'Christian workers and for unevangelized people at home and abroad.'
+    },
+    {
+      topic: 'Give',
+      text: 'To increase its financial support of the Cooperative Program and ' +
+      'other cooperative missions by providing information and resources to its members.'
+    },
+    {
+      topic: 'Go',
+      text: 'By educating the church about opportunities to participate in short-term, ' +
+      'long-term, and marketplace ministries that helps to spread the gospel beyond ' +
+      'the church\'s walls.'
+    },
+    {
+      topic: 'Tell',
+      text: 'By involving an increasing number of our members in intentional, ' +
+      'culturally relevant evangelism.'
+    },
+    {
+      topic: 'Send',
+      text: 'By providing our members with opportunities to hear God\'s call to ' +
+      'vocational mission service.'
+    },
+    {
+      topic: 'Multiply',
+      text: 'By participating in church planting, and facilitating church planting ' +
+      'movements that reach people that existing churches do not.'
+    }
+  ]);
+
+  self.missionsPics = ko.observableArray([
+    {
+      url: 'images/ramp_build.jpg',
+      altText: 'PBC Ramp Ministry',
+      caption: 'PBC serves the community (Jerusalem) by building handicap ' +
+        'access ramps for local residents and sharing the Gospel with them.'
+    },
+    {
+      url: 'images/baptist_men.jpg',
+      altText: 'Baptist Men',
+      caption: 'PBC has partnered with the North Carolina Baptist ' +
+      'Men to provide disaster relief across the entire state and region (Judea and Samaria)'
+    },
+    {
+      url: 'images/uganda_kids.jpg',
+      altText: 'Uganda',
+      caption: 'PBC is actively involved with a church in Uganda (World) ' +
+        'that reaches children with the Gospel through a school and an orphanage'
+    }
+  ]);
 }
 
 var data = new AppViewModel();
