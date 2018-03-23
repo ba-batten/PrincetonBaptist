@@ -54,8 +54,26 @@ Designed and built by Brandon Batten
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#ministries">Ministries</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="beliefs.html">Beliefs</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ministries <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#ministries">Ministries</a></li>
+                <li><a href="awana.html">AWANA</a></li>
+                <li><a href="youth.html">Youth</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="seniors.html">Seniors</a></li>
+                <li><a href="missions.html">Missions</a></li>
+              </ul>
+            </li>
             <li><a href="#events">Events</a></li>
             <li>
               <a href="https://www.facebook.com/princetonbconnect/" target="blank">
@@ -238,10 +256,10 @@ Designed and built by Brandon Batten
             <ul>
               <a href="#ministries"><h3>Ministries</h3></a>
               <li><a href="awana.html">AWANA</a></li>
-              <li><a href="youth.html">Youth</a></li>
+              <li><a href="missions.html">Missions</a></li>
               <li><a href="music.html">Music</a></li>
               <li><a href="seniors.html">Seniors</a></li>
-              <li><a href="missions.html">Missions</a></li>
+              <li><a href="youth.html">Youth</a></li>
             </ul>
           </li>
           <li class="footer-resources col-md-2">
@@ -417,12 +435,12 @@ Designed and built by Brandon Batten
      })
    </script>
    <!-- Close .navbar-collapse on click -->
-   <script type="text/javascript">
-    $('.navbar-collapse a').on('click', function(){
+   <!-- <script type="text/javascript">
+    $('.navbar-collapse a a').on('click', function(){
       if ( $( '.navbar-collapse' ).hasClass('in') ) {
         $('.navbar-toggle').click();
       }
-    });
+    }); -->
    </script>
   </body>
 </html>
