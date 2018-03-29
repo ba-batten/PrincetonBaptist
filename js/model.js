@@ -97,67 +97,78 @@ function AppViewModel() {
     }
   );
 
-  self.publications = ko.observable(
+  self.publications = ko.observableArray([
     {
-      newsletters: [
+      pubName: 'Newsletters',
+      pubs: ko.observableArray([
         {
-          edition: 'Jan 2017',
-          file: 'publications/newsletters/january_2017.pdf'
+          edition: 'April 2018',
+          file: 'publications/newsletters/april_2018.pdf'
         },
         {
-          edition: 'Feb 2017',
-          file: 'publications/newsletters/february_2017.pdf'
+          edition: 'March 2018',
+          file: 'publications/newsletters/march_2018.pdf'
         },
         {
-          edition: 'April 2017',
-          file: 'publications/newsletters/april_2017.pdf'
-        },
-        {
-          edition: 'May 2017',
-          file: 'publications/newsletters/may_2017.pdf'
-        },
-        {
-          edition: 'June 2017',
-          file: 'publications/newsletters/june_2017.pdf'
-        },
-        {
-          edition: 'July 2017',
-          file: 'publications/newsletters/july_2017.pdf'
-        },
-        {
-          edition: 'Aug 2017',
-          file: 'publications/newsletters/august_2017.pdf'
-        },
-        {
-          edition: 'Sept 2017',
-          file: 'publications/newsletters/september_2017.pdf'
-        },
-        {
-          edition: 'Oct 2017',
-          file: 'publications/newsletters/october_2017.pdf'
-        },
-        {
-          edition: 'Dec 2017',
-          file: 'publications/newsletters/december_2017.pdf'
-        },
-
-        {
-          edition: 'Jan 2018',
-          file: 'publications/newsletters/january_2018.pdf'
-        },
-        {
-          edition: 'Feb 2018',
+          edition: 'February 2018',
           file: 'publications/newsletters/february_2018.pdf'
-        }
-      ],
-      bulletins: [
+        },
         {
-          edition: 'Dec 31, 2017',
-          file: 'publications/bulletins/12-31-2017.pdf'
+          edition: 'January 2018',
+          file: 'publications/newsletters/january_2018.pdf'
+        }
+      ])
+    },
+    {
+      pubName: 'Bulletins',
+      pubs: [
+        {
+          edition: 'March 25, 2018',
+          file: 'publications/bulletins/3-25-2018.pdf'
+        },
+        {
+          edition: 'March 18, 2018',
+          file: 'publications/bulletins/3-18-2018.pdf'
+        },
+        {
+          edition: 'March 11, 2018',
+          file: 'publications/bulletins/3-11-2018.pdf'
+        },
+        {
+          edition: 'March 4, 2018',
+          file: 'publications/bulletins/3-4-2018.pdf'
+        },
+        {
+          edition: 'February 25, 2018',
+          file: 'publications/bulletins/2-25-2018.pdf'
+        },
+        {
+          edition: 'February 11, 2018',
+          file: 'publications/bulletins/2-11-2018.pdf'
+        },
+        {
+          edition: 'February 4, 2018',
+          file: 'publications/bulletins/2-4-2018.pdf'
+        },
+        {
+          edition: 'January 28, 2018',
+          file: 'publications/bulletins/1-28-2018.pdf'
+        },
+        {
+          edition: 'January 21, 2018',
+          file: 'publications/bulletins/1-21-2018.pdf'
+        },
+        {
+          edition: 'January 14, 2018',
+          file: 'publications/bulletins/1-14-2018.pdf'
+        },
+        {
+          edition: 'January 7, 2018',
+          file: 'publications/bulletins/1-7-2018.pdf'
         }
       ]
     }
-  )
+  ])
 
   self.awana = ko.observableArray([
     {
