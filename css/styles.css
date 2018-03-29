@@ -383,6 +383,20 @@ footer h3 {
   margin-left: 8px;
 }
 
+.btn {
+  background-color: rgba(0,0,0,0);
+  padding: 0;
+}
+
+footer .dropdown-menu {
+  max-height: 160px;
+  overflow: scroll;
+}
+
+footer .dropdown-menu>li>a {
+  text-align: left;
+}
+
 /*
 Modal styles
 */
@@ -676,6 +690,14 @@ Modal styles
   .events-img-container img {
     max-height: 145px;
     margin: 0 auto;
+  }
+
+  /*
+  Footer styles
+  */
+
+  footer .dropdown-menu>li>a {
+    color: #424B54;
   }
 
   /*
