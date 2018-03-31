@@ -73,6 +73,11 @@ Navbar styles
     background: none;
 }
 
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  max-height: 100vh;
+}
+
 .nav>li {
   text-align: center;
 }
