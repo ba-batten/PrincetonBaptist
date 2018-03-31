@@ -29,3 +29,11 @@
 .email {
   margin-bottom: 10px;
 }
+
+/* navbar styles */
+
+@media screen and (min-width: 768px) {
+  .navbar-default {
+    background: #424b5499;
+  }
+}

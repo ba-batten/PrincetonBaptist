@@ -29,4 +29,9 @@
     padding: 0;
   }
 
+  /* navbar */
+  .navbar-default {
+    background: #424b5499;
+  }
+
 }

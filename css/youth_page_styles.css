@@ -93,4 +93,9 @@
     padding: 5px 10px;
   }
 
+  /* navbar */
+  .navbar-default {
+    background: #424b5499;
+  }
+
 }

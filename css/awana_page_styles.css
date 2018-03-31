@@ -47,4 +47,10 @@
     width: calc(70% - 70px);
     display: inline-block;
   }
+
+  /* navbar */
+
+  .navbar-default {
+    background: #424b5499;
+  }
 }

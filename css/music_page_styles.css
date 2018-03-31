@@ -67,4 +67,10 @@ p {
     margin-top: 80px;
   }
 
+  /* navbar style */
+
+  .navbar-default {
+    background: #424b5499;
+  }
+
 }

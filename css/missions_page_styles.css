@@ -18,8 +18,8 @@
   width: calc((100% / 3) - 1.8px);
   padding: 0;
   margin: -1.8px;
-  /* float: left;
-  clear: left; */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   display: inline-block;
   vertical-align: text-top;
 }
@@ -46,6 +46,11 @@ figcaption {
 
   figcaption {
     display: block;
+  }
+
+  /* navbar */
+  .navbar-default {
+    background: #424b5499;
   }
 
 }
