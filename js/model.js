@@ -11,8 +11,8 @@ function AppViewModel() {
       bio: 'Pastor Dwayne attended Piedmont International University and ' +
       'received a bachelor of Theology as well as a Masters in Pastoral Studies.' +
       ' He has pastored churches in Ohio, Tennessee, and North Carolina. He is ' +
-      'married to Debbie and they have two grown sons.  Pastor Dwayne has been ' +
-      'on staff at PBC since September 2004.',
+      'married to Debbie and they have two married sons and three grandchildren. ' +
+      ' Pastor Dwayne has been on staff at PBC since September 2004.',
       pic: 'images/dwayne.jpg'
     },
     {
@@ -86,6 +86,7 @@ function AppViewModel() {
       officeAddress: '201 S Pearl St',
       mailingAddress: 'PO Box 215',
       city: 'Princeton',
+      stateAbbr: 'NC',
       state: 'North Carolina',
       zip: '27569',
       churchPhone: '(919) 936-2793',
@@ -93,7 +94,7 @@ function AppViewModel() {
       officePhone: '(919) 936-4001',
       officeTel: '1-919-936-4001',
       fax: '(919) 936-9937',
-      email: 'princetonbaptist@embarqmail.com'
+      email: 'princetonbaptistchurch@gmail.com'
     }
   );
 
@@ -337,7 +338,7 @@ function AppViewModel() {
     {
       topic: 'Prepare',
       text: 'By empowering leaders and mission teams to create strategies and plans ' +
-      'to take the gospel to their community, stated, continent, and world.'
+      'to take the gospel to their community, state, continent, and world.'
     },
     {
       topic: 'Learn',
@@ -346,7 +347,7 @@ function AppViewModel() {
     },
     {
       topic: 'Pray',
-      text: 'For a Kingdom and perspective and worldwide vision, to intercede for ' +
+      text: 'For a Kingdom perspective and worldwide vision, to intercede for ' +
       'Christian workers and for unevangelized people at home and abroad.'
     },
     {
@@ -391,10 +392,10 @@ function AppViewModel() {
       'Men to provide disaster relief across the entire state and region (Judea and Samaria)'
     },
     {
-      url: 'images/uganda_kids.jpg',
+      url: 'images/uganda_grad.jpg',
       altText: 'Uganda',
-      caption: 'PBC is actively involved with a church in Uganda (World) ' +
-        'that reaches children with the Gospel through a school and an orphanage'
+      caption: 'PBC is actively involved with the Baptist Union of Uganda (World) ' +
+        'in training pastors through a Bible institue that was started in 2013'
     }
   ]);
 }

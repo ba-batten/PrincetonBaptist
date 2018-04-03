@@ -120,7 +120,7 @@ Designed and built by Brandon Batten
             Princeton Baptist Church was instituted in September 1889 with eight
             charter members. The church worshiped in an old vacant building on the
             edge of Princeton.  On August 22, 1892 the church moved into a new
-            wooden structure at teh same location as the current sanctuary. In 1927
+            wooden structure at the same location as the current sanctuary. In 1927
             construction began that included six Sunday School rooms and parts of the
             church were remodeled and repainted. In November of 1950 plans were
             laid for a larger sanctuary. Construction of an educational building
@@ -237,9 +237,20 @@ Designed and built by Brandon Batten
             <h3>
               <a href="contact.html">Contact</a>
             </h3>
-            <h4>211 South Pearl St<br>Princeton, NC 27569</h4>
-            <h4>(919) 936-4001</h4>
-            <h4>princetonbaptist@embarqmail.com</h4>
+            <h4 data-bind="with: contact">
+              <span data-bind="text: churchAddress"></span><br>
+              <span data-bind="text: city + ', ' + stateAbbr + ' ' + zip"></span>
+            </h4>
+            <h4 data-bind="with: contact">Church Office:<br>
+              <span data-bind="text: officeAddress"></span><br>
+              <span data-bind="text: city + ', ' + stateAbbr + ' ' + zip"></span>
+            </h4>
+            <h4>
+              <a data-bind="text: contact().officePhone, attr: { href: 'tel:' + contact().officeTel }"></a>
+            </h4>
+            <h4>
+              <a data-bind="attr: { href: 'mailto:' + contact().email }">Email Us</a>
+            </h4>
           </li>
           <li class="footer-about col-md-2">
             <ul><a href="#about"><h3>About</h3></a>
@@ -259,7 +270,7 @@ Designed and built by Brandon Batten
               <li><a href="awana.html">AWANA</a></li>
               <li><a href="missions.html">Missions</a></li>
               <li><a href="music.html">Music</a></li>
-              <li><a href="seniors.html">Seniors</a></li>
+              <li><a href="seniors.html">LLLs</a></li>
               <li><a href="youth.html">Youth</a></li>
             </ul>
           </li>
@@ -331,7 +342,7 @@ Designed and built by Brandon Batten
                 </tr>
                 <tr>
                   <td>Sunday School</td>
-                  <td class="text-right">9:30am</td>
+                  <td class="text-right">9:45am</td>
                 </tr>
                 <tr>
                   <td>Worship</td>
