@@ -471,7 +471,7 @@ Designed and built by Brandon Batten
         // location.hash.length different to 0 to ignore empty anchor (domain.me/page#)
         if (location.hash.length !== 0) {
             // Get the Y position of the element you want to go and place an offset
-            window.scrollTo(0, $(e.target.hash).position().top - ($('.navbar-header').height() + 5));
+            window.scrollTo(0, $(e.target.hash).position().top - ($('.navbar-header').height() + 4));
         }
       }
 
