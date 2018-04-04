@@ -120,6 +120,7 @@ Section styles
     ), url("../images/congregation-small.JPG");
   text-align: center;
   color: white;
+  margin-bottom: -20px
 }
 
 .home h1 {
@@ -189,8 +190,12 @@ Section styles
 .section {
   width: 100%;
   min-height: 100vh;
+  /* margin-top: -20px; */
+  margin-bottom: -20px;
+}
+
+.section:first-of-type {
   margin-top: -20px;
-  /* margin-bottom: 20px; */
 }
 
 .section h3 {
@@ -319,8 +324,8 @@ Section styles
 
 .music {
   background-image: linear-gradient(
-  #17121977, #17121977),
-  url("../images/soundboard.jpg");
+    #17121977, #17121977),
+    url("../images/soundboard.jpg");
   background-position: bottom;
 }
 
