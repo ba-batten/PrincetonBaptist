@@ -28,7 +28,7 @@ Designed and built by Brandon Batten
     <![endif]-->
 
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body data-spy="scroll" data-target=".navbar" data-offset="0">
 
     <!-- /////////////////////////////////////////////
       NAVBAR
@@ -118,16 +118,16 @@ Designed and built by Brandon Batten
           <img src="images/church-doors.JPG" alt="Front of church building">
           <p>
             Princeton Baptist Church was instituted in September 1889 with eight
-            charter members. The church worshiped in an old vacant building on the
+            charter members. The church worshipped in an old vacant building on the
             edge of Princeton.  On August 22, 1892 the church moved into a new
-            wooden structure at the same location as the current sanctuary. In 1927
+            wooden structure at the same location as the current sanctuary. In 1927,
             construction began that included six Sunday School rooms and parts of the
             church were remodeled and repainted. In November of 1950 plans were
             laid for a larger sanctuary. Construction of an educational building
-            with 18 Sunday School rooms was already underway and was completed in
+            with eighteen Sunday School rooms was already underway and completed in
             1951. First worship services in the new sanctuary were held on Sunday,
             February 7, 1954. In recent years numerous modifications have been made
-            in our sanctuary as well as other parts of our facilities.
+            in the sanctuary as well as other parts of the facility.
           </p>
         </div>
 
@@ -138,7 +138,7 @@ Designed and built by Brandon Batten
             <li class="staff-bio-container">
               <img data-bind="attr: { src: pic, alt: name }" class="img-responsive">
               <h4 data-bind="text: name"></h4>
-              <h5 data-bind="text: position"></h5>
+              <h5 data-bind="text: positionShort"></h5>
               <a data-bind="attr: { href: 'staff.html#' + id }" class="staff-bio-link">More info</a>
             </li>
           </ul>
@@ -253,8 +253,8 @@ Designed and built by Brandon Batten
             </h4>
           </li>
           <li class="footer-about col-md-2">
-            <ul><a href="#about"><h3>About</h3></a>
-              <li><a href="#history">History</a></li>
+            <ul><a href="index.html#about"><h3>About</h3></a>
+              <li><a href="index.html#history">History</a></li>
               <li>
                 <a href="staff.html">Staff</a>
                 <ul data-bind="foreach: staff" class="footer-staff-list">
@@ -275,7 +275,7 @@ Designed and built by Brandon Batten
             </ul>
           </li>
           <li class="footer-resources col-md-2">
-            <a href="#events"><h3>Resources</h3></a>
+            <h3>Resources</h3>
             <ul>
               <li>
                 <a href="https://www.dropbox.com/sh/194zuuoygg106bo/AAB_vwMg8szzPtooO5WWuvNma/Friend%20Day%20Audio%20Files%209781570522291?dl=0" target="_blank">
@@ -464,6 +464,24 @@ Designed and built by Brandon Batten
         $('.navbar-toggle').click();
       }
     }); -->
+   </script>
+   <script type="text/javascript">
+     // Function that actually set offset
+      function offsetAnchor(e) {
+        // location.hash.length different to 0 to ignore empty anchor (domain.me/page#)
+        if (location.hash.length !== 0) {
+            // Get the Y position of the element you want to go and place an offset
+            window.scrollTo(0, $(e.target.hash).position().top - 100);
+        }
+      }
+
+      // Catch the event with a time out to perform the offset function properly
+      $(document).on('click', 'a[href^="#"]', function (e) {
+        window.setTimeout(function () {
+            // Send event to get the target id later
+            offsetAnchor(e);
+        }, 10);
+      });
    </script>
   </body>
 </html>
