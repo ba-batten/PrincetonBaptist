@@ -68,6 +68,33 @@ function AppViewModel() {
     // default picture url 'images/PBC_icon.svg'
     // picture size = 285x145
     {
+      title: 'Operation Inasmuch',
+      time: 'May 5 8:00 AM to Noon',
+      description: 'Teams Needed: Lunch Preparation, Teams for Hospice Meals, ' +
+      'Nursing Home Visits, Light Home Repairs, Yard Work, and many more ' +
+      'opportunities to serve',
+      pic: 'images/PBC_icon.svg',
+      visible: true
+    },
+    {
+      title: 'National Day of Prayer',
+      time: 'May 3 at 7:00 PM',
+      description: '',
+      pic: 'images/unity.png',
+      visible: true
+    },
+    {
+      title: 'Youth Camping Trip',
+      time: 'Aprl 20',
+      description: 'The Youth are going camping!!! All youth will need to be at ' +
+        ' the Gardner’s house at 5PM April 20th. Youth will need to bring a 2 ' +
+        'liter drink, air mattress, sleeping bag, Bible, snacks, and morning ' +
+        'hygiene stuff. Parents will need to pick their kids up at 10AM Saturday ' +
+        'morning. This is a free event. If you have any questions please contact RJ.',
+      pic: 'images/camping.jpg',
+      visible: true
+    },
+    {
       title: 'Friend Day',
       time: 'April 8 Sunday Worship Service',
       description: 'Invite your friends and join us on this very special ' +
