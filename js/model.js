@@ -8,8 +8,9 @@ function AppViewModel() {
       id: 'dwayneBatten',
       email: 'rdb114@juno.com',
       position: 'Senior Pastor',
+      positionShort: 'Senior Pastor',
       bio: 'Pastor Dwayne attended Piedmont International University and ' +
-      'received a bachelor of Theology as well as a Masters in Pastoral Studies.' +
+      'received a Bachelor of Theology and a Master of Arts in Pastoral Studies.' +
       ' He has pastored churches in Ohio, Tennessee, and North Carolina. He is ' +
       'married to Debbie and they have two married sons and three grandchildren. ' +
       ' Pastor Dwayne has been on staff at PBC since September 2004.',
@@ -19,30 +20,32 @@ function AppViewModel() {
       name: 'RJ Smith',
       id: 'rjSmith',
       email: 'rjsmith150@yahoo.com',
-      position: 'Youth Pastor',
+      position: 'Associate Pastor of Youth',
+      positionShort: 'Youth Pastor',
       bio: 'RJ has been in youth ministry since 2009, and joined the Princeton ' +
-      'Baptist Church staff in 2017. He is married to Brandee and they have two ' +
-      'sons, Kaydon (5) and Kingston(<1).  RJ attended Covington Theological ' +
+      'Baptist Church staff in 2017. RJ attended Covington Theological ' +
       'Seminary where he earned his Associate of Religious Education. He is ' +
       'currently attending the College at Southeastern.  It is RJ’s desire to ' +
       'obey God’s commandments, to teach according to His Word, and to love the ' +
       'youth.  RJ loves to connect with the youth on a personal level.  It is ' +
-      'not uncommon to see him on a Friday night at a football game then on a ' +
-      'Saturday night at a dance recital! He loves to support the youth in any ' +
-      'way he can.',
+      'not uncommon to see him at a football game on a Friday night and at a ' +
+      'dance recital on Saturday night. He loves to support the youth in any ' +
+      'way he can. He is married to Brandee, and they have two sons, Kaydon (5) and ' +
+      'Kingston (<1).',
       pic: 'images/rj.jpg'
     },
     {
       name: 'Trevor Clatterbuck',
       id: 'trevorClatterbuck',
       email: 'twbuck10@gmail.com',
-      position: 'Worship Pastor',
-      bio: 'Trevor has served as Worship pastor at several churches in Virginia ' +
-      'and Louisiana. He has also served as youth pastor at churches in Virginia' +
-      ' and Mississippi. Other ministry positions he has been involved in ' +
-      'include, small group leader and mission’s coordinator. Trevor’s education ' +
-      'includes a B.A. in Music and a concentration in Church music from ' +
-      'Bluefield College. He is also working to complete an MDiv, from ' +
+      position: 'Associate Pastor of Worship',
+      positionShort: 'Worship Pastor',
+      bio: 'Trevor joined the staff at PBC in January 2018. He has served as Worship ' +
+      'Pastor at several churches in Virginia and Louisiana. He also served as ' +
+      'the youth pastor at churches in Virginia and Mississippi. He has also served as a ' +
+      'small group leader and missions coordinator. Trevor’s education ' +
+      'includes a Bachelor of Arts in Music with a concentration in Church Music from ' +
+      'Bluefield College. He is also working to complete an Master of Divinity from ' +
       'Southeastern Baptist Theological Seminary. Trevor is married to his ' +
       'college sweetheart, Mary Ann, and they have a son, Caleb.',
       pic: 'images/trevor.jpg'
@@ -52,7 +55,8 @@ function AppViewModel() {
       id: 'peggyJordan',
       email: '',
       position: 'Secretary',
-      bio: 'Peggy is our church secretary.  She attended Hardbarger Business ' +
+      positionShort: 'Secretary',
+      bio: 'Peggy is the church secretary.  She attended Hardbarger Business ' +
       'College in Raleigh.  She is married to Harvey and they reside in ' +
       'Rosewood.  She has two daughters and four grandchildren.  Peggy has been ' +
       'on staff at PBC since October 2010.',
