@@ -128,8 +128,13 @@ Designed and built by Brandon Batten
             <li class="col-sm-4 contact-list-item">
               <h2>Office Information</h2>
               <address class="church-address">
-                <span>Princeton Baptist Church</span><br>
+                <span>Princeton Baptist Church Offices</span><br>
                 <span data-bind="text: officeAddress"></span><br>
+                <span data-bind="text: city + ', ' + state + ' ' + zip"></span>
+              </address>
+              <address class="church-address">
+                <span>Mailing Address:</span><br>
+                <span data-bind="text: mailingAddress"></span><br>
                 <span data-bind="text: city + ', ' + state + ' ' + zip"></span>
               </address>
             </li>
