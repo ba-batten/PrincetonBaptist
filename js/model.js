@@ -86,11 +86,11 @@ function AppViewModel() {
     {
       title: 'Youth Camping Trip',
       time: 'Aprl 20',
-      description: 'The Youth are going camping!!! All youth will need to be at ' +
-        ' the Gardner’s house at 5PM April 20th. Youth will need to bring a 2 ' +
+      description: 'The Youth are going camping! All youth will need to be at ' +
+        'the Gardner’s house at 5PM April 20th. Youth will need to bring a 2 ' +
         'liter drink, air mattress, sleeping bag, Bible, snacks, and morning ' +
-        'hygiene stuff. Parents will need to pick their kids up at 10AM Saturday ' +
-        'morning. This is a free event. If you have any questions please contact RJ.',
+        'hygiene stuff. Parents will need to pick their kids up at 10:00 AM Saturday ' +
+        'morning. This is a free event. If you have any questions please contact RJ Smith.',
       pic: 'images/camping.jpg',
       visible: true
     },
