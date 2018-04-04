@@ -209,7 +209,7 @@ Designed and built by Brandon Batten
       </div>
       <div class="container">
         <ul class="events-list" data-bind="foreach: events.slice(0).reverse()">
-          <li class="row">
+          <li class="row" data-bind="if: visible">
             <div class="col-sm-3 events-img-container">
               <img data-bind="attr: { src: pic, alt: title }" class="img-responsive">
             </div>
