@@ -471,12 +471,12 @@ Designed and built by Brandon Batten
         // location.hash.length different to 0 to ignore empty anchor (domain.me/page#)
         if (location.hash.length !== 0) {
             // Get the Y position of the element you want to go and place an offset
-            window.scrollTo(0, $(e.target.hash).position().top - 100);
+            window.scrollTo(0, $(e.target.hash).position().top - $('.navbar-header').height());
         }
       }
 
       // Catch the event with a time out to perform the offset function properly
-      $(document).on('click', 'a[href^="#"]', function (e) {
+      $(document).on('click', 'a[href]', function (e) {
         window.setTimeout(function () {
             // Send event to get the target id later
             offsetAnchor(e);
