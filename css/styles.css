@@ -689,7 +689,7 @@ Modal styles
   /* Events styles */
 
   .events-list {
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
   }
 
   .events-list li {
