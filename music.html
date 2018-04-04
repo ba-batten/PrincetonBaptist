@@ -137,14 +137,27 @@ Designed and built by Brandon Batten
             <div class="footer-map-container" id="footerMap"></div>
           </li>
           <li class="footer-contact col-md-2">
-            <h3>Contact</h3>
-            <h4>211 South Pearl St<br>Princeton, NC 27569</h4>
-            <h4>(919) 936-4001</h4>
-            <h4>princetonbaptist@embarqmail.com</h4>
+            <h3>
+              <a href="contact.html">Contact</a>
+            </h3>
+            <h4 data-bind="with: contact">
+              <span data-bind="text: churchAddress"></span><br>
+              <span data-bind="text: city + ', ' + stateAbbr + ' ' + zip"></span>
+            </h4>
+            <h4 data-bind="with: contact">Church Office:<br>
+              <span data-bind="text: officeAddress"></span><br>
+              <span data-bind="text: city + ', ' + stateAbbr + ' ' + zip"></span>
+            </h4>
+            <h4>
+              <a data-bind="text: contact().officePhone, attr: { href: 'tel:' + contact().officeTel }"></a>
+            </h4>
+            <h4>
+              <a data-bind="attr: { href: 'mailto:' + contact().email }">Email Us</a>
+            </h4>
           </li>
           <li class="footer-about col-md-2">
-            <ul><a href="#about"><h3>About</h3></a>
-              <li><a href="#history">History</a></li>
+            <ul><a href="index.html#about"><h3>About</h3></a>
+              <li><a href="index.html#history">History</a></li>
               <li>
                 <a href="staff.html">Staff</a>
                 <ul data-bind="foreach: staff" class="footer-staff-list">
@@ -158,14 +171,14 @@ Designed and built by Brandon Batten
             <ul>
               <a href="#ministries"><h3>Ministries</h3></a>
               <li><a href="awana.html">AWANA</a></li>
+              <li><a href="missions.html">Missions</a></li>
+              <li><a href="music.html">Music</a></li>
+              <li><a href="seniors.html">LLLs</a></li>
               <li><a href="youth.html">Youth</a></li>
-              <li><a href="#music">Music</a></li>
-              <li><a href="#seniors">Triple Ls</a></li>
-              <li><a href="#missions">Missions</a></li>
             </ul>
           </li>
           <li class="footer-resources col-md-2">
-            <a href="#events"><h3>Resources</h3></a>
+            <h3>Resources</h3>
             <ul>
               <li>
                 <a href="https://www.dropbox.com/sh/194zuuoygg106bo/AAB_vwMg8szzPtooO5WWuvNma/Friend%20Day%20Audio%20Files%209781570522291?dl=0" target="_blank">
@@ -176,11 +189,22 @@ Designed and built by Brandon Batten
           </li>
           <li class="footer-publications col-md-2">
             <h3>Publications</h3>
-            <a href="#">Newsletters</a>
-            <a href="#">Bulletins</a>
-            <a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html" target="_blank">
-              Download Adobe Acrobat
-            </a>
+            <ul class="pubs-list" data-bind="foreach: publications">
+              <li class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                  <span data-bind="text: pubName + ' '"> </span><span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" data-bind="foreach: pubs">
+                  <li>
+                    <a data-bind="attr: { href: file }, text: edition" target="_blank" class="dropdown-links"></a>
+                  </li>
+                </ul>
+                </ul>
+                <a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html" target="_blank">
+                  Download Adobe Acrobat
+                </a>
+              </li>
+            </ul>
           </li>
         </ul> <!-- end row -->
         <div class="footer-logo-container text-center">
@@ -190,6 +214,7 @@ Designed and built by Brandon Batten
         </div>
       </div> <!-- end container-fluid -->
     </footer>
+
 
     <!-- /////////////////////////////////////////////
       Scripts
