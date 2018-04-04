@@ -35,6 +35,10 @@ ul {
   padding: 0;
 }
 
+.pad-top {
+  padding-top: 60px;
+}
+
 /*
 Navbar styles
 */
@@ -316,7 +320,7 @@ Section styles
 .music {
   background-image: linear-gradient(
   #17121977, #17121977),
-  url("../images/soundman.jpg");
+  url("../images/soundboard.jpg");
   background-position: bottom;
 }
 
@@ -335,8 +339,8 @@ Section styles
 
 .events .section-header {
   background-image: linear-gradient(
-  #214478c9, #214478c9),
-  url("../images/choir.jpg");
+    #214478c9, #214478c9),
+    url("../images/planner.jpg");
 }
 
 .events-img-container {
@@ -455,6 +459,11 @@ Modal styles
 }
 
 @media screen and (min-width: 768px) {
+
+  .pad-top {
+    padding-top: 90px;
+  }
+
   /*
   navbar styles
   */
