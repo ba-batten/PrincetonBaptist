@@ -66,13 +66,23 @@ function AppViewModel() {
 
   self.events = ko.observableArray([
     // default picture url 'images/PBC_icon.svg'
+    // picture size = 285x145
+    {
+      title: 'Friend Day',
+      time: 'April 8 Sunday Worship Service',
+      description: 'Invite your friends and join us on this very special ' +
+      'day. God has some good things in store for PBC!',
+      pic: 'images/friends.jpg',
+      visible: true
+    },
     {
       title: 'Call of the Wild',
       time: 'March 4 at 5:00 PM',
       description: 'Men, bring your best game recipe prepared and let\'s enjoy ' +
       'the fruit of our harvest together while we hear from guest speaker ' +
       'Brandon Thornton from Loxley, Alabama.',
-      pic: 'images/brandon_thornton.png'
+      pic: 'images/brandon_thornton.png',
+      visible: false
     },
     {
       title: 'Women\'s Ministry Gathering',
@@ -80,7 +90,8 @@ function AppViewModel() {
       description: 'Guest teacher Angie Bridgers will be speaking on \"Biblical ' +
       'Journaling\". You only need to bring your Bible.  Light refreshments will ' +
       'be served.',
-      pic: 'images/PBC_icon.svg'
+      pic: 'images/PBC_icon.svg',
+      visible: false
     },
   ]);
 
@@ -387,6 +398,7 @@ function AppViewModel() {
   ]);
 
   self.missionsPics = ko.observableArray([
+    // pictures should be 400x400
     {
       url: 'images/ramp_build.jpg',
       altText: 'PBC Ramp Ministry',
