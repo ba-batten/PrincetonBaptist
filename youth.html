@@ -178,7 +178,9 @@ Designed and built by Brandon Batten
               <li>
                 <a href="staff.html">Staff</a>
                 <ul data-bind="foreach: staff" class="footer-staff-list">
-                  <a data-bind="attr: { href: 'staff.html#' + id }, text: name"></a>
+                  <li>
+                    <a data-bind="attr: { href: 'staff.html#' + id }, text: name"></a>
+                  </li>
                 </ul>
               </li>
               <li><a href="beliefs.html">Our Beliefs</a></li>
