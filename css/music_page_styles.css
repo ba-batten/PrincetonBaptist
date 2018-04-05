@@ -10,7 +10,7 @@ p {
   height: auto;
   margin-top: 60px;
   background-image: linear-gradient(
-    #171219c9, #171219c9),
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
     url("../images/soundboard.jpg");
   background-position: center;
   background-size: cover;
@@ -70,7 +70,7 @@ p {
   /* navbar style */
 
   .navbar-default {
-    background: #424b5499;
+    background: rgba(66, 75, 84, 0.6);
   }
 
 }

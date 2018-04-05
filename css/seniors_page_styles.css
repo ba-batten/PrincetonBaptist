@@ -69,7 +69,7 @@ p {
 
   /* navbar */
   .navbar-default {
-    background: #424b5499;
+    background: rgba(66,75, 84, 0.6);
   }
 
 }
