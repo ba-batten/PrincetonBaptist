@@ -305,7 +305,6 @@ Designed and built by Brandon Batten
                   Download Adobe Acrobat
                 </a>
               </li>
-            </ul>
           </li>
         </ul> <!-- end row -->
         <div class="footer-logo-container text-center">
@@ -332,10 +331,10 @@ Designed and built by Brandon Batten
           <div class="modal-body">
             <div class="map-wrapper">
               <div id="modal-map"></div>
-              <address class="modal-address">
-                <h5>Princeton Baptist Church</h5>
-                <p>211 South Pearl Street</p>
-                <p>Princeton, NC 27569</p>
+              <address class="modal-address" data-bind="with: contact">
+                <p>Princeton Baptist Church</p>
+                <p data-bind="text: churchAddress"></p>
+                <p data-bind="text: city + ', ' + stateAbbr + ' ' + zip">Princeton, NC 27569</p>
               </address>
             </div>
             <div class="table-container">
