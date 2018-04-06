@@ -400,7 +400,7 @@ Designed and built by Brandon Batten
     <script src="js/map.js"></script>
     <!-- Initialize Map -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGL_wEbysdduJdV4SryzBmJV_KjTFVWDY&callback=initMap"></script>
-    <!-- Change color of .navbar-default on resize -->
+    <!-- Change color of .navbar-default on resize and scroll -->
    <script>
      $(document).ready(function(){
        $(window).resize(function() {
@@ -417,6 +417,15 @@ Designed and built by Brandon Batten
          if (window.innerWidth < 768){
            if (scroll <= (window.innerHeight * 0.9  )) {
              $('.navbar-default').css('background', '#f8f8f8');
+           }
+         }
+
+         if (window.innerWidth >= 768) {
+           if (scroll <= (window.innerHeight * 0.9)) {
+             $('.navbar-default').css('background', 'none');
+           }
+           else {
+             $('.navbar-default').css('background', 'rgba(66, 75, 84, 0.6)');
            }
          }
        });
