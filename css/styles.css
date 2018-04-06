@@ -47,15 +47,6 @@ Navbar styles
   display: none;
 }
 
-/*.navbar {
-  -webkit-animation-delay: 1.5s;
-  -webkit-animation-fill-mode: backwards;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
-  animation-timing-function: ease-in-out;
-}*/
-
 .hamburger {
   width: 15px;
 }
@@ -141,7 +132,6 @@ Section styles
 }
 
 .headline-btn {
-  /*width: 30%;*/
   font-size: 18px;
   margin: 25px 10px;
   color: #171219;
@@ -170,7 +160,6 @@ Section styles
 }
 
 .headline-container {
-  /*margin-top: 60%;*/
   width: 100%;
   position: absolute;
   top: 50%;
@@ -190,7 +179,6 @@ Section styles
 .section {
   width: 100%;
   min-height: 100vh;
-  /* margin-top: -20px; */
   margin-bottom: -20px;
 }
 
@@ -217,10 +205,6 @@ Section styles
   font-size: 30px;
 }
 
-.about * {
-  /*border: 0.5px solid red;*/
-}
-
 .about-header h2 {
   margin: 0;
 }
@@ -230,10 +214,9 @@ Section styles
 }
 
 .about .section-header {
-  /*background: #214478;*/
-    background-image: linear-gradient(
-    rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
-    url("../images/bible-small.JPG");
+  background-image: linear-gradient(
+  rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
+  url("../images/bible-small.JPG");
 }
 
 .history-container,
@@ -281,8 +264,6 @@ Section styles
 .link-container {
   text-align: left;
 }
-
-
 
 /* Ministries styles */
 
@@ -354,10 +335,6 @@ Section styles
 
 .events {
   margin-bottom: 20vh;
-}
-
-.events-list {
-  /* margin-top: 50px; */
 }
 
 /*
@@ -498,13 +475,11 @@ Modal styles
   }
 
   .navbar-logo {
-    /* width: 200px; */
     height: 50px;
   }
 
   .navbar>.container .navbar-brand,
   .navbar>.container-fluid .navbar-brand {
-    /*width: 120px;*/
     height: auto;
     background: none;
     width: 320px;
@@ -556,19 +531,9 @@ Modal styles
     padding: 10px;
   }
 
-  /*.navbar-default .navbar-brand:focus,
-  .navbar-default .navbar-brand:hover {
-    transition: width 0.4s ease-out;
-    -webkit-transition: width 0.5s ease-out;
-  }*/
-
   /*
   Section styles
   */
-
-  .headline-container {
-    /*margin-top: 10%;*/
-  }
 
   .home h1 {
     font-size: 4.5vw;
@@ -591,9 +556,7 @@ Modal styles
   */
 
   .section {
-    /*height: 100vh;*/
     width: 100%;
-    /* margin-bottom: 150px; */
   }
 
   .section-header {
@@ -626,7 +589,6 @@ Modal styles
 
   .staff-container {
     width: calc(100% / 5 * 3);
-    /* border-left: 1px solid #424B54; */
     padding-left: 30px;
   }
 
@@ -687,10 +649,6 @@ Modal styles
   }
 
   /* Events styles */
-
-  .events-list {
-    /* margin-top: 15vh; */
-  }
 
   .events-list li {
     margin: 40px 0;
@@ -763,7 +721,6 @@ Modal styles
 
   .navbar>.container .navbar-brand,
   .navbar>.container-fluid .navbar-brand {
-    /*width: 120px;*/
     height: auto;
     background: none;
     width: 370px;
