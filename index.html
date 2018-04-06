@@ -35,9 +35,6 @@ Designed and built by Brandon Batten
     ///////////////////////////////////////////// -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
-      <!-- <div class="info-header">
-        <address><span class="address">211 Pearl Street</span><span class="address">Princeton, NC 27569</span><span class="address">(919) 936-4001</span></address>
-      </div> -->
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -48,7 +45,6 @@ Designed and built by Brandon Batten
               <source media="(min-width: 768px)" srcset="images/PBC_logo_alt_revision1-white.svg" class="navbar-logo">
               <img src="images/PBC_logo_alt_revision1.svg" alt="Princeton Baptist logo" class="navbar-logo">
             </picture>
-            <!-- <img src="images/PBC_logo_alt_revision1-white.svg" alt="Princeton Baptist logo" class="navbar-logo"> -->
           </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -111,8 +107,6 @@ Designed and built by Brandon Batten
       </div>
       <div class="container">
 
-        <!-- <div class="about-container"> -->
-
         <div class="history-container">
           <h3 class="text-center about-label" id="history">History</h3>
           <img src="images/church-doors.JPG" alt="Front of church building">
@@ -130,7 +124,6 @@ Designed and built by Brandon Batten
             in the sanctuary as well as other parts of the facility.
           </p>
         </div>
-
 
         <div class="staff-container" id="staff">
           <h3 class="text-center about-label">Staff</h3>
@@ -412,14 +405,10 @@ Designed and built by Brandon Batten
      $(document).ready(function(){
        $(window).resize(function() {
          if (window.innerWidth < 768){
-           // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
            $('.navbar-default').css('background', '#f8f8f8');
          }
-         if (window.innerWidth >= 768 && window.innerWidth < 1000){
-           // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '200px');
-         }
-         if (window.innerWidth > 1000){
-           // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
+         else {
+           $('.navbar-default').css('background', 'none');
          }
        });
 
@@ -430,44 +419,10 @@ Designed and built by Brandon Batten
              $('.navbar-default').css('background', '#f8f8f8');
            }
          }
-
-         if (window.innerWidth >= 768){
-           if (scroll > (window.innerHeight * 0.9 )) {
-             $('.navbar-default').css('background', '#424b5499');
-             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '110px');
-             // $('.navbar-default').css('background', '#424B5466');
-           }
-           else {
-             $('.navbar-default').css('background', 'none');
-
-             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
-             // $('.navbar-default').css('background', 'none');
-
-           }
-         }
-
-         if (window.innerWidth >= 1000) {
-           if (scroll > (window.innerHeight * 0.9 )) {
-             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '120px');
-             // $('.navbar-default').css('background', '#424B5466');
-
-           }
-           else {
-             // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
-             // $('.navbar-default').css('background', 'none');
-           }
-         }
        })
      })
    </script>
-   <!-- Close .navbar-collapse on click -->
-   <!-- <script type="text/javascript">
-    $('.navbar-collapse a a').on('click', function(){
-      if ( $( '.navbar-collapse' ).hasClass('in') ) {
-        $('.navbar-toggle').click();
-      }
-    });
-  </script> -->
+
    <script>
      // Function that actually set offset
       function offsetAnchor(e) {
@@ -477,7 +432,6 @@ Designed and built by Brandon Batten
             window.scrollTo(0, $(e.target.hash).position().top - ($('.navbar-header').height() + 4));
         }
       }
-
       // Catch the event with a time out to perform the offset function properly
       $(document).on('click', 'a[href]', function (e) {
         window.setTimeout(function () {

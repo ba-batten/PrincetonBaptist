@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <!--
 ///////////////////////////////////////////////////////////////
 
@@ -9,7 +10,6 @@ Designed and built by Brandon Batten
 -->
   <head>
     <meta charset="utf-8">
-    <html lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="AWANA is a children's ministry offered at Princeton Baptist Church">
     <meta name="author" content="Brandon Batten">
@@ -36,9 +36,6 @@ Designed and built by Brandon Batten
     ///////////////////////////////////////////// -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
-      <!-- <div class="info-header">
-        <address><span class="address">211 Pearl Street</span><span class="address">Princeton, NC 27569</span><span class="address">(919) 936-4001</span></address>
-      </div> -->
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -49,7 +46,6 @@ Designed and built by Brandon Batten
               <source media="(min-width: 768px)" srcset="images/PBC_logo_alt_revision1-white.svg" class="navbar-logo">
               <img src="images/PBC_logo_alt_revision1.svg" alt="Princeton Baptist logo" class="navbar-logo">
             </picture>
-            <!-- <img src="images/PBC_logo_alt_revision1-white.svg" alt="Princeton Baptist logo" class="navbar-logo"> -->
           </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -228,84 +224,19 @@ Designed and built by Brandon Batten
       Scripts
     ///////////////////////////////////////////// -->
     <!-- Knockout CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
     <!-- jQuery CDN -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
     <!-- model.js -->
-    <script type="text/javascript" src="js/model.js"></script>
+    <script src="js/model.js"></script>
     <!-- Bootstrap js CDN -->
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Google Map logic -->
-    <script type="text/javascript" src="js/map.js"></script>
+    <script src="js/map.js"></script>
     <!-- Initialize Map -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGL_wEbysdduJdV4SryzBmJV_KjTFVWDY&callback=footerMap"></script>
-    <!-- Change width of .navbar-brand on scroll -->
-    <!-- <script async>
-      $(document).ready(function(){
-        $(window).resize(function() {
-          if (window.innerWidth < 768){
-            // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '220px');
-            $('.navbar-default').css('background', '#f8f8f8');
-          }
-          else {
-            $('.navbar-default').css('background', 'none');
-          }
-
-          // if (window.innerWidth >= 768 && window.innerWidth < 1000){
-          //   $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '200px');
-          // }
-          // if (window.innerWidth > 1000){
-          //   $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
-          // }
-        });
-
-        $(window).scroll(function(){
-          var scroll = $(document).scrollTop();
-          if (window.innerWidth < 768){
-            if (scroll <= (window.innerHeight * 0.15  )) {
-              $('.navbar-default').css('background', '#f8f8f8');
-            }
-          }
-
-          if (window.innerWidth >= 768){
-            if (scroll > (window.innerHeight * 0.15 )) {
-              $('.navbar-default').css('background', '#424b5499');
-              // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '110px');
-              // $('.navbar-default').css('background', '#424B5466');
-            }
-            else {
-              $('.navbar-default').css('background', 'none');
-
-              // $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '320px');
-              // $('.navbar-default').css('background', 'none');
-
-            }
-          }``
-
-          // if (window.innerWidth >= 1000) {
-          //   if (scroll > (window.innerHeight * 0.15 )) {
-          //     $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '120px');
-          //     $('.navbar-default').css('background', '#424B5466');
-          //
-          //   }
-          //   else {
-          //     $('.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand').css('width', '370px');
-          //     $('.navbar-default').css('background', 'none');
-          //   }
-          // }
-        })
-      })
-    </script> -->
-   <!-- Close .navbar-collapse on click -->
-   <!-- <script type="text/javascript">
-    $('.navbar-collapse a').on('click', function(){
-      if ( $( '.navbar-collapse' ).hasClass('in') ) {
-        $('.navbar-toggle').click();
-      }
-    }); -->
-   </script>
   </body>
 </html>
