@@ -13,7 +13,8 @@ Base styles
 */
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .html, body {
@@ -106,6 +107,15 @@ Section styles
 .home {
   width: 100%;
   height: 100vh;
+  background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))
+    ), url("../images/congregation-small.JPG");
+  background-image: -webkit-linear-gradient(
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)
+    ), url("../images/congregation-small.JPG");
+  background-image: -o-linear-gradient(
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)
+    ), url("../images/congregation-small.JPG");
   background-image: linear-gradient(
     rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)
     ), url("../images/congregation-small.JPG");
@@ -116,12 +126,11 @@ Section styles
 
 .home h1 {
   font-size: 6vw;
-  font-weight: light;
   letter-spacing: 2px;
   line-height: 1.3;
   margin: 15px 0;
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 .underline {
@@ -137,8 +146,9 @@ Section styles
   color: #171219;
   padding: 5px 15px;
   -webkit-animation-fill-mode: backwards;
-  animation-fill-mode: backwards;
-  animation-timing-function: ease-out;
+          animation-fill-mode: backwards;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 .headline-btn:hover {
@@ -147,12 +157,12 @@ Section styles
 
 .headline-btn:first-of-type {
   -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .headline-btn:last-of-type {
   -webkit-animation-delay: 1.8s;
-  animation-delay: 1.8s;
+          animation-delay: 1.8s;
 }
 
 .watch {
@@ -165,8 +175,8 @@ Section styles
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: inline-block;
 }
 
@@ -214,6 +224,15 @@ Section styles
 }
 
 .about .section-header {
+  background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(33, 68, 120, 0.79)), to(rgba(33, 68, 120, 0.79))),
+  url("../images/bible-small.JPG");
+  background-image: -webkit-linear-gradient(
+  rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
+  url("../images/bible-small.JPG");
+  background-image: -o-linear-gradient(
+  rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
+  url("../images/bible-small.JPG");
   background-image: linear-gradient(
   rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
   url("../images/bible-small.JPG");
@@ -272,6 +291,15 @@ Section styles
 }
 
 .ministries .section-header {
+  background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(202, 0, 43, 0.79)), to(rgba(202, 0, 43, 0.79))),
+  url("../images/preaching.JPG");
+  background-image: -webkit-linear-gradient(
+  rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
+  url("../images/preaching.JPG");
+  background-image: -o-linear-gradient(
+  rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
+  url("../images/preaching.JPG");
   background-image: linear-gradient(
   rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
   url("../images/preaching.JPG");
@@ -288,22 +316,51 @@ Section styles
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .awana {
+  background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
+  url("../images/kids.jpg");
+  background-image: -webkit-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/kids.jpg");
+  background-image: -o-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/kids.jpg");
   background-image: linear-gradient(
   rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
   url("../images/kids.jpg");
 }
 
 .youth {
+  background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
+  url("../images/feet.jpg");
+  background-image: -webkit-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/feet.jpg");
+  background-image: -o-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/feet.jpg");
   background-image: linear-gradient(
   rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
   url("../images/feet.jpg");
 }
 
 .music {
+  background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
+    url("../images/soundboard.jpg");
+  background-image: -webkit-linear-gradient(
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/soundboard.jpg");
+  background-image: -o-linear-gradient(
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/soundboard.jpg");
   background-image: linear-gradient(
     rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
     url("../images/soundboard.jpg");
@@ -311,11 +368,29 @@ Section styles
 }
 
 .seniors {
+  background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
+  url("../images/seniors.jpg");
+  background-image: -webkit-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/seniors.jpg");
+  background-image: -o-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/seniors.jpg");
   background-image: linear-gradient(
   rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
   url("../images/seniors.jpg");}
 
 .missions {
+  background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
+  url("../images/graduation.jpg");
+  background-image: -webkit-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/graduation.jpg");
+  background-image: -o-linear-gradient(
+  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+  url("../images/graduation.jpg");
   background-image: linear-gradient(
   rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
   url("../images/graduation.jpg");
@@ -324,6 +399,15 @@ Section styles
 /* Events styles */
 
 .events .section-header {
+  background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(33, 68, 120, 0.79)), to(rgba(33, 68, 120, 0.79))),
+    url("../images/planner.jpg");
+  background-image: -webkit-linear-gradient(
+    rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
+    url("../images/planner.jpg");
+  background-image: -o-linear-gradient(
+    rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
+    url("../images/planner.jpg");
   background-image: linear-gradient(
     rgba(33, 68, 120, 0.79), rgba(33, 68, 120, 0.79)),
     url("../images/planner.jpg");
@@ -487,6 +571,7 @@ Modal styles
     margin-left: -35px;
     padding: 10px 30px 10px 50px;
     -webkit-transition: width 0.2s ease-out;
+    -o-transition: width 0.2s ease-out;
     transition: width 0.2s ease-out;
   }
 
@@ -516,7 +601,8 @@ Modal styles
     background: rgba(66, 75, 84, 0.0);
     text-align: left;
     border: none;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     min-width: inherit;
     text-align: left;
     position: relative;
@@ -625,11 +711,9 @@ Modal styles
   /* Beliefs styles */
 
   .beliefs-list {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */ /* Firefox */
     column-count: 2;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */ /* Firefox */
     column-gap: 40px;
   }
 
@@ -728,6 +812,7 @@ Modal styles
     margin-left: -35px;
     padding: 10px 30px 10px 50px;
     -webkit-transition: width 0.1s ease-out;
+    -o-transition: width 0.1s ease-out;
     transition: width 0.1s ease-out;
   }
 
@@ -745,7 +830,7 @@ Modal styles
   }
 
   .staff-bio-container {
-    width: calc(25% - 2.1px);
+    width: calc(25% - 3.1px);
   }
 
   .staff-bio-container h4 {
