@@ -107,19 +107,18 @@ Section styles
 .home {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/congregation-small.jpg");
-  /* background-image: -webkit-gradient(
-    linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))
-    ), url("../images/congregation-small.JPG"); */
+  background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
+    url("../images/congregation-small.JPG");
   background-image: -webkit-linear-gradient(
-    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)
-    ), url("../images/congregation-small.jpg");
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/congregation-small.jpg");
   background-image: -o-linear-gradient(
-    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)
-    ), url("../images/congregation-small.jpg");
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/congregation-small.jpg");
   background-image: linear-gradient(
-    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)
-    ), url("../images/congregation-small.jpg");
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/congregation-small.jpg");
   text-align: center;
   color: white;
   margin-bottom: -20px
@@ -295,16 +294,16 @@ Section styles
 .ministries .section-header {
   background-image: -webkit-gradient(
   linear, left top, left bottom, from(rgba(202, 0, 43, 0.79)), to(rgba(202, 0, 43, 0.79))),
-  url("../images/preaching.JPG");
+    url("../images/preaching.JPG");
   background-image: -webkit-linear-gradient(
-  rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
-  url("../images/preaching.JPG");
+    rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
+    url("../images/preaching.JPG");
   background-image: -o-linear-gradient(
-  rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
-  url("../images/preaching.JPG");
+    rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
+    url("../images/preaching.JPG");
   background-image: linear-gradient(
-  rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
-  url("../images/preaching.JPG");
+    rgba(202, 0, 43, 0.79), rgba(202, 0, 43, 0.79)),
+    url("../images/preaching.JPG");
 }
 
 .ministries-list li {
@@ -340,17 +339,17 @@ Section styles
 
 .youth {
   background-image: -webkit-gradient(
-  linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
-  url("../images/feet.jpg");
+    linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
+    url("../images/feet.jpg");
   background-image: -webkit-linear-gradient(
-  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
-  url("../images/feet.jpg");
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/feet.jpg");
   background-image: -o-linear-gradient(
-  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
-  url("../images/feet.jpg");
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/feet.jpg");
   background-image: linear-gradient(
-  rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
-  url("../images/feet.jpg");
+    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
+    url("../images/feet.jpg");
 }
 
 .music {
