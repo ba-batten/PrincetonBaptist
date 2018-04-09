@@ -144,8 +144,7 @@ Section styles
 }
 
 .headline-btn {
-  /* background-color: #dcdcdc; */
-  background-color: green;
+  background-color: #dcdcdc;
   font-size: 18px;
   margin: 25px 10px;
   color: #171219;
