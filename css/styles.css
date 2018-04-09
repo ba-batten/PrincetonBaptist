@@ -144,7 +144,8 @@ Section styles
 }
 
 .headline-btn {
-  background-color: #dcdcdc;
+  /* background-color: #dcdcdc; */
+  background-color: green;
   font-size: 18px;
   margin: 25px 10px;
   color: #171219;
@@ -210,6 +211,7 @@ Section styles
   color: white;
   text-align: center;
   background-position: center;
+  background-size: 100%;
   background-size: cover;
 }
 
