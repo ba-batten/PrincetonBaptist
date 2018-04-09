@@ -208,6 +208,8 @@ Section styles
   height: 25vh;
   color: white;
   text-align: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .section-header h2,
