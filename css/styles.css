@@ -119,19 +119,8 @@ Section styles
   background-image: linear-gradient(
     rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
     url("../images/congregation-small.jpg");
-
-  /* background-image: -webkit-gradient(
-    linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
-    url("../images/congregation-small.jpg");
-  background-image: -webkit-linear-gradient(
-    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
-    url("../images/congregation-small.jpg");
-  background-image: -o-linear-gradient(
-    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
-    url("../images/congregation-small.jpg");
-  background-image: linear-gradient(
-    rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
-    url("../images/congregation-small.jpg"); */
+  background-position: center;
+  background-size: cover;
   text-align: center;
   color: white;
   margin-bottom: -20px
