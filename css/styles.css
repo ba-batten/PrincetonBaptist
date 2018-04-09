@@ -120,6 +120,7 @@ Section styles
     rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
     url("../images/congregation-small.jpg");
   background-position: center;
+  background-size: 100%;
   background-size: cover;
   text-align: center;
   color: white;
