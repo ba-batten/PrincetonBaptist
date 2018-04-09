@@ -107,7 +107,8 @@ Section styles
 .home {
   width: 100%;
   height: 100vh;
-  background-image: -webkit-gradient(
+  background-image: url("../images/congregation-small.jpg"); 
+  /* background-image: -webkit-gradient(
     linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
     url("../images/congregation-small.jpg");
   background-image: -webkit-linear-gradient(
@@ -118,7 +119,7 @@ Section styles
     url("../images/congregation-small.jpg");
   background-image: linear-gradient(
     rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
-    url("../images/congregation-small.jpg");
+    url("../images/congregation-small.jpg"); */
   background-position: center;
   background-size: 100%;
   background-size: cover;
