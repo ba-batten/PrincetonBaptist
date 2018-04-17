@@ -449,6 +449,14 @@ function AppViewModel() {
         'in training pastors through a Bible institue that was started in 2013'
     }
   ]);
+
+  self.assignments = ko.observableArray([
+    {
+      assignment: 'Think through and write out your testimony of how you ' +
+      'surrendered your life to Jesus.',
+      visible: true
+    }
+  ]);
 }
 
 var data = new AppViewModel();
