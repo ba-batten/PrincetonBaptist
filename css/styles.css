@@ -191,6 +191,8 @@ Section styles
 .assignment-container {
   position: absolute;
   bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -206,7 +208,9 @@ Section styles
 .rise-up-logo {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .assignment-text-container {
@@ -219,7 +223,9 @@ Section styles
   font-size: 3.5vw;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 
