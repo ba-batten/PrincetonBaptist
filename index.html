@@ -95,6 +95,16 @@ Designed and built by Brandon Batten
         <button type="button" name="headline-btn" class="btn headline-btn animated fadeIn watch">Watch</button>
       </div>
 
+      <!-- Assignment -->
+      <div class="assignment-container animated fadeIn">
+        <div class="assignment-img-container">
+          <img src="images/rise_up_white.svg" alt="Rise Up logo" class="rise-up-logo img-responsive">
+        </div>
+        <div class="assignment-text-container" data-bind="foreach: assignments.slice(0,1)">
+          <p data-bind="text: assignment"></p>
+        </div>
+      </div>
+
     </section>
 
     <!-- /////////////////////////////////////////////

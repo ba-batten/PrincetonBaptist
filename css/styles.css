@@ -188,6 +188,41 @@ Section styles
   font-family: 'Alegraya', serif;
 }
 
+.assignment-container {
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+}
+
+.assignment-img-container,
+.assignment-text-container {
+  padding: 0 10px 0;
+}
+
+.assignment-img-container {
+  width: 30%;
+}
+
+.rise-up-logo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.assignment-text-container {
+  text-align: left;
+  border-left: 2px solid white;
+}
+
+.assignment-text-container p {
+  margin: 0;
+  font-size: 3.5vw;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
 /* About styles */
 
 .section {
@@ -647,6 +682,16 @@ Modal styles
 
   .parallax {
     background-attachment: fixed;
+  }
+
+  .assignment-container {
+    width: 555px;
+    left: 50px;
+    bottom: 5%;
+  }
+
+  .assignment-text-container p {
+    font-size: 20px;
   }
 
   /*
