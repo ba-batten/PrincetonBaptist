@@ -453,8 +453,7 @@ function AppViewModel() {
   self.assignments = ko.observableArray([
     {
       assignment: 'Think through and write out your testimony of how you ' +
-      'surrendered your life to Jesus.',
-      visible: true
+      'surrendered your life to Jesus.'
     }
   ]);
 }
