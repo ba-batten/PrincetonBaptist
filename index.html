@@ -102,7 +102,9 @@ Designed and built by Brandon Batten
         </div>
         <div class="divider"></div>
         <div class="assignment-text-container" data-bind="foreach: assignments.slice(0,1)">
-          <p data-bind="text: assignment"></p>
+          <p class="this-assignment">This Week's Assignment: <br>
+            <span data-bind="text: assignment" class="assignment"></span>
+          </p>
         </div>
       </div>
 
