@@ -452,6 +452,9 @@ function AppViewModel() {
 
   self.assignments = ko.observableArray([
     {
+      assignment: 'Share the Gospel with one person this week.'
+    },
+    {
       assignment: 'Think through and write out your testimony of how you ' +
       'surrendered your life to Jesus.'
     }
