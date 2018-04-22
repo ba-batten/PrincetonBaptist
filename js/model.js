@@ -100,7 +100,7 @@ function AppViewModel() {
       description: 'Invite your friends and join us on this very special ' +
       'day. God has some good things in store for PBC!',
       pic: 'images/friends.jpg',
-      visible: true
+      visible: false
     },
     {
       title: 'Call of the Wild',
