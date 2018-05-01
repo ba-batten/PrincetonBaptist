@@ -166,6 +166,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'April 29, 2018',
+          file: 'publications/bulletins/4-29-2018.pdf'
+        },
+        {
           edition: 'April 22, 2018',
           file: 'publications/bulletins/4-22-2018.pdf'
         },
@@ -455,6 +459,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: 'Take five minutes of your time this week, each day, ' +
+      'to give God praise for who and what He is in your life.'
+    },
     {
       assignment: 'Share the Gospel with one person this week.'
     },
