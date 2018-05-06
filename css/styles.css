@@ -202,7 +202,7 @@ Section styles
 }
 
 .assignment-img-container {
-  width: 30%;
+  width: 40%;
 }
 
 .rise-up-logo {
@@ -696,6 +696,10 @@ Modal styles
     width: 50%;
     left: 50px;
     bottom: 5%;
+  }
+
+  .assignment-img-container {
+    width: 20%;
   }
 
   .assignment-text-container p {
