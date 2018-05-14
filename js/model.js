@@ -472,6 +472,11 @@ function AppViewModel() {
 
   self.assignments = ko.observableArray([
     {
+      assignment: 'Ask God to help you examine your heart this week. ' +
+        'Choose to change directions, repent of any sin, and ' +
+        'selfishness God makes known to you.'
+    },
+    {
       assignment: 'Take five minutes of your time this week, each day, ' +
       'to give God praise for who and what He is in your life.'
     },
