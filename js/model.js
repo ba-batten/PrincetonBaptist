@@ -170,6 +170,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'May 20, 2018',
+          file: 'publications/bulletins/5-20-2018.pdf'
+        },
+        {
           edition: 'May 13, 2018',
           file: 'publications/bulletins/5-13-2018.pdf'
         },
