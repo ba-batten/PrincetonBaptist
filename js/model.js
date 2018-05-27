@@ -196,6 +196,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'May 27, 2018',
+          file: 'publications/bulletins/5-27-2018.pdf'
+        },
+        {
           edition: 'May 20, 2018',
           file: 'publications/bulletins/5-20-2018.pdf'
         },
@@ -501,6 +505,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: 'What steps or actions can you take this week to ' +
+      'keep you from taking God’s grace for granted?'
+    },
     {
       assignment: 'Ask God to help you see where your actions reflect '+
       'bad upon your heart. Ask God to help you live with the heart of Jesus.'
