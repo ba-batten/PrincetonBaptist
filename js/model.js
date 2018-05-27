@@ -68,6 +68,15 @@ function AppViewModel() {
     // default picture url 'images/PBC_icon.svg'
     // picture size = 285x145
     {
+      title: 'VBS - Shipwrecked: Rescued by Jesus',
+      time: 'June 24 - 28 6:00 PM to 8:30 PM',
+      description: 'Venture onto an uncharted island where kids survive and ' +
+      'thrive. Anchor kids in the truth that Jesus carries them through life\'s ' +
+      'storms.',
+      pic: 'images/shipwrecked.png',
+      visible: true
+    },
+    {
       title: 'Fishing with Dad',
       time: 'June 10 5:00 PM',
       description: 'Bring your fishing poles, bait, and chairs.  Food will ' +
