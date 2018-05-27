@@ -74,14 +74,14 @@ function AppViewModel() {
       'Nursing Home Visits, Light Home Repairs, Yard Work, and many more ' +
       'opportunities to serve',
       pic: 'images/PBC_icon.svg',
-      visible: true
+      visible: false
     },
     {
       title: 'National Day of Prayer',
       time: 'May 3 at 7:00 PM',
       description: '',
       pic: 'images/unity.png',
-      visible: true
+      visible: false
     },
     {
       title: 'Youth Camping Trip',
@@ -92,7 +92,7 @@ function AppViewModel() {
         'hygiene stuff. Parents will need to pick their kids up at 10:00 AM Saturday ' +
         'morning. This is a free event. If you have any questions please contact RJ Smith.',
       pic: 'images/camping.jpg',
-      visible: true
+      visible: false
     },
     {
       title: 'Friend Day',
