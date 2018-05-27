@@ -68,6 +68,15 @@ function AppViewModel() {
     // default picture url 'images/PBC_icon.svg'
     // picture size = 285x145
     {
+      title: 'Summersalt Youth Camp in Winnsboro, SC',
+      time: 'July 9 - 13',
+      description: 'SummerSalt is a high energy summer youth camp run by the ' +
+      'Generations Group of the South Carolina Baptist Convention. It is a camp ' +
+      'that is designed to grasp and captivate the next generation with the Gospel.',
+      pic: 'images/summersalt.png',
+      visible: true
+    },
+    {
       title: 'VBS - Shipwrecked: Rescued by Jesus',
       time: 'June 24 - 28 6:00 PM to 8:30 PM',
       description: 'Venture onto an uncharted island where kids survive and ' +
