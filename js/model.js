@@ -68,6 +68,14 @@ function AppViewModel() {
     // default picture url 'images/PBC_icon.svg'
     // picture size = 285x145
     {
+      title: 'Fishing with Dad',
+      time: 'June 10 5:00 PM',
+      description: 'Bring your fishing poles, bait, and chairs.  Food will ' +
+      'be provided.  Come and enjoy time with your family.',
+      pic: 'images/fishing.jpeg',
+      visible: true
+    },
+    {
       title: 'Operation Inasmuch',
       time: 'May 5 8:00 AM to Noon',
       description: 'Teams Needed: Lunch Preparation, Teams for Hospice Meals, ' +
