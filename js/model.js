@@ -171,6 +171,10 @@ function AppViewModel() {
       pubName: 'Newsletters',
       pubs: ko.observableArray([
         {
+          edition: 'June 2018',
+          file: 'publications/newsletters/june_2018.pdf'
+        },
+        {
           edition: 'May 2018',
           file: 'publications/newsletters/may_2018.pdf'
         },
