@@ -514,6 +514,10 @@ function AppViewModel() {
 
   self.assignments = ko.observableArray([
     {
+      assignment: 'Do you have a personal relationship with God? ' +
+      'It\’s time to come to God on His terms and trust Him to save you.'
+    },
+    {
       assignment: 'What steps or actions can you take this week to ' +
       'keep you from taking God’s grace for granted?'
     },
