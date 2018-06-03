@@ -67,6 +67,7 @@ function AppViewModel() {
   self.events = ko.observableArray([
     // default picture url 'images/PBC_icon.svg'
     // picture size = 285x145
+    // link and linkText default should be null unless there is an actual link
     {
       title: 'Summersalt Youth Camp in Winnsboro, SC',
       time: 'July 9 - 13',
