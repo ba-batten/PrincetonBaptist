@@ -99,73 +99,7 @@ function AppViewModel() {
       link: null,
       linkText: null,
       visible: true
-    },
-    {
-      title: 'Operation Inasmuch',
-      time: 'May 5 8:00 AM to Noon',
-      description: 'Teams Needed: Lunch Preparation, Teams for Hospice Meals, ' +
-      'Nursing Home Visits, Light Home Repairs, Yard Work, and many more ' +
-      'opportunities to serve',
-      pic: 'images/PBC_icon.svg',
-      link: null,
-      linkText: null,
-      visible: false
-    },
-    {
-      title: 'National Day of Prayer',
-      time: 'May 3 at 7:00 PM',
-      description: '',
-      pic: 'images/unity.png',
-      link: null,
-      linkText: null,
-      visible: false
-    },
-    {
-      title: 'Youth Camping Trip',
-      time: 'Aprl 20',
-      description: 'The Youth are going camping! All youth will need to be at ' +
-        'the Gardner’s house at 5PM April 20th. Youth will need to bring a 2 ' +
-        'liter drink, air mattress, sleeping bag, Bible, snacks, and morning ' +
-        'hygiene stuff. Parents will need to pick their kids up at 10:00 AM Saturday ' +
-        'morning. This is a free event. If you have any questions please contact RJ Smith.',
-      pic: 'images/camping.jpg',
-      link: null,
-      linkText: null,
-      visible: false
-    },
-    {
-      title: 'Friend Day',
-      time: 'April 8 Sunday Worship Service',
-      description: 'Invite your friends and join us on this very special ' +
-      'day. God has some good things in store for PBC!',
-      pic: 'images/friends.jpg',
-      link: null,
-      linkText: null,
-      visible: false
-    },
-    {
-      title: 'Call of the Wild',
-      time: 'March 4 at 5:00 PM',
-      description: 'Men, bring your best game recipe prepared and let\'s enjoy ' +
-      'the fruit of our harvest together while we hear from guest speaker ' +
-      'Brandon Thornton from Loxley, Alabama.',
-      pic: 'images/brandon_thornton.png',
-      link: null,
-      linkText: null,
-      visible: false
-    },
-    {
-      title: 'Women\'s Ministry Gathering',
-      time: 'February 27 at 6:30 PM',
-      description: 'Guest teacher Angie Bridgers will be speaking on \"Biblical ' +
-      'Journaling\". You only need to bring your Bible.  Light refreshments will ' +
-      'be served.',
-      pic: 'images/PBC_icon.svg',
-      link: null,
-      linkText: null,
-      visible: false
-    },
-  ]);
+    }  ]);
 
   self.contact = ko.observable(
     {
