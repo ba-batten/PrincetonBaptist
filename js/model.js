@@ -74,6 +74,8 @@ function AppViewModel() {
       'Generations Group of the South Carolina Baptist Convention. It is a camp ' +
       'that is designed to grasp and captivate the next generation with the Gospel.',
       pic: 'images/summersalt.png',
+      link: null,
+      linkText: null,
       visible: true
     },
     {
@@ -81,8 +83,10 @@ function AppViewModel() {
       time: 'June 24 - 28 6:00 PM to 8:30 PM',
       description: 'Venture onto an uncharted island where kids survive and ' +
       'thrive. Anchor kids in the truth that Jesus carries them through life\'s ' +
-      'storms.',
+      'storms.  Click below to register.',
       pic: 'images/shipwrecked.png',
+      link: 'https://vbspro.events/p/events/2018pbc',
+      linkText: 'Register Here',
       visible: true
     },
     {
@@ -91,6 +95,8 @@ function AppViewModel() {
       description: 'Bring your fishing poles, bait, and chairs.  Food will ' +
       'be provided.  Come and enjoy time with your family.',
       pic: 'images/fishing.jpeg',
+      link: null,
+      linkText: null,
       visible: true
     },
     {
@@ -100,6 +106,8 @@ function AppViewModel() {
       'Nursing Home Visits, Light Home Repairs, Yard Work, and many more ' +
       'opportunities to serve',
       pic: 'images/PBC_icon.svg',
+      link: null,
+      linkText: null,
       visible: false
     },
     {
@@ -107,6 +115,8 @@ function AppViewModel() {
       time: 'May 3 at 7:00 PM',
       description: '',
       pic: 'images/unity.png',
+      link: null,
+      linkText: null,
       visible: false
     },
     {
@@ -118,6 +128,8 @@ function AppViewModel() {
         'hygiene stuff. Parents will need to pick their kids up at 10:00 AM Saturday ' +
         'morning. This is a free event. If you have any questions please contact RJ Smith.',
       pic: 'images/camping.jpg',
+      link: null,
+      linkText: null,
       visible: false
     },
     {
@@ -126,6 +138,8 @@ function AppViewModel() {
       description: 'Invite your friends and join us on this very special ' +
       'day. God has some good things in store for PBC!',
       pic: 'images/friends.jpg',
+      link: null,
+      linkText: null,
       visible: false
     },
     {
@@ -135,6 +149,8 @@ function AppViewModel() {
       'the fruit of our harvest together while we hear from guest speaker ' +
       'Brandon Thornton from Loxley, Alabama.',
       pic: 'images/brandon_thornton.png',
+      link: null,
+      linkText: null,
       visible: false
     },
     {
@@ -144,6 +160,8 @@ function AppViewModel() {
       'Journaling\". You only need to bring your Bible.  Light refreshments will ' +
       'be served.',
       pic: 'images/PBC_icon.svg',
+      link: null,
+      linkText: null,
       visible: false
     },
   ]);
