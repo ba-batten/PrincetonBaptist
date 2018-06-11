@@ -153,6 +153,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'June 10, 2018',
+          file: 'publications/bulletins/6-10-2018.pdf'
+        },
+        {
           edition: 'June 3, 2018',
           file: 'publications/bulletins/6-3-2018.pdf'
         },
@@ -466,6 +470,11 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: 'Give five minutes every day this week worshiping God and ' +
+      'giving Him the credit He deserves for all that He has done for you ' +
+      'in Christ Jesus.'
+    },
     {
       assignment: 'Do you have a personal relationship with God? ' +
       'It\’s time to come to God on His terms and trust Him to save you.'
