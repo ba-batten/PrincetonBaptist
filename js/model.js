@@ -475,6 +475,11 @@ function AppViewModel() {
 
   self.assignments = ko.observableArray([
     {
+      assignment: 'Have you placed your faith in Jesus? This week evaluate ' +
+      'your heart. If you have never placed your faith in the work of Jesus ' +
+      ' for eternal life, then do so this week.'
+    },
+    {
       assignment: 'Give five minutes every day this week worshiping God and ' +
       'giving Him the credit He deserves for all that He has done for you ' +
       'in Christ Jesus.'
