@@ -371,7 +371,7 @@ Section styles
           transform: translate(-50%, -50%);
 }
 
-.awana {
+/* .awana {
   background-image: -webkit-gradient(
   linear, left top, left bottom, from(rgba(23, 18, 25, 0.79)), to(rgba(23, 18, 25, 0.79))),
   url("../images/kids.jpg");
@@ -384,7 +384,7 @@ Section styles
   background-image: linear-gradient(
   rgba(23, 18, 25, 0.79), rgba(23, 18, 25, 0.79)),
   url("../images/kids.jpg");
-}
+} */
 
 .youth {
   background-image: -webkit-gradient(
@@ -915,9 +915,9 @@ Modal styles
     width: 50%;
   }
 
-  .ministries-list li:last-of-type {
+  /* .ministries-list li:last-of-type {
     width:100%;
-  }
+  } */
 
   .ministries-list li img {
     height: 50%;
