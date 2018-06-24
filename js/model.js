@@ -479,6 +479,14 @@ function AppViewModel() {
 
   self.assignments = ko.observableArray([
     {
+      assignment: 'Is Your faith weak or strong? Have you wavered concerning ' +
+      ' any promise God has made to you in His Word? This week select a ' +
+      'promise of God from His Word and practice exercising your faith in ' +
+      'His promise. Wait everhow long it takes for God to fulfill His ' +
+      'promise to you. When He fulfills it, give Him glory for what He has done ' +
+      'and share it with someone.'
+    },
+    {
       assignment: 'Have you placed your faith in Jesus? This week evaluate ' +
       'your heart. If you have never placed your faith in the work of Jesus ' +
       ' for eternal life, then do so this week.'
