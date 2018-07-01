@@ -487,6 +487,9 @@ function AppViewModel() {
 
   self.assignments = ko.observableArray([
     {
+      assignment: `Take at least three minutes every day this week to brag on God.`
+    },
+    {
       assignment: 'Is Your faith weak or strong? Have you wavered concerning ' +
       ' any promise God has made to you in His Word? This week select a ' +
       'promise of God from His Word and practice exercising your faith in ' +
