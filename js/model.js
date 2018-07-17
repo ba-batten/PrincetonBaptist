@@ -157,6 +157,14 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'July 15, 2018',
+          file: 'publications/bulletins/7-15-2018.pdf'
+        },
+        {
+          edition: 'July 8, 2018',
+          file: 'publications/bulletins/7-8-2018.pdf'
+        },
+        {
           edition: 'July 1, 2018',
           file: 'publications/bulletins/7-1-2018.pdf'
         },
@@ -486,6 +494,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Place yourself at the disposal of God as one who has been brought
+        from death to life.`
+    },
     {
       assignment: `Take at least three minutes every day this week to brag on God.`
     },
