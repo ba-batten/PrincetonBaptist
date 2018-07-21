@@ -157,6 +157,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'July 22, 2018',
+          file: 'publications/bulletins/7-22-2018.pdf'
+        },
+        {
           edition: 'July 15, 2018',
           file: 'publications/bulletins/7-15-2018.pdf'
         },
@@ -494,6 +498,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Place yourself at the disposal of God as one who has been
+        brought from death to life.`
+    },
     {
       assignment: `Place yourself at the disposal of God as one who has been brought
         from death to life.`
