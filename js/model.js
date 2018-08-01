@@ -77,7 +77,7 @@ function AppViewModel() {
       pic: 'images/summersalt.png',
       link: null,
       linkText: null,
-      visible: true
+      visible: false
     },
     {
       title: 'VBS - Shipwrecked: Rescued by Jesus',
@@ -88,7 +88,7 @@ function AppViewModel() {
       pic: 'images/shipwrecked.png',
       link: 'https://vbspro.events/p/events/2018pbc',
       linkText: 'Register Here',
-      visible: true
+      visible: false
     },
     {
       title: 'Fishing with Dad',
@@ -98,7 +98,7 @@ function AppViewModel() {
       pic: 'images/fishing.jpeg',
       link: null,
       linkText: null,
-      visible: true
+      visible: false
     }  ]);
 
   self.contact = ko.observable(
@@ -123,6 +123,10 @@ function AppViewModel() {
     {
       pubName: 'Newsletters',
       pubs: ko.observableArray([
+        {
+          edition: 'August 2018',
+          file: 'publications/newsletters/august_2018.pdf'
+        },
         {
           edition: 'July 2018',
           file: 'publications/newsletters/july_2018.pdf'
@@ -156,6 +160,10 @@ function AppViewModel() {
     {
       pubName: 'Bulletins',
       pubs: [
+        {
+          edition: 'July 29, 2018',
+          file: 'publications/bulletins/7-29-2018.pdf'
+        },
         {
           edition: 'July 22, 2018',
           file: 'publications/bulletins/7-22-2018.pdf'
