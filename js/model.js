@@ -69,37 +69,15 @@ function AppViewModel() {
     // picture size = 285x145
     // link and linkText default should be null unless there is an actual link
     {
-      title: 'Summersalt Youth Camp in Winnsboro, SC',
-      time: 'July 9 - 13',
-      description: 'SummerSalt is a high energy summer youth camp run by the ' +
-      'Generations Group of the South Carolina Baptist Convention. It is a camp ' +
-      'that is designed to grasp and captivate the next generation with the Gospel.',
-      pic: 'images/summersalt.png',
+      title: null,
+      time: null,
+      description: null,
+      pic: null,
       link: null,
       linkText: null,
       visible: false
-    },
-    {
-      title: 'VBS - Shipwrecked: Rescued by Jesus',
-      time: 'June 24 - 28 6:00 PM to 8:30 PM',
-      description: 'Venture onto an uncharted island where kids survive and ' +
-      'thrive. Anchor kids in the truth that Jesus carries them through life\'s ' +
-      'storms.  Click below to register.',
-      pic: 'images/shipwrecked.png',
-      link: 'https://vbspro.events/p/events/2018pbc',
-      linkText: 'Register Here',
-      visible: false
-    },
-    {
-      title: 'Fishing with Dad',
-      time: 'June 10 5:00 PM',
-      description: 'Bring your fishing poles, bait, and chairs.  Food will ' +
-      'be provided.  Come and enjoy time with your family.',
-      pic: 'images/fishing.jpeg',
-      link: null,
-      linkText: null,
-      visible: false
-    }  ]);
+    }
+    ]);
 
   self.contact = ko.observable(
     {
