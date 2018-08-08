@@ -489,7 +489,7 @@ function AppViewModel() {
 
   self.assignments = ko.observableArray([
     {
-      assignment: `Trust God to rescue youfrom the battle that rages within you.
+      assignment: `Trust God to rescue you from the battle that rages within you.
       Allow the resurrection power of the Holy Spirit living in you to empower
       you to say no to temptation's sway.`
     },
