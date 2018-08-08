@@ -139,6 +139,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'August 5, 2018',
+          file: 'publications/bulletins/8-5-2018.pdf'
+        },
+        {
           edition: 'July 29, 2018',
           file: 'publications/bulletins/7-29-2018.pdf'
         },
@@ -484,6 +488,11 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Trust God to rescue youfrom the battle that rages within you.
+      Allow the resurrection power of the Holy Spirit living in you to empower
+      you to say no to temptation's sway.`
+    },
     {
       assignment: `Place yourself at the disposal of God as one who has been
         brought from death to life.`
