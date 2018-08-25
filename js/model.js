@@ -19,7 +19,7 @@ function AppViewModel() {
     {
       name: 'RJ Smith',
       id: 'rjSmith',
-      email: 'rjsmith150@yahoo.com',
+      email: 'rjsmith130@yahoo.com',
       position: 'Associate Pastor of Youth',
       positionShort: 'Youth Pastor',
       bio: 'RJ has been in youth ministry since 2009, and joined the Princeton ' +
@@ -138,6 +138,18 @@ function AppViewModel() {
     {
       pubName: 'Bulletins',
       pubs: [
+        {
+          edition: 'August 26, 2018',
+          file: 'publications/bulletins/8-26-2018.pdf'
+        },
+        {
+          edition: 'August 19, 2018',
+          file: 'publications/bulletins/8-19-2018.pdf'
+        },
+        {
+          edition: 'August 12, 2018',
+          file: 'publications/bulletins/8-12-2018.pdf'
+        },
         {
           edition: 'August 5, 2018',
           file: 'publications/bulletins/8-5-2018.pdf'
@@ -488,6 +500,18 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Allow God to use your life experience to shape you into the
+      image of Jesus.`
+    },
+    {
+      assignment: `Live for eternity and not the present. Live with your eyes
+      focused on eternity and not on this life.`
+    },
+    {
+      assignment: `Put sin to death in your The Wonderful Cross life. Make it
+      extinct. And enjoy a real life worthy of the name of God.`
+    },
     {
       assignment: `Trust God to rescue you from the battle that rages within you.
       Allow the resurrection power of the Holy Spirit living in you to empower
