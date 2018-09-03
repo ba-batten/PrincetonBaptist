@@ -820,6 +820,7 @@ Modal styles
     display: block;
     overflow: hidden;
     background: #424B54;
+    padding: 0;
   }
 
   .events-img-container img {

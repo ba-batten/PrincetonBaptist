@@ -69,10 +69,41 @@ function AppViewModel() {
     // picture size = 285x145
     // link and linkText default should be null unless there is an actual link
     {
-      title: null,
-      time: null,
-      description: null,
-      pic: null,
+      title: 'Homecoming',
+      time: 'October 7',
+      description: 'Featuring guest speaker Vernon Braswell.',
+      pic: 'images/PBC_icon.svg',
+      link: null,
+      linkText: null,
+      visible: false
+    },
+    {
+      title: 'Dine and Design',
+      time: 'September 15 from 5:00-8:00 PM',
+      description: `A fundraiser for the Uganda mission trip. Canvas, paint,
+        instructors, and dinner are provided.`,
+      pic: 'images/paint.jpg',
+      link: null,
+      linkText: null,
+      visible: true
+    },
+    {
+      title: 'Fall Kickoff',
+      time: 'September 9 at 8:30 AM',
+      description: `Each Sunday School class can bring a grill, stove, or whatever
+        you need to prepare breakfast for your class and guests. Wear you favorite
+        team colors and let's get our Fall kicked off with a bang.`,
+      pic: 'images/tailgate.jpg',
+      link: null,
+      linkText: null,
+      visible: false
+    },
+    {
+      title: 'Church Clean Up Day',
+      time: 'September 8 from 8:00 AM until Noon',
+      description: `Come on out and lend a hand.  Let's get things looking the
+        best we can!`,
+      pic: 'images/tools.jpg',
       link: null,
       linkText: null,
       visible: false
@@ -101,6 +132,10 @@ function AppViewModel() {
     {
       pubName: 'Newsletters',
       pubs: ko.observableArray([
+        {
+          edition: 'September 2018',
+          file: 'publications/newsletters/september_2018.pdf'
+        },
         {
           edition: 'August 2018',
           file: 'publications/newsletters/august_2018.pdf'
@@ -138,6 +173,10 @@ function AppViewModel() {
     {
       pubName: 'Bulletins',
       pubs: [
+        {
+          edition: 'September 2, 2018',
+          file: 'publications/bulletins/9-2-2018.pdf'
+        },
         {
           edition: 'August 26, 2018',
           file: 'publications/bulletins/8-26-2018.pdf'
@@ -500,6 +539,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `List out some other characteristics of God this week and put
+      them somewhere you will see it everyday as a reminder of who God is.`
+    },
     {
       assignment: `Allow God to use your life experience to shape you into the
       image of Jesus.`
