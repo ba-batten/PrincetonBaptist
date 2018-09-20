@@ -174,6 +174,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'September 9, 2018',
+          file: 'publications/bulletins/9-9-2018.pdf'
+        },
+        {
           edition: 'September 2, 2018',
           file: 'publications/bulletins/9-2-2018.pdf'
         },
@@ -539,6 +543,11 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Hear and trust the gospel for your eternal salvation. Turn
+        from the stubbornness of your own way, your own demands, your own efforts
+        and turn to the only one who’s efforts have made a way for you to be righteous. `
+    },
     {
       assignment: `List out some other characteristics of God this week and put
       them somewhere you will see it everyday as a reminder of who God is.`
