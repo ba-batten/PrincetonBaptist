@@ -174,6 +174,14 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'October 7, 2018',
+          file: 'publications/bulletins/10-7-2018.pdf'
+        },
+        {
+          edition: 'September 30, 2018',
+          file: 'publications/bulletins/9-30-2018.pdf'
+        },
+        {
           edition: 'September 9, 2018',
           file: 'publications/bulletins/9-9-2018.pdf'
         },
@@ -543,6 +551,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Study God’s Word and allow the Holy Spirit to transform your
+        worldview into a biblical worldview.`
+    },
     {
       assignment: `Hear and trust the gospel for your eternal salvation. Turn
         from the stubbornness of your own way, your own demands, your own efforts
