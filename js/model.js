@@ -174,6 +174,10 @@ function AppViewModel() {
       pubName: 'Bulletins',
       pubs: [
         {
+          edition: 'October 21, 2018',
+          file: 'publications/bulletins/10-21-2018.pdf'
+        },
+        {
           edition: 'October 7, 2018',
           file: 'publications/bulletins/10-7-2018.pdf'
         },
@@ -551,6 +555,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Pray that God would increase your faith and you would respond
+        accordingly and the Kingdom of God would be expanded as a result.`
+    },
     {
       assignment: `Study God’s Word and allow the Holy Spirit to transform your
         worldview into a biblical worldview.`
