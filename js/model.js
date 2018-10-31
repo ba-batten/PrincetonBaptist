@@ -133,6 +133,10 @@ function AppViewModel() {
       pubName: 'Newsletters',
       pubs: ko.observableArray([
         {
+          edition: 'November 2018',
+          file: 'publications/newsletters/november_2018.pdf'
+        },
+        {
           edition: 'September 2018',
           file: 'publications/newsletters/september_2018.pdf'
         },
@@ -173,6 +177,10 @@ function AppViewModel() {
     {
       pubName: 'Bulletins',
       pubs: [
+        {
+          edition: 'October 28, 2018',
+          file: 'publications/bulletins/10-28-2018.pdf'
+        },
         {
           edition: 'October 21, 2018',
           file: 'publications/bulletins/10-21-2018.pdf'
@@ -555,6 +563,9 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Always remember to keep God as your first priority`
+    },
     {
       assignment: `Pray that God would increase your faith and you would respond
         accordingly and the Kingdom of God would be expanded as a result.`
