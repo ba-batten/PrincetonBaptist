@@ -133,6 +133,10 @@ function AppViewModel() {
       pubName: 'Newsletters',
       pubs: ko.observableArray([
         {
+          edition: 'December 2018',
+          file: 'publications/newsletters/december_2018.pdf'
+        },
+        {
           edition: 'November 2018',
           file: 'publications/newsletters/november_2018.pdf'
         },
@@ -177,6 +181,22 @@ function AppViewModel() {
     {
       pubName: 'Bulletins',
       pubs: [
+        {
+          edition: 'December 16, 2018',
+          file: 'publications/bulletins/12-16-2018.pdf'
+        },
+        {
+          edition: 'December 9, 2018',
+          file: 'publications/bulletins/12-9-2018.pdf'
+        },
+        {
+          edition: 'December 2, 2018',
+          file: 'publications/bulletins/12-2-2018.pdf'
+        },
+        {
+          edition: 'November 11, 2018',
+          file: 'publications/bulletins/11-11-2018.pdf'
+        },
         {
           edition: 'October 28, 2018',
           file: 'publications/bulletins/10-28-2018.pdf'
@@ -563,6 +583,10 @@ function AppViewModel() {
   ]);
 
   self.assignments = ko.observableArray([
+    {
+      assignment: `Stand firm. Let nothing move you. Always give yourselves fully
+        to the work of the Lord.`
+    },
     {
       assignment: `Always remember to keep God as your first priority`
     },
